@@ -5,6 +5,7 @@
     "jquery": "^3.6.0",
     "ol": "^6.5.0",
     "ol-geocoder": "^4.1.2",
+    "ol-layerswitcher": "^3.8.3",
     "ol-mapbox-style": "^6.3.2",
     "openrouteservice-js": "^0.1.18",
     "parcel": "^2.0.0-beta.1",

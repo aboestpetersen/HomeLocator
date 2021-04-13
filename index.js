@@ -20,7 +20,7 @@ import SourceStamen from 'ol/source/Stamen';
 import LayerSwitcher from 'ol-layerswitcher';
 import {BaseLayerOptions, GroupLayerOptions} from 'ol-layerswitcher';
 
-// Designate Center of Map Mvvvf
+// Designate Center of Map
 const denmarkLonLat = [10.835589, 56.232371];
 const denmarkWebMercator = fromLonLat(denmarkLonLat);
 
