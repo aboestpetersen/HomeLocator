@@ -2,16 +2,15 @@ import 'ol/ol.css';
 import 'ol-layerswitcher/dist/ol-layerswitcher.css';
 
 import Map from 'ol/Map';
-import VectorSource from 'ol/source/Vector';
 import View from 'ol/View';
 import {GeoJSON, WFS, GML3, KML, GML} from 'ol/format';
 import {Text, Style, Stroke, Fill} from 'ol/style';
-import {Tile as TileLayer, Vector as VectorLayer, Image as ImageLayer} from 'ol/layer';
+import {Tile as TileLayer, Vector as VectorLayer, Image as ImageLayer, Group} from 'ol/layer';
 import {fromLonLat, toLonLat, transform} from 'ol/proj';
 import OSM from 'ol/source/OSM';
 import Overlay from 'ol/Overlay';
 import {toStringHDMS} from 'ol/coordinate';
-import {Control, ScaleLine, ZoomToExtent, defaults as defaultControls} from 'ol/control';
+import {Control, ScaleLine, ZoomToExtent, defaults as defaultControls, FullScreen} from 'ol/control';
 import TopoJSON from 'ol/format/TopoJSON';
 import Geocoder from 'ol-geocoder';
 import LayerGroup from 'ol/layer/Group';
@@ -19,6 +18,11 @@ import SourceOSM from 'ol/source/OSM';
 import SourceStamen from 'ol/source/Stamen';
 import LayerSwitcher from 'ol-layerswitcher';
 import {BaseLayerOptions, GroupLayerOptions} from 'ol-layerswitcher';
+import Draw from 'ol/interaction/Draw';
+import {Vector as VectorSource} from 'ol/source';
+import XYZ from 'ol/source/XYZ';
+import Select from 'ol/interaction/Select';
+import {altKeyOnly, click, pointerMove} from 'ol/events/condition';
 
 // Designate Center of Map
 const denmarkLonLat = [10.835589, 56.232371];
@@ -68,6 +72,16 @@ var dk_style = new Style({
       width: 3
     })
   })
+});
+
+var highlightStyle = new Style({
+  fill: new Fill({
+    color: 'rgba(255,255,255,0.7)',
+  }),
+  stroke: new Stroke({
+    color: '#3399CC',
+    width: 3,
+  }),
 });
 
 // Regions Boundary
@@ -140,16 +154,49 @@ var layerSwitcher = new LayerSwitcher({
   groupSelectStyle: 'group'
 });
 
+var key = 'XtxbqBNbF5eQwYXV37Ym';
+var attributions =
+  '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> ' +
+  '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>';
 
 // Define layers to be mapped
 var layers = [
-  new TileLayer({
-    source: new OSM(),
+  // Basemaps
+  new Group({
+    title: 'Basemap',
+    fold: 'open',
+    layers: [
+      new TileLayer({
+        title: 'OpenStreetMap',
+        source: new OSM(),
+        type: 'base'
+      }),
+      new TileLayer({
+        title: 'MapTiler',
+        source: new XYZ({
+          attributions: attributions,
+          url: 'https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=' + key,
+          maxZoom: 20,
+          crossOrigin: '',
+        }),
+        type: 'base'
+      }),
+    ]
   }),
   municipalities,
   hospitals,
   cities,
   dk_boundary
+  // Data layers
+  new Group({
+    title: 'Data',
+    layers: [
+      municipalities,
+      hositals,
+      cities,
+      dk_boundary
+    ]
+  })
 ];
 
 // Instantiate Geocoder.
@@ -181,7 +228,7 @@ var zoomToExtentControl = new ZoomToExtent({
 
 // Define map
 var map = new Map({
-  controls: defaultControls().extend([scaleline, geocoder, layerSwitcher]),
+  controls: defaultControls().extend([scaleline, geocoder, layerSwitcher, new FullScreen()]),
   layers: layers,
   view: mapView,
   target: 'map'
@@ -219,3 +266,18 @@ document.getElementById('zoom-restore').onclick = function() {
   view.setCenter(center);
   view.setZoom(zoom);
 };
+
+var selected = null;
+
+map.on('pointermove', function (e) {
+  if (selected !== null) {
+    selected.setStyle(undefined);
+    selected = null;
+  }
+
+  map.forEachFeatureAtPixel(e.pixel, function (f) {
+    selected = f;
+    f.setStyle(highlightStyle);
+    return true;
+  });
+});

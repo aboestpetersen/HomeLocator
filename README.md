@@ -26,6 +26,7 @@ npm start
 code is here (index.js). Added the OSM GeoJSON files here- MLT
     * Began Search Criteria Panel. -ABP
 * LayerSwitcher added. -09.04.2021 ABP
+* Added Basemap options and fullscreen button. -11.04.2021 ABP
 
 ### Data Processing- MLT: 
 
@@ -40,9 +41,6 @@ schools). In order to have only one layer for each feature:
 6) Converted .shp to .geojson file
 
 OSM Layers that we have so far: universities, schools, leisure parks and hospitals (projection EPSG: 4326- WGS 84)
-
-
- 
 
 Sample of app so far:
 [Image of App Progress](images/app_progress.png)

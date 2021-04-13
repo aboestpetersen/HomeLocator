@@ -117,7 +117,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
+<<<<<<< HEAD
 })({"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+=======
+})({"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +153,11 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
+<<<<<<< HEAD
 },{}],"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+=======
+},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,19 +192,31 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
+<<<<<<< HEAD
 },{"./bundle-url":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/ol/ol.css":[function(require,module,exports) {
+=======
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/ol/ol.css":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
+<<<<<<< HEAD
 },{"_css_loader":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/ol-layerswitcher/dist/ol-layerswitcher.css":[function(require,module,exports) {
+=======
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/ol-layerswitcher/dist/ol-layerswitcher.css":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
+<<<<<<< HEAD
 },{"_css_loader":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/ol/Disposable.js":[function(require,module,exports) {
+=======
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/ol/Disposable.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -79888,7 +79908,11 @@ module.exports = function(fonts, size, lineHeight) {
   return cssData[0] + sp + cssData[1] + sp + size + 'px' + (lineHeight ? '/' + lineHeight : '') + sp + cssData[2];
 };
 
+<<<<<<< HEAD
 },{}],"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/base64-js/index.js":[function(require,module,exports) {
+=======
+},{}],"node_modules/base64-js/index.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 'use strict'
 
 exports.byteLength = byteLength
@@ -80040,6 +80064,7 @@ function fromByteArray (uint8) {
   return parts.join('')
 }
 
+<<<<<<< HEAD
 },{}],"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/ieee754/index.js":[function(require,module,exports) {
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -80128,13 +80153,20 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 }
 
 },{}],"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/isarray/index.js":[function(require,module,exports) {
+=======
+},{}],"node_modules/isarray/index.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
+<<<<<<< HEAD
 },{}],"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/buffer/index.js":[function(require,module,exports) {
+=======
+},{}],"node_modules/node-libs-browser/node_modules/buffer/index.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 
 var global = arguments[3];
 /*!
@@ -81927,7 +81959,11 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
+<<<<<<< HEAD
 },{"base64-js":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/base64-js/index.js","ieee754":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/ieee754/index.js","isarray":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/isarray/index.js","buffer":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/buffer/index.js"}],"node_modules/@mapbox/mapbox-gl-style-spec/dist/index.es.js":[function(require,module,exports) {
+=======
+},{"base64-js":"node_modules/base64-js/index.js","ieee754":"node_modules/ieee754/index.js","isarray":"node_modules/isarray/index.js","buffer":"node_modules/node-libs-browser/node_modules/buffer/index.js"}],"node_modules/@mapbox/mapbox-gl-style-spec/dist/index.es.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 var global = arguments[3];
 var Buffer = require("buffer").Buffer;
 "use strict";
@@ -96663,7 +96699,11 @@ const visit = {
 exports.visit = visit;
 validateStyle.parsed = validateStyle;
 validateStyle.latest = validateStyle;
+<<<<<<< HEAD
 },{"buffer":"C:/Users/marci/AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/buffer/index.js"}],"node_modules/ol-mapbox-style/dist/util.js":[function(require,module,exports) {
+=======
+},{"buffer":"node_modules/node-libs-browser/node_modules/buffer/index.js"}],"node_modules/ol-mapbox-style/dist/util.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -105445,6 +105485,7 @@ return LayerSwitcher;
 
 })));
 
+<<<<<<< HEAD
 },{"ol/control/Control":"node_modules/ol/control/Control.js","ol/Observable":"node_modules/ol/Observable.js","ol/layer/Group":"node_modules/ol/layer/Group.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
@@ -105668,6 +105709,7633 @@ document.getElementById('zoom-restore').onclick = function () {
   view.setZoom(zoom);
 };
 },{"ol/ol.css":"node_modules/ol/ol.css","ol-layerswitcher/dist/ol-layerswitcher.css":"node_modules/ol-layerswitcher/dist/ol-layerswitcher.css","ol/Map":"node_modules/ol/Map.js","ol/source/Vector":"node_modules/ol/source/Vector.js","ol/View":"node_modules/ol/View.js","ol/format":"node_modules/ol/format.js","ol/style":"node_modules/ol/style.js","ol/layer":"node_modules/ol/layer.js","ol/proj":"node_modules/ol/proj.js","ol/source/OSM":"node_modules/ol/source/OSM.js","ol/Overlay":"node_modules/ol/Overlay.js","ol/coordinate":"node_modules/ol/coordinate.js","ol/control":"node_modules/ol/control.js","ol/format/TopoJSON":"node_modules/ol/format/TopoJSON.js","ol-geocoder":"node_modules/ol-geocoder/dist/ol-geocoder.js","ol/layer/Group":"node_modules/ol/layer/Group.js","ol/source/Stamen":"node_modules/ol/source/Stamen.js","ol-layerswitcher":"node_modules/ol-layerswitcher/dist/ol-layerswitcher.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+=======
+},{"ol/control/Control":"node_modules/ol/control/Control.js","ol/Observable":"node_modules/ol/Observable.js","ol/layer/Group":"node_modules/ol/layer/Group.js"}],"node_modules/ol/source/BingMaps.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.quadKey = quadKey;
+exports.default = void 0;
+
+var _State = _interopRequireDefault(require("./State.js"));
+
+var _TileImage = _interopRequireDefault(require("./TileImage.js"));
+
+var _extent = require("../extent.js");
+
+var _tileurlfunction = require("../tileurlfunction.js");
+
+var _tilecoord = require("../tilecoord.js");
+
+var _tilegrid = require("../tilegrid.js");
+
+var _proj = require("../proj.js");
+
+var _net = require("../net.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/BingMaps
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @param {import('../tilecoord.js').TileCoord} tileCoord Tile coord.
+ * @return {string} Quad key.
+ */
+function quadKey(tileCoord) {
+  var z = tileCoord[0];
+  var digits = new Array(z);
+  var mask = 1 << z - 1;
+  var i, charCode;
+
+  for (i = 0; i < z; ++i) {
+    // 48 is charCode for 0 - '0'.charCodeAt(0)
+    charCode = 48;
+
+    if (tileCoord[1] & mask) {
+      charCode += 1;
+    }
+
+    if (tileCoord[2] & mask) {
+      charCode += 2;
+    }
+
+    digits[i] = String.fromCharCode(charCode);
+    mask >>= 1;
+  }
+
+  return digits.join('');
+}
+/**
+ * The attribution containing a link to the Microsoft® Bing™ Maps Platform APIs’
+ * Terms Of Use.
+ * @const
+ * @type {string}
+ */
+
+
+var TOS_ATTRIBUTION = '<a class="ol-attribution-bing-tos" ' + 'href="https://www.microsoft.com/maps/product/terms.html" target="_blank">' + 'Terms of Use</a>';
+/**
+ * @typedef {Object} Options
+ * @property {number} [cacheSize] Initial tile cache size. Will auto-grow to hold at least the number of tiles in the viewport.
+ * @property {boolean} [hidpi=false] If `true` hidpi tiles will be requested.
+ * @property {string} [culture='en-us'] Culture code.
+ * @property {string} key Bing Maps API key. Get yours at http://www.bingmapsportal.com/.
+ * @property {string} imagerySet Type of imagery.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {number} [maxZoom=21] Max zoom. Default is what's advertized by the BingMaps service.
+ * @property {number} [reprojectionErrorThreshold=0.5] Maximum allowed reprojection error (in pixels).
+ * Higher values can increase reprojection performance, but decrease precision.
+ * @property {import("../Tile.js").LoadFunction} [tileLoadFunction] Optional function to load a tile given a URL. The default is
+ * ```js
+ * function(imageTile, src) {
+ *   imageTile.getImage().src = src;
+ * };
+ * ```
+ * @property {boolean} [wrapX=true] Whether to wrap the world horizontally.
+ * @property {number} [transition] Duration of the opacity transition for rendering.
+ * To disable the opacity transition, pass `transition: 0`.
+ */
+
+/**
+ * @typedef {Object} BingMapsImageryMetadataResponse
+ * @property {number} statusCode The response status code
+ * @property {string} statusDescription The response status description
+ * @property {string} authenticationResultCode The authentication result code
+ * @property {Array<ResourceSet>} resourceSets The array of resource sets
+ */
+
+/**
+ * @typedef {Object} ResourceSet
+ * @property {Array<Resource>} resources
+ */
+
+/**
+ * @typedef {Object} Resource
+ * @property {number} imageHeight The image height
+ * @property {number} imageWidth The image width
+ * @property {number} zoomMin The minimum zoom level
+ * @property {number} zoomMax The maximum zoom level
+ * @property {string} imageUrl The image URL
+ * @property {Array<string>} imageUrlSubdomains The image URL subdomains for rotation
+ * @property {Array<ImageryProvider>} [imageryProviders] The array of ImageryProviders
+ */
+
+/**
+ * @typedef {Object} ImageryProvider
+ * @property {Array<CoverageArea>} coverageAreas The coverage areas
+ * @property {string} [attribution] The attribution
+ */
+
+/**
+ * @typedef {Object} CoverageArea
+ * @property {number} zoomMin The minimum zoom
+ * @property {number} zoomMax The maximum zoom
+ * @property {Array<number>} bbox The coverage bounding box
+ */
+
+/**
+ * @classdesc
+ * Layer source for Bing Maps tile data.
+ * @api
+ */
+
+var BingMaps =
+/** @class */
+function (_super) {
+  __extends(BingMaps, _super);
+  /**
+   * @param {Options} options Bing Maps options.
+   */
+
+
+  function BingMaps(options) {
+    var _this = this;
+
+    var hidpi = options.hidpi !== undefined ? options.hidpi : false;
+    _this = _super.call(this, {
+      cacheSize: options.cacheSize,
+      crossOrigin: 'anonymous',
+      imageSmoothing: options.imageSmoothing,
+      opaque: true,
+      projection: (0, _proj.get)('EPSG:3857'),
+      reprojectionErrorThreshold: options.reprojectionErrorThreshold,
+      state: _State.default.LOADING,
+      tileLoadFunction: options.tileLoadFunction,
+      tilePixelRatio: hidpi ? 2 : 1,
+      wrapX: options.wrapX !== undefined ? options.wrapX : true,
+      transition: options.transition
+    }) || this;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.hidpi_ = hidpi;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.culture_ = options.culture !== undefined ? options.culture : 'en-us';
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.maxZoom_ = options.maxZoom !== undefined ? options.maxZoom : -1;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.apiKey_ = options.key;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.imagerySet_ = options.imagerySet;
+    var url = 'https://dev.virtualearth.net/REST/v1/Imagery/Metadata/' + _this.imagerySet_ + '?uriScheme=https&include=ImageryProviders&key=' + _this.apiKey_ + '&c=' + _this.culture_;
+    (0, _net.jsonp)(url, _this.handleImageryMetadataResponse.bind(_this), undefined, 'jsonp');
+    return _this;
+  }
+  /**
+   * Get the api key used for this source.
+   *
+   * @return {string} The api key.
+   * @api
+   */
+
+
+  BingMaps.prototype.getApiKey = function () {
+    return this.apiKey_;
+  };
+  /**
+   * Get the imagery set associated with this source.
+   *
+   * @return {string} The imagery set.
+   * @api
+   */
+
+
+  BingMaps.prototype.getImagerySet = function () {
+    return this.imagerySet_;
+  };
+  /**
+   * @param {BingMapsImageryMetadataResponse} response Response.
+   */
+
+
+  BingMaps.prototype.handleImageryMetadataResponse = function (response) {
+    if (response.statusCode != 200 || response.statusDescription != 'OK' || response.authenticationResultCode != 'ValidCredentials' || response.resourceSets.length != 1 || response.resourceSets[0].resources.length != 1) {
+      this.setState(_State.default.ERROR);
+      return;
+    }
+
+    var resource = response.resourceSets[0].resources[0];
+    var maxZoom = this.maxZoom_ == -1 ? resource.zoomMax : this.maxZoom_;
+    var sourceProjection = this.getProjection();
+    var extent = (0, _tilegrid.extentFromProjection)(sourceProjection);
+    var scale = this.hidpi_ ? 2 : 1;
+    var tileSize = resource.imageWidth == resource.imageHeight ? resource.imageWidth / scale : [resource.imageWidth / scale, resource.imageHeight / scale];
+    var tileGrid = (0, _tilegrid.createXYZ)({
+      extent: extent,
+      minZoom: resource.zoomMin,
+      maxZoom: maxZoom,
+      tileSize: tileSize
+    });
+    this.tileGrid = tileGrid;
+    var culture = this.culture_;
+    var hidpi = this.hidpi_;
+    this.tileUrlFunction = (0, _tileurlfunction.createFromTileUrlFunctions)(resource.imageUrlSubdomains.map(function (subdomain) {
+      /** @type {import('../tilecoord.js').TileCoord} */
+      var quadKeyTileCoord = [0, 0, 0];
+      var imageUrl = resource.imageUrl.replace('{subdomain}', subdomain).replace('{culture}', culture);
+      return (
+        /**
+         * @param {import("../tilecoord.js").TileCoord} tileCoord Tile coordinate.
+         * @param {number} pixelRatio Pixel ratio.
+         * @param {import("../proj/Projection.js").default} projection Projection.
+         * @return {string|undefined} Tile URL.
+         */
+        function (tileCoord, pixelRatio, projection) {
+          if (!tileCoord) {
+            return undefined;
+          } else {
+            (0, _tilecoord.createOrUpdate)(tileCoord[0], tileCoord[1], tileCoord[2], quadKeyTileCoord);
+            var url = imageUrl;
+
+            if (hidpi) {
+              url += '&dpi=d1&device=mobile';
+            }
+
+            return url.replace('{quadkey}', quadKey(quadKeyTileCoord));
+          }
+        }
+      );
+    }));
+
+    if (resource.imageryProviders) {
+      var transform_1 = (0, _proj.getTransformFromProjections)((0, _proj.get)('EPSG:4326'), this.getProjection());
+      this.setAttributions(function (frameState) {
+        var attributions = [];
+        var viewState = frameState.viewState;
+        var tileGrid = this.getTileGrid();
+        var z = tileGrid.getZForResolution(viewState.resolution, this.zDirection);
+        var tileCoord = tileGrid.getTileCoordForCoordAndZ(viewState.center, z);
+        var zoom = tileCoord[0];
+        resource.imageryProviders.map(function (imageryProvider) {
+          var intersecting = false;
+          var coverageAreas = imageryProvider.coverageAreas;
+
+          for (var i = 0, ii = coverageAreas.length; i < ii; ++i) {
+            var coverageArea = coverageAreas[i];
+
+            if (zoom >= coverageArea.zoomMin && zoom <= coverageArea.zoomMax) {
+              var bbox = coverageArea.bbox;
+              var epsg4326Extent = [bbox[1], bbox[0], bbox[3], bbox[2]];
+              var extent_1 = (0, _extent.applyTransform)(epsg4326Extent, transform_1);
+
+              if ((0, _extent.intersects)(extent_1, frameState.extent)) {
+                intersecting = true;
+                break;
+              }
+            }
+          }
+
+          if (intersecting) {
+            attributions.push(imageryProvider.attribution);
+          }
+        });
+        attributions.push(TOS_ATTRIBUTION);
+        return attributions;
+      }.bind(this));
+    }
+
+    this.setState(_State.default.READY);
+  };
+
+  return BingMaps;
+}(_TileImage.default);
+
+var _default = BingMaps;
+exports.default = _default;
+},{"./State.js":"node_modules/ol/source/State.js","./TileImage.js":"node_modules/ol/source/TileImage.js","../extent.js":"node_modules/ol/extent.js","../tileurlfunction.js":"node_modules/ol/tileurlfunction.js","../tilecoord.js":"node_modules/ol/tilecoord.js","../tilegrid.js":"node_modules/ol/tilegrid.js","../proj.js":"node_modules/ol/proj.js","../net.js":"node_modules/ol/net.js"}],"node_modules/ol/source/CartoDB.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _State = _interopRequireDefault(require("./State.js"));
+
+var _XYZ = _interopRequireDefault(require("./XYZ.js"));
+
+var _obj = require("../obj.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/CartoDB
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {number} [cacheSize] Initial tile cache size. Will auto-grow to hold at least the number of tiles in the viewport.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {import("../proj.js").ProjectionLike} [projection='EPSG:3857'] Projection.
+ * @property {number} [maxZoom=18] Max zoom.
+ * @property {number} [minZoom] Minimum zoom.
+ * @property {boolean} [wrapX=true] Whether to wrap the world horizontally.
+ * @property {Object} [config] If using anonymous maps, the CartoDB config to use. See
+ * http://docs.cartodb.com/cartodb-platform/maps-api/anonymous-maps/
+ * for more detail.
+ * If using named maps, a key-value lookup with the template parameters.
+ * See http://docs.cartodb.com/cartodb-platform/maps-api/named-maps/
+ * for more detail.
+ * @property {string} [map] If using named maps, this will be the name of the template to load.
+ * See http://docs.cartodb.com/cartodb-platform/maps-api/named-maps/
+ * for more detail.
+ * @property {string} account If using named maps, this will be the name of the template to load.
+ * @property {number} [transition=250] Duration of the opacity transition for rendering.
+ * To disable the opacity transition, pass `transition: 0`.
+ */
+
+/**
+ * @typedef {Object} CartoDBLayerInfo
+ * @property {string} layergroupid The layer group ID
+ * @property {{https: string}} cdn_url The CDN URL
+ */
+
+/**
+ * @classdesc
+ * Layer source for the CartoDB Maps API.
+ * @api
+ */
+var CartoDB =
+/** @class */
+function (_super) {
+  __extends(CartoDB, _super);
+  /**
+   * @param {Options} options CartoDB options.
+   */
+
+
+  function CartoDB(options) {
+    var _this = _super.call(this, {
+      attributions: options.attributions,
+      cacheSize: options.cacheSize,
+      crossOrigin: options.crossOrigin,
+      maxZoom: options.maxZoom !== undefined ? options.maxZoom : 18,
+      minZoom: options.minZoom,
+      projection: options.projection,
+      transition: options.transition,
+      wrapX: options.wrapX
+    }) || this;
+    /**
+     * @type {string}
+     * @private
+     */
+
+
+    _this.account_ = options.account;
+    /**
+     * @type {string}
+     * @private
+     */
+
+    _this.mapId_ = options.map || '';
+    /**
+     * @type {!Object}
+     * @private
+     */
+
+    _this.config_ = options.config || {};
+    /**
+     * @type {!Object<string, CartoDBLayerInfo>}
+     * @private
+     */
+
+    _this.templateCache_ = {};
+
+    _this.initializeMap_();
+
+    return _this;
+  }
+  /**
+   * Returns the current config.
+   * @return {!Object} The current configuration.
+   * @api
+   */
+
+
+  CartoDB.prototype.getConfig = function () {
+    return this.config_;
+  };
+  /**
+   * Updates the carto db config.
+   * @param {Object} config a key-value lookup. Values will replace current values
+   *     in the config.
+   * @api
+   */
+
+
+  CartoDB.prototype.updateConfig = function (config) {
+    (0, _obj.assign)(this.config_, config);
+    this.initializeMap_();
+  };
+  /**
+   * Sets the CartoDB config
+   * @param {Object} config In the case of anonymous maps, a CartoDB configuration
+   *     object.
+   * If using named maps, a key-value lookup with the template parameters.
+   * @api
+   */
+
+
+  CartoDB.prototype.setConfig = function (config) {
+    this.config_ = config || {};
+    this.initializeMap_();
+  };
+  /**
+   * Issue a request to initialize the CartoDB map.
+   * @private
+   */
+
+
+  CartoDB.prototype.initializeMap_ = function () {
+    var paramHash = JSON.stringify(this.config_);
+
+    if (this.templateCache_[paramHash]) {
+      this.applyTemplate_(this.templateCache_[paramHash]);
+      return;
+    }
+
+    var mapUrl = 'https://' + this.account_ + '.carto.com/api/v1/map';
+
+    if (this.mapId_) {
+      mapUrl += '/named/' + this.mapId_;
+    }
+
+    var client = new XMLHttpRequest();
+    client.addEventListener('load', this.handleInitResponse_.bind(this, paramHash));
+    client.addEventListener('error', this.handleInitError_.bind(this));
+    client.open('POST', mapUrl);
+    client.setRequestHeader('Content-type', 'application/json');
+    client.send(JSON.stringify(this.config_));
+  };
+  /**
+   * Handle map initialization response.
+   * @param {string} paramHash a hash representing the parameter set that was used
+   *     for the request
+   * @param {Event} event Event.
+   * @private
+   */
+
+
+  CartoDB.prototype.handleInitResponse_ = function (paramHash, event) {
+    var client =
+    /** @type {XMLHttpRequest} */
+    event.target; // status will be 0 for file:// urls
+
+    if (!client.status || client.status >= 200 && client.status < 300) {
+      var response = void 0;
+
+      try {
+        response =
+        /** @type {CartoDBLayerInfo} */
+        JSON.parse(client.responseText);
+      } catch (err) {
+        this.setState(_State.default.ERROR);
+        return;
+      }
+
+      this.applyTemplate_(response);
+      this.templateCache_[paramHash] = response;
+      this.setState(_State.default.READY);
+    } else {
+      this.setState(_State.default.ERROR);
+    }
+  };
+  /**
+   * @private
+   * @param {Event} event Event.
+   */
+
+
+  CartoDB.prototype.handleInitError_ = function (event) {
+    this.setState(_State.default.ERROR);
+  };
+  /**
+   * Apply the new tile urls returned by carto db
+   * @param {CartoDBLayerInfo} data Result of carto db call.
+   * @private
+   */
+
+
+  CartoDB.prototype.applyTemplate_ = function (data) {
+    var tilesUrl = 'https://' + data.cdn_url.https + '/' + this.account_ + '/api/v1/map/' + data.layergroupid + '/{z}/{x}/{y}.png';
+    this.setUrl(tilesUrl);
+  };
+
+  return CartoDB;
+}(_XYZ.default);
+
+var _default = CartoDB;
+exports.default = _default;
+},{"./State.js":"node_modules/ol/source/State.js","./XYZ.js":"node_modules/ol/source/XYZ.js","../obj.js":"node_modules/ol/obj.js"}],"node_modules/ol/source/Cluster.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _Feature = _interopRequireDefault(require("../Feature.js"));
+
+var _GeometryType = _interopRequireDefault(require("../geom/GeometryType.js"));
+
+var _Point = _interopRequireDefault(require("../geom/Point.js"));
+
+var _Vector = _interopRequireDefault(require("./Vector.js"));
+
+var _coordinate = require("../coordinate.js");
+
+var _asserts = require("../asserts.js");
+
+var _extent = require("../extent.js");
+
+var _util = require("../util.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/Cluster
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {number} [distance=20] Minimum distance in pixels between clusters.
+ * @property {function(Feature):Point} [geometryFunction]
+ * Function that takes an {@link module:ol/Feature} as argument and returns an
+ * {@link module:ol/geom/Point} as cluster calculation point for the feature. When a
+ * feature should not be considered for clustering, the function should return
+ * `null`. The default, which works when the underyling source contains point
+ * features only, is
+ * ```js
+ * function(feature) {
+ *   return feature.getGeometry();
+ * }
+ * ```
+ * See {@link module:ol/geom/Polygon~Polygon#getInteriorPoint} for a way to get a cluster
+ * calculation point for polygons.
+ * @property {VectorSource} [source] Source.
+ * @property {boolean} [wrapX=true] Whether to wrap the world horizontally.
+ */
+
+/**
+ * @classdesc
+ * Layer source to cluster vector data. Works out of the box with point
+ * geometries. For other geometry types, or if not all geometries should be
+ * considered for clustering, a custom `geometryFunction` can be defined.
+ *
+ * If the instance is disposed without also disposing the underlying
+ * source `setSource(null)` has to be called to remove the listener reference
+ * from the wrapped source.
+ * @api
+ */
+var Cluster =
+/** @class */
+function (_super) {
+  __extends(Cluster, _super);
+  /**
+   * @param {Options} options Cluster options.
+   */
+
+
+  function Cluster(options) {
+    var _this = _super.call(this, {
+      attributions: options.attributions,
+      wrapX: options.wrapX
+    }) || this;
+    /**
+     * @type {number|undefined}
+     * @protected
+     */
+
+
+    _this.resolution = undefined;
+    /**
+     * @type {number}
+     * @protected
+     */
+
+    _this.distance = options.distance !== undefined ? options.distance : 20;
+    /**
+     * @type {Array<Feature>}
+     * @protected
+     */
+
+    _this.features = [];
+    /**
+     * @param {Feature} feature Feature.
+     * @return {Point} Cluster calculation point.
+     * @protected
+     */
+
+    _this.geometryFunction = options.geometryFunction || function (feature) {
+      var geometry = feature.getGeometry();
+      (0, _asserts.assert)(geometry.getType() == _GeometryType.default.POINT, 10); // The default `geometryFunction` can only handle `Point` geometries
+
+      return geometry;
+    };
+
+    _this.boundRefresh_ = _this.refresh.bind(_this);
+
+    _this.setSource(options.source || null);
+
+    return _this;
+  }
+  /**
+   * Remove all features from the source.
+   * @param {boolean=} opt_fast Skip dispatching of {@link module:ol/source/Vector.VectorSourceEvent#removefeature} events.
+   * @api
+   */
+
+
+  Cluster.prototype.clear = function (opt_fast) {
+    this.features.length = 0;
+
+    _super.prototype.clear.call(this, opt_fast);
+  };
+  /**
+   * Get the distance in pixels between clusters.
+   * @return {number} Distance.
+   * @api
+   */
+
+
+  Cluster.prototype.getDistance = function () {
+    return this.distance;
+  };
+  /**
+   * Get a reference to the wrapped source.
+   * @return {VectorSource} Source.
+   * @api
+   */
+
+
+  Cluster.prototype.getSource = function () {
+    return this.source;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   */
+
+
+  Cluster.prototype.loadFeatures = function (extent, resolution, projection) {
+    this.source.loadFeatures(extent, resolution, projection);
+
+    if (resolution !== this.resolution) {
+      this.clear();
+      this.resolution = resolution;
+      this.cluster();
+      this.addFeatures(this.features);
+    }
+  };
+  /**
+   * Set the distance in pixels between clusters.
+   * @param {number} distance The distance in pixels.
+   * @api
+   */
+
+
+  Cluster.prototype.setDistance = function (distance) {
+    this.distance = distance;
+    this.refresh();
+  };
+  /**
+   * Replace the wrapped source.
+   * @param {VectorSource} source The new source for this instance.
+   * @api
+   */
+
+
+  Cluster.prototype.setSource = function (source) {
+    if (this.source) {
+      this.source.removeEventListener(_EventType.default.CHANGE, this.boundRefresh_);
+    }
+
+    this.source = source;
+
+    if (source) {
+      source.addEventListener(_EventType.default.CHANGE, this.boundRefresh_);
+    }
+
+    this.refresh();
+  };
+  /**
+   * Handle the source changing.
+   */
+
+
+  Cluster.prototype.refresh = function () {
+    this.clear();
+    this.cluster();
+    this.addFeatures(this.features);
+  };
+  /**
+   * @protected
+   */
+
+
+  Cluster.prototype.cluster = function () {
+    if (this.resolution === undefined || !this.source) {
+      return;
+    }
+
+    var extent = (0, _extent.createEmpty)();
+    var mapDistance = this.distance * this.resolution;
+    var features = this.source.getFeatures();
+    /**
+     * @type {!Object<string, boolean>}
+     */
+
+    var clustered = {};
+
+    for (var i = 0, ii = features.length; i < ii; i++) {
+      var feature = features[i];
+
+      if (!((0, _util.getUid)(feature) in clustered)) {
+        var geometry = this.geometryFunction(feature);
+
+        if (geometry) {
+          var coordinates = geometry.getCoordinates();
+          (0, _extent.createOrUpdateFromCoordinate)(coordinates, extent);
+          (0, _extent.buffer)(extent, mapDistance, extent);
+          var neighbors = this.source.getFeaturesInExtent(extent);
+          neighbors = neighbors.filter(function (neighbor) {
+            var uid = (0, _util.getUid)(neighbor);
+
+            if (!(uid in clustered)) {
+              clustered[uid] = true;
+              return true;
+            } else {
+              return false;
+            }
+          });
+          this.features.push(this.createCluster(neighbors));
+        }
+      }
+    }
+  };
+  /**
+   * @param {Array<Feature>} features Features
+   * @return {Feature} The cluster feature.
+   * @protected
+   */
+
+
+  Cluster.prototype.createCluster = function (features) {
+    var centroid = [0, 0];
+
+    for (var i = features.length - 1; i >= 0; --i) {
+      var geometry = this.geometryFunction(features[i]);
+
+      if (geometry) {
+        (0, _coordinate.add)(centroid, geometry.getCoordinates());
+      } else {
+        features.splice(i, 1);
+      }
+    }
+
+    (0, _coordinate.scale)(centroid, 1 / features.length);
+    var cluster = new _Feature.default(new _Point.default(centroid));
+    cluster.set('features', features);
+    return cluster;
+  };
+
+  return Cluster;
+}(_Vector.default);
+
+var _default = Cluster;
+exports.default = _default;
+},{"../events/EventType.js":"node_modules/ol/events/EventType.js","../Feature.js":"node_modules/ol/Feature.js","../geom/GeometryType.js":"node_modules/ol/geom/GeometryType.js","../geom/Point.js":"node_modules/ol/geom/Point.js","./Vector.js":"node_modules/ol/source/Vector.js","../coordinate.js":"node_modules/ol/coordinate.js","../asserts.js":"node_modules/ol/asserts.js","../extent.js":"node_modules/ol/extent.js","../util.js":"node_modules/ol/util.js"}],"node_modules/ol/source/Zoomify.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.CustomTile = void 0;
+
+var _common = require("../tilegrid/common.js");
+
+var _ImageTile = _interopRequireDefault(require("../ImageTile.js"));
+
+var _TileGrid = _interopRequireDefault(require("../tilegrid/TileGrid.js"));
+
+var _TileImage = _interopRequireDefault(require("./TileImage.js"));
+
+var _TileState = _interopRequireDefault(require("../TileState.js"));
+
+var _asserts = require("../asserts.js");
+
+var _dom = require("../dom.js");
+
+var _tileurlfunction = require("../tileurlfunction.js");
+
+var _extent = require("../extent.js");
+
+var _size = require("../size.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+/**
+ * @module ol/source/Zoomify
+ */
+
+
+/**
+ * @enum {string}
+ */
+var TierSizeCalculation = {
+  DEFAULT: 'default',
+  TRUNCATED: 'truncated'
+};
+
+var CustomTile =
+/** @class */
+function (_super) {
+  __extends(CustomTile, _super);
+  /**
+   * @param {import("../size.js").Size} tileSize Full tile size.
+   * @param {import("../tilecoord.js").TileCoord} tileCoord Tile coordinate.
+   * @param {import("../TileState.js").default} state State.
+   * @param {string} src Image source URI.
+   * @param {?string} crossOrigin Cross origin.
+   * @param {import("../Tile.js").LoadFunction} tileLoadFunction Tile load function.
+   * @param {import("../Tile.js").Options=} opt_options Tile options.
+   */
+
+
+  function CustomTile(tileSize, tileCoord, state, src, crossOrigin, tileLoadFunction, opt_options) {
+    var _this = _super.call(this, tileCoord, state, src, crossOrigin, tileLoadFunction, opt_options) || this;
+    /**
+     * @private
+     * @type {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement}
+     */
+
+
+    _this.zoomifyImage_ = null;
+    /**
+     * @type {import("../size.js").Size}
+     */
+
+    _this.tileSize_ = tileSize;
+    return _this;
+  }
+  /**
+   * Get the image element for this tile.
+   * @return {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement} Image.
+   */
+
+
+  CustomTile.prototype.getImage = function () {
+    if (this.zoomifyImage_) {
+      return this.zoomifyImage_;
+    }
+
+    var image = _super.prototype.getImage.call(this);
+
+    if (this.state == _TileState.default.LOADED) {
+      var tileSize = this.tileSize_;
+
+      if (image.width == tileSize[0] && image.height == tileSize[1]) {
+        this.zoomifyImage_ = image;
+        return image;
+      } else {
+        var context = (0, _dom.createCanvasContext2D)(tileSize[0], tileSize[1]);
+        context.drawImage(image, 0, 0);
+        this.zoomifyImage_ = context.canvas;
+        return context.canvas;
+      }
+    } else {
+      return image;
+    }
+  };
+
+  return CustomTile;
+}(_ImageTile.default);
+
+exports.CustomTile = CustomTile;
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {number} [cacheSize] Initial tile cache size. Will auto-grow to hold at least the number of tiles in the viewport.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value  you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection.
+ * @property {number} [tilePixelRatio] The pixel ratio used by the tile service. For example, if the tile service advertizes 256px by 256px tiles but actually sends 512px by 512px images (for retina/hidpi devices) then `tilePixelRatio` should be set to `2`
+ * @property {number} [reprojectionErrorThreshold=0.5] Maximum allowed reprojection error (in pixels).
+ * Higher values can increase reprojection performance, but decrease precision.
+ * @property {string} url URL template or base URL of the Zoomify service.
+ * A base URL is the fixed part
+ * of the URL, excluding the tile group, z, x, and y folder structure, e.g.
+ * `http://my.zoomify.info/IMAGE.TIF/`. A URL template must include
+ * `{TileGroup}`, `{x}`, `{y}`, and `{z}` placeholders, e.g.
+ * `http://my.zoomify.info/IMAGE.TIF/{TileGroup}/{z}-{x}-{y}.jpg`.
+ * Internet Imaging Protocol (IIP) with JTL extension can be also used with
+ * `{tileIndex}` and `{z}` placeholders, e.g.
+ * `http://my.zoomify.info?FIF=IMAGE.TIF&JTL={z},{tileIndex}`.
+ * A `{?-?}` template pattern, for example `subdomain{a-f}.domain.com`, may be
+ * used instead of defining each one separately in the `urls` option.
+ * @property {string} [tierSizeCalculation] Tier size calculation method: `default` or `truncated`.
+ * @property {import("../size.js").Size} size
+ * @property {import("../extent.js").Extent} [extent] Extent for the TileGrid that is created.
+ * Default sets the TileGrid in the
+ * fourth quadrant, meaning extent is `[0, -height, width, 0]`. To change the
+ * extent to the first quadrant (the default for OpenLayers 2) set the extent
+ * as `[0, 0, width, height]`.
+ * @property {number} [transition] Duration of the opacity transition for rendering.
+ * To disable the opacity transition, pass `transition: 0`.
+ * @property {number} [tileSize=256] Tile size. Same tile size is used for all zoom levels.
+ * @property {number} [zDirection] Indicate which resolution should be used
+ * by a renderer if the views resolution does not match any resolution of the tile source.
+ * If 0, the nearest resolution will be used. If 1, the nearest lower resolution
+ * will be used. If -1, the nearest higher resolution will be used.
+ */
+
+/**
+ * @classdesc
+ * Layer source for tile data in Zoomify format (both Zoomify and Internet
+ * Imaging Protocol are supported).
+ * @api
+ */
+var Zoomify =
+/** @class */
+function (_super) {
+  __extends(Zoomify, _super);
+  /**
+   * @param {Options} opt_options Options.
+   */
+
+
+  function Zoomify(opt_options) {
+    var _this = this;
+
+    var options = opt_options;
+    var size = options.size;
+    var tierSizeCalculation = options.tierSizeCalculation !== undefined ? options.tierSizeCalculation : TierSizeCalculation.DEFAULT;
+    var tilePixelRatio = options.tilePixelRatio || 1;
+    var imageWidth = size[0];
+    var imageHeight = size[1];
+    var tierSizeInTiles = [];
+    var tileSize = options.tileSize || _common.DEFAULT_TILE_SIZE;
+    var tileSizeForTierSizeCalculation = tileSize * tilePixelRatio;
+
+    switch (tierSizeCalculation) {
+      case TierSizeCalculation.DEFAULT:
+        while (imageWidth > tileSizeForTierSizeCalculation || imageHeight > tileSizeForTierSizeCalculation) {
+          tierSizeInTiles.push([Math.ceil(imageWidth / tileSizeForTierSizeCalculation), Math.ceil(imageHeight / tileSizeForTierSizeCalculation)]);
+          tileSizeForTierSizeCalculation += tileSizeForTierSizeCalculation;
+        }
+
+        break;
+
+      case TierSizeCalculation.TRUNCATED:
+        var width = imageWidth;
+        var height = imageHeight;
+
+        while (width > tileSizeForTierSizeCalculation || height > tileSizeForTierSizeCalculation) {
+          tierSizeInTiles.push([Math.ceil(width / tileSizeForTierSizeCalculation), Math.ceil(height / tileSizeForTierSizeCalculation)]);
+          width >>= 1;
+          height >>= 1;
+        }
+
+        break;
+
+      default:
+        (0, _asserts.assert)(false, 53); // Unknown `tierSizeCalculation` configured
+
+        break;
+    }
+
+    tierSizeInTiles.push([1, 1]);
+    tierSizeInTiles.reverse();
+    var resolutions = [tilePixelRatio];
+    var tileCountUpToTier = [0];
+
+    for (var i = 1, ii = tierSizeInTiles.length; i < ii; i++) {
+      resolutions.push(tilePixelRatio << i);
+      tileCountUpToTier.push(tierSizeInTiles[i - 1][0] * tierSizeInTiles[i - 1][1] + tileCountUpToTier[i - 1]);
+    }
+
+    resolutions.reverse();
+    var tileGrid = new _TileGrid.default({
+      tileSize: tileSize,
+      extent: options.extent || [0, -imageHeight, imageWidth, 0],
+      resolutions: resolutions
+    });
+    var url = options.url;
+
+    if (url && url.indexOf('{TileGroup}') == -1 && url.indexOf('{tileIndex}') == -1) {
+      url += '{TileGroup}/{z}-{x}-{y}.jpg';
+    }
+
+    var urls = (0, _tileurlfunction.expandUrl)(url);
+    var tileWidth = tileSize * tilePixelRatio;
+    /**
+     * @param {string} template Template.
+     * @return {import("../Tile.js").UrlFunction} Tile URL function.
+     */
+
+    function createFromTemplate(template) {
+      return (
+        /**
+         * @param {import("../tilecoord.js").TileCoord} tileCoord Tile Coordinate.
+         * @param {number} pixelRatio Pixel ratio.
+         * @param {import("../proj/Projection.js").default} projection Projection.
+         * @return {string|undefined} Tile URL.
+         */
+        function (tileCoord, pixelRatio, projection) {
+          if (!tileCoord) {
+            return undefined;
+          } else {
+            var tileCoordZ = tileCoord[0];
+            var tileCoordX = tileCoord[1];
+            var tileCoordY = tileCoord[2];
+            var tileIndex = tileCoordX + tileCoordY * tierSizeInTiles[tileCoordZ][0];
+            var tileGroup = (tileIndex + tileCountUpToTier[tileCoordZ]) / tileWidth | 0;
+            var localContext_1 = {
+              'z': tileCoordZ,
+              'x': tileCoordX,
+              'y': tileCoordY,
+              'tileIndex': tileIndex,
+              'TileGroup': 'TileGroup' + tileGroup
+            };
+            return template.replace(/\{(\w+?)\}/g, function (m, p) {
+              return localContext_1[p];
+            });
+          }
+        }
+      );
+    }
+
+    var tileUrlFunction = (0, _tileurlfunction.createFromTileUrlFunctions)(urls.map(createFromTemplate));
+    var ZoomifyTileClass = CustomTile.bind(null, (0, _size.toSize)(tileSize * tilePixelRatio));
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      cacheSize: options.cacheSize,
+      crossOrigin: options.crossOrigin,
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      tilePixelRatio: tilePixelRatio,
+      reprojectionErrorThreshold: options.reprojectionErrorThreshold,
+      tileClass: ZoomifyTileClass,
+      tileGrid: tileGrid,
+      tileUrlFunction: tileUrlFunction,
+      transition: options.transition
+    }) || this;
+    /**
+     * @type {number}
+     */
+
+    _this.zDirection = options.zDirection; // Server retina tile detection (non-standard):
+    // Try loading the center tile for the highest resolution. If it is not
+    // available, we are dealing with retina tiles, and need to adjust the
+    // tile url calculation.
+
+    var tileUrl = tileGrid.getTileCoordForCoordAndResolution((0, _extent.getCenter)(tileGrid.getExtent()), resolutions[resolutions.length - 1]);
+    var testTileUrl = tileUrlFunction(tileUrl, 1, null);
+    var image = new Image();
+    image.addEventListener('error', function () {
+      tileWidth = tileSize;
+      this.changed();
+    }.bind(_this));
+    image.src = testTileUrl;
+    return _this;
+  }
+
+  return Zoomify;
+}(_TileImage.default);
+
+var _default = Zoomify;
+exports.default = _default;
+},{"../tilegrid/common.js":"node_modules/ol/tilegrid/common.js","../ImageTile.js":"node_modules/ol/ImageTile.js","../tilegrid/TileGrid.js":"node_modules/ol/tilegrid/TileGrid.js","./TileImage.js":"node_modules/ol/source/TileImage.js","../TileState.js":"node_modules/ol/TileState.js","../asserts.js":"node_modules/ol/asserts.js","../dom.js":"node_modules/ol/dom.js","../tileurlfunction.js":"node_modules/ol/tileurlfunction.js","../extent.js":"node_modules/ol/extent.js","../size.js":"node_modules/ol/size.js"}],"node_modules/ol/source/IIIF.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _TileGrid = _interopRequireDefault(require("../tilegrid/TileGrid.js"));
+
+var _TileImage = _interopRequireDefault(require("./TileImage.js"));
+
+var _Zoomify = require("./Zoomify.js");
+
+var _common = require("../tilegrid/common.js");
+
+var _IIIFInfo = require("../format/IIIFInfo.js");
+
+var _asserts = require("../asserts.js");
+
+var _extent = require("../extent.js");
+
+var _size = require("../size.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/IIIF
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {boolean} [attributionsCollapsible=true] Attributions are collapsible.
+ * @property {number} [cacheSize]
+ * @property {null|string} [crossOrigin]
+ * @property {import("../extent.js").Extent} [extent=[0, -height, width, 0]]
+ * @property {string} [format='jpg'] Requested image format.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {import("../proj.js").ProjectionLike} [projection]
+ * @property {string} [quality] Requested IIIF image quality. Default is 'native'
+ * for version 1, 'default' for versions 2 and 3.
+ * @property {number} [reprojectionErrorThreshold=0.5] Maximum allowed reprojection error (in pixels).
+ * Higher values can increase reprojection performance, but decrease precision.
+ * @property {Array<number>} [resolutions] Supported resolutions as given in IIIF 'scaleFactors'
+ * @property {import("../size.js").Size} size Size of the image [width, height].
+ * @property {Array<import("../size.js").Size>} [sizes] Supported scaled image sizes.
+ * Content of the IIIF info.json 'sizes' property, but as array of Size objects.
+ * @property {import("./State.js").default} [state] Source state.
+ * @property {Array<string>} [supports=[]] Supported IIIF region and size calculation
+ * features.
+ * @property {number} [tilePixelRatio]
+ * @property {number|import("../size.js").Size} [tileSize] Tile size.
+ * Same tile size is used for all zoom levels. If tile size is a number,
+ * a square tile is assumed. If the IIIF image service supports arbitrary
+ * tiling (sizeByH, sizeByW, sizeByWh or sizeByPct as well as regionByPx or regionByPct
+ * are supported), the default tilesize is 256.
+ * @property {number} [transition]
+ * @property {string} [url] Base URL of the IIIF Image service.
+ * This should be the same as the IIIF Image ID.
+ * @property {import("../format/IIIFInfo.js").Versions} [version=Versions.VERSION2] Service's IIIF Image API version.
+ * @property {number} [zDirection=0] Indicate which resolution should be used
+ * by a renderer if the view resolution does not match any resolution of the tile source.
+ * If 0, the nearest resolution will be used. If 1, the nearest lower resolution
+ * will be used. If -1, the nearest higher resolution will be used.
+ */
+function formatPercentage(percentage) {
+  return percentage.toLocaleString('en', {
+    maximumFractionDigits: 10
+  });
+}
+/**
+ * @classdesc
+ * Layer source for IIIF Image API services.
+ * @api
+ */
+
+
+var IIIF =
+/** @class */
+function (_super) {
+  __extends(IIIF, _super);
+  /**
+   * @param {Options=} opt_options Tile source options. Use {@link import("../format/IIIFInfo.js").IIIFInfo}
+   * to parse Image API service information responses into constructor options.
+   * @api
+   */
+
+
+  function IIIF(opt_options) {
+    var _this = this;
+    /**
+     * @type {Partial<Options>}
+     */
+
+
+    var options = opt_options || {};
+    var baseUrl = options.url || '';
+    baseUrl = baseUrl + (baseUrl.lastIndexOf('/') === baseUrl.length - 1 || baseUrl === '' ? '' : '/');
+    var version = options.version || _IIIFInfo.Versions.VERSION2;
+    var sizes = options.sizes || [];
+    var size = options.size;
+    (0, _asserts.assert)(size != undefined && Array.isArray(size) && size.length == 2 && !isNaN(size[0]) && size[0] > 0 && !isNaN(size[1]) && size[1] > 0, 60);
+    var width = size[0];
+    var height = size[1];
+    var tileSize = options.tileSize;
+    var tilePixelRatio = options.tilePixelRatio || 1;
+    var format = options.format || 'jpg';
+    var quality = options.quality || (options.version == _IIIFInfo.Versions.VERSION1 ? 'native' : 'default');
+    var resolutions = options.resolutions || [];
+    var supports = options.supports || [];
+    var extent = options.extent || [0, -height, width, 0];
+    var supportsListedSizes = sizes != undefined && Array.isArray(sizes) && sizes.length > 0;
+    var supportsListedTiles = tileSize !== undefined && (typeof tileSize === 'number' && Number.isInteger(tileSize) && tileSize > 0 || Array.isArray(tileSize) && tileSize.length > 0);
+    var supportsArbitraryTiling = supports != undefined && Array.isArray(supports) && (supports.includes('regionByPx') || supports.includes('regionByPct')) && (supports.includes('sizeByWh') || supports.includes('sizeByH') || supports.includes('sizeByW') || supports.includes('sizeByPct'));
+    var tileWidth, tileHeight, maxZoom;
+    resolutions.sort(function (a, b) {
+      return b - a;
+    });
+
+    if (supportsListedTiles || supportsArbitraryTiling) {
+      if (tileSize != undefined) {
+        if (typeof tileSize === 'number' && Number.isInteger(tileSize) && tileSize > 0) {
+          tileWidth = tileSize;
+          tileHeight = tileSize;
+        } else if (Array.isArray(tileSize) && tileSize.length > 0) {
+          if (tileSize.length == 1 || tileSize[1] == undefined && Number.isInteger(tileSize[0])) {
+            tileWidth = tileSize[0];
+            tileHeight = tileSize[0];
+          }
+
+          if (tileSize.length == 2) {
+            if (Number.isInteger(tileSize[0]) && Number.isInteger(tileSize[1])) {
+              tileWidth = tileSize[0];
+              tileHeight = tileSize[1];
+            } else if (tileSize[0] == undefined && Number.isInteger(tileSize[1])) {
+              tileWidth = tileSize[1];
+              tileHeight = tileSize[1];
+            }
+          }
+        }
+      }
+
+      if (tileWidth === undefined || tileHeight === undefined) {
+        tileWidth = _common.DEFAULT_TILE_SIZE;
+        tileHeight = _common.DEFAULT_TILE_SIZE;
+      }
+
+      if (resolutions.length == 0) {
+        maxZoom = Math.max(Math.ceil(Math.log(width / tileWidth) / Math.LN2), Math.ceil(Math.log(height / tileHeight) / Math.LN2));
+
+        for (var i = maxZoom; i >= 0; i--) {
+          resolutions.push(Math.pow(2, i));
+        }
+      } else {
+        var maxScaleFactor = Math.max.apply(Math, resolutions); // TODO maxScaleFactor might not be a power to 2
+
+        maxZoom = Math.round(Math.log(maxScaleFactor) / Math.LN2);
+      }
+    } else {
+      // No tile support.
+      tileWidth = width;
+      tileHeight = height;
+      resolutions = [];
+
+      if (supportsListedSizes) {
+        /*
+         * 'sizes' provided. Use full region in different resolutions. Every
+         * resolution has only one tile.
+         */
+        sizes.sort(function (a, b) {
+          return a[0] - b[0];
+        });
+        maxZoom = -1;
+        var ignoredSizesIndex = [];
+
+        for (var i = 0; i < sizes.length; i++) {
+          var resolution = width / sizes[i][0];
+
+          if (resolutions.length > 0 && resolutions[resolutions.length - 1] == resolution) {
+            ignoredSizesIndex.push(i);
+            continue;
+          }
+
+          resolutions.push(resolution);
+          maxZoom++;
+        }
+
+        if (ignoredSizesIndex.length > 0) {
+          for (var i = 0; i < ignoredSizesIndex.length; i++) {
+            sizes.splice(ignoredSizesIndex[i] - i, 1);
+          }
+        }
+      } else {
+        // No useful image information at all. Try pseudo tile with full image.
+        resolutions.push(1);
+        sizes.push([width, height]);
+        maxZoom = 0;
+      }
+    }
+
+    var tileGrid = new _TileGrid.default({
+      tileSize: [tileWidth, tileHeight],
+      extent: extent,
+      origin: (0, _extent.getTopLeft)(extent),
+      resolutions: resolutions
+    });
+
+    var tileUrlFunction = function (tileCoord, pixelRatio, projection) {
+      var regionParam, sizeParam;
+      var zoom = tileCoord[0];
+
+      if (zoom > maxZoom) {
+        return;
+      }
+
+      var tileX = tileCoord[1],
+          tileY = tileCoord[2],
+          scale = resolutions[zoom];
+
+      if (tileX === undefined || tileY === undefined || scale === undefined || tileX < 0 || Math.ceil(width / scale / tileWidth) <= tileX || tileY < 0 || Math.ceil(height / scale / tileHeight) <= tileY) {
+        return;
+      }
+
+      if (supportsArbitraryTiling || supportsListedTiles) {
+        var regionX = tileX * tileWidth * scale,
+            regionY = tileY * tileHeight * scale;
+        var regionW = tileWidth * scale,
+            regionH = tileHeight * scale,
+            sizeW = tileWidth,
+            sizeH = tileHeight;
+
+        if (regionX + regionW > width) {
+          regionW = width - regionX;
+        }
+
+        if (regionY + regionH > height) {
+          regionH = height - regionY;
+        }
+
+        if (regionX + tileWidth * scale > width) {
+          sizeW = Math.floor((width - regionX + scale - 1) / scale);
+        }
+
+        if (regionY + tileHeight * scale > height) {
+          sizeH = Math.floor((height - regionY + scale - 1) / scale);
+        }
+
+        if (regionX == 0 && regionW == width && regionY == 0 && regionH == height) {
+          // canonical full image region parameter is 'full', not 'x,y,w,h'
+          regionParam = 'full';
+        } else if (!supportsArbitraryTiling || supports.includes('regionByPx')) {
+          regionParam = regionX + ',' + regionY + ',' + regionW + ',' + regionH;
+        } else if (supports.includes('regionByPct')) {
+          var pctX = formatPercentage(regionX / width * 100),
+              pctY = formatPercentage(regionY / height * 100),
+              pctW = formatPercentage(regionW / width * 100),
+              pctH = formatPercentage(regionH / height * 100);
+          regionParam = 'pct:' + pctX + ',' + pctY + ',' + pctW + ',' + pctH;
+        }
+
+        if (version == _IIIFInfo.Versions.VERSION3 && (!supportsArbitraryTiling || supports.includes('sizeByWh'))) {
+          sizeParam = sizeW + ',' + sizeH;
+        } else if (!supportsArbitraryTiling || supports.includes('sizeByW')) {
+          sizeParam = sizeW + ',';
+        } else if (supports.includes('sizeByH')) {
+          sizeParam = ',' + sizeH;
+        } else if (supports.includes('sizeByWh')) {
+          sizeParam = sizeW + ',' + sizeH;
+        } else if (supports.includes('sizeByPct')) {
+          sizeParam = 'pct:' + formatPercentage(100 / scale);
+        }
+      } else {
+        regionParam = 'full';
+
+        if (supportsListedSizes) {
+          var regionWidth = sizes[zoom][0],
+              regionHeight = sizes[zoom][1];
+
+          if (version == _IIIFInfo.Versions.VERSION3) {
+            if (regionWidth == width && regionHeight == height) {
+              sizeParam = 'max';
+            } else {
+              sizeParam = regionWidth + ',' + regionHeight;
+            }
+          } else {
+            if (regionWidth == width) {
+              sizeParam = 'full';
+            } else {
+              sizeParam = regionWidth + ',';
+            }
+          }
+        } else {
+          sizeParam = version == _IIIFInfo.Versions.VERSION3 ? 'max' : 'full';
+        }
+      }
+
+      return baseUrl + regionParam + '/' + sizeParam + '/0/' + quality + '.' + format;
+    };
+
+    var IiifTileClass = _Zoomify.CustomTile.bind(null, (0, _size.toSize)(tileSize || 256).map(function (size) {
+      return size * tilePixelRatio;
+    }));
+
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      attributionsCollapsible: options.attributionsCollapsible,
+      cacheSize: options.cacheSize,
+      crossOrigin: options.crossOrigin,
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      reprojectionErrorThreshold: options.reprojectionErrorThreshold,
+      state: options.state,
+      tileClass: IiifTileClass,
+      tileGrid: tileGrid,
+      tilePixelRatio: options.tilePixelRatio,
+      tileUrlFunction: tileUrlFunction,
+      transition: options.transition
+    }) || this;
+    /**
+     * @type {number}
+     */
+
+    _this.zDirection = options.zDirection;
+    return _this;
+  }
+
+  return IIIF;
+}(_TileImage.default);
+
+var _default = IIIF;
+exports.default = _default;
+},{"../tilegrid/TileGrid.js":"node_modules/ol/tilegrid/TileGrid.js","./TileImage.js":"node_modules/ol/source/TileImage.js","./Zoomify.js":"node_modules/ol/source/Zoomify.js","../tilegrid/common.js":"node_modules/ol/tilegrid/common.js","../format/IIIFInfo.js":"node_modules/ol/format/IIIFInfo.js","../asserts.js":"node_modules/ol/asserts.js","../extent.js":"node_modules/ol/extent.js","../size.js":"node_modules/ol/size.js"}],"node_modules/ol/reproj/Image.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _common = require("./common.js");
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _ImageBase = _interopRequireDefault(require("../ImageBase.js"));
+
+var _ImageState = _interopRequireDefault(require("../ImageState.js"));
+
+var _Triangulation = _interopRequireDefault(require("./Triangulation.js"));
+
+var _reproj = require("../reproj.js");
+
+var _extent = require("../extent.js");
+
+var _events = require("../events.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+/**
+ * @module ol/reproj/Image
+ */
+
+
+/**
+ * @typedef {function(import("../extent.js").Extent, number, number) : import("../ImageBase.js").default} FunctionType
+ */
+
+/**
+ * @classdesc
+ * Class encapsulating single reprojected image.
+ * See {@link module:ol/source/Image~ImageSource}.
+ */
+var ReprojImage =
+/** @class */
+function (_super) {
+  __extends(ReprojImage, _super);
+  /**
+   * @param {import("../proj/Projection.js").default} sourceProj Source projection (of the data).
+   * @param {import("../proj/Projection.js").default} targetProj Target projection.
+   * @param {import("../extent.js").Extent} targetExtent Target extent.
+   * @param {number} targetResolution Target resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {FunctionType} getImageFunction
+   *     Function returning source images (extent, resolution, pixelRatio).
+   * @param {object=} opt_contextOptions Properties to set on the canvas context.
+   */
+
+
+  function ReprojImage(sourceProj, targetProj, targetExtent, targetResolution, pixelRatio, getImageFunction, opt_contextOptions) {
+    var _this = this;
+
+    var maxSourceExtent = sourceProj.getExtent();
+    var maxTargetExtent = targetProj.getExtent();
+    var limitedTargetExtent = maxTargetExtent ? (0, _extent.getIntersection)(targetExtent, maxTargetExtent) : targetExtent;
+    var targetCenter = (0, _extent.getCenter)(limitedTargetExtent);
+    var sourceResolution = (0, _reproj.calculateSourceResolution)(sourceProj, targetProj, targetCenter, targetResolution);
+    var errorThresholdInPixels = _common.ERROR_THRESHOLD;
+    var triangulation = new _Triangulation.default(sourceProj, targetProj, limitedTargetExtent, maxSourceExtent, sourceResolution * errorThresholdInPixels, targetResolution);
+    var sourceExtent = triangulation.calculateSourceExtent();
+    var sourceImage = getImageFunction(sourceExtent, sourceResolution, pixelRatio);
+    var state = sourceImage ? _ImageState.default.IDLE : _ImageState.default.EMPTY;
+    var sourcePixelRatio = sourceImage ? sourceImage.getPixelRatio() : 1;
+    _this = _super.call(this, targetExtent, targetResolution, sourcePixelRatio, state) || this;
+    /**
+     * @private
+     * @type {import("../proj/Projection.js").default}
+     */
+
+    _this.targetProj_ = targetProj;
+    /**
+     * @private
+     * @type {import("../extent.js").Extent}
+     */
+
+    _this.maxSourceExtent_ = maxSourceExtent;
+    /**
+     * @private
+     * @type {!import("./Triangulation.js").default}
+     */
+
+    _this.triangulation_ = triangulation;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.targetResolution_ = targetResolution;
+    /**
+     * @private
+     * @type {import("../extent.js").Extent}
+     */
+
+    _this.targetExtent_ = targetExtent;
+    /**
+     * @private
+     * @type {import("../ImageBase.js").default}
+     */
+
+    _this.sourceImage_ = sourceImage;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.sourcePixelRatio_ = sourcePixelRatio;
+    /**
+     * @private
+     * @type {object}
+     */
+
+    _this.contextOptions_ = opt_contextOptions;
+    /**
+     * @private
+     * @type {HTMLCanvasElement}
+     */
+
+    _this.canvas_ = null;
+    /**
+     * @private
+     * @type {?import("../events.js").EventsKey}
+     */
+
+    _this.sourceListenerKey_ = null;
+    return _this;
+  }
+  /**
+   * Clean up.
+   */
+
+
+  ReprojImage.prototype.disposeInternal = function () {
+    if (this.state == _ImageState.default.LOADING) {
+      this.unlistenSource_();
+    }
+
+    _super.prototype.disposeInternal.call(this);
+  };
+  /**
+   * @return {HTMLCanvasElement} Image.
+   */
+
+
+  ReprojImage.prototype.getImage = function () {
+    return this.canvas_;
+  };
+  /**
+   * @return {import("../proj/Projection.js").default} Projection.
+   */
+
+
+  ReprojImage.prototype.getProjection = function () {
+    return this.targetProj_;
+  };
+  /**
+   * @private
+   */
+
+
+  ReprojImage.prototype.reproject_ = function () {
+    var sourceState = this.sourceImage_.getState();
+
+    if (sourceState == _ImageState.default.LOADED) {
+      var width = (0, _extent.getWidth)(this.targetExtent_) / this.targetResolution_;
+      var height = (0, _extent.getHeight)(this.targetExtent_) / this.targetResolution_;
+      this.canvas_ = (0, _reproj.render)(width, height, this.sourcePixelRatio_, this.sourceImage_.getResolution(), this.maxSourceExtent_, this.targetResolution_, this.targetExtent_, this.triangulation_, [{
+        extent: this.sourceImage_.getExtent(),
+        image: this.sourceImage_.getImage()
+      }], 0, undefined, this.contextOptions_);
+    }
+
+    this.state = sourceState;
+    this.changed();
+  };
+  /**
+   * Load not yet loaded URI.
+   */
+
+
+  ReprojImage.prototype.load = function () {
+    if (this.state == _ImageState.default.IDLE) {
+      this.state = _ImageState.default.LOADING;
+      this.changed();
+      var sourceState = this.sourceImage_.getState();
+
+      if (sourceState == _ImageState.default.LOADED || sourceState == _ImageState.default.ERROR) {
+        this.reproject_();
+      } else {
+        this.sourceListenerKey_ = (0, _events.listen)(this.sourceImage_, _EventType.default.CHANGE, function (e) {
+          var sourceState = this.sourceImage_.getState();
+
+          if (sourceState == _ImageState.default.LOADED || sourceState == _ImageState.default.ERROR) {
+            this.unlistenSource_();
+            this.reproject_();
+          }
+        }, this);
+        this.sourceImage_.load();
+      }
+    }
+  };
+  /**
+   * @private
+   */
+
+
+  ReprojImage.prototype.unlistenSource_ = function () {
+    (0, _events.unlistenByKey)(
+    /** @type {!import("../events.js").EventsKey} */
+    this.sourceListenerKey_);
+    this.sourceListenerKey_ = null;
+  };
+
+  return ReprojImage;
+}(_ImageBase.default);
+
+var _default = ReprojImage;
+exports.default = _default;
+},{"./common.js":"node_modules/ol/reproj/common.js","../events/EventType.js":"node_modules/ol/events/EventType.js","../ImageBase.js":"node_modules/ol/ImageBase.js","../ImageState.js":"node_modules/ol/ImageState.js","./Triangulation.js":"node_modules/ol/reproj/Triangulation.js","../reproj.js":"node_modules/ol/reproj.js","../extent.js":"node_modules/ol/extent.js","../events.js":"node_modules/ol/events.js"}],"node_modules/ol/source/Image.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.defaultImageLoadFunction = defaultImageLoadFunction;
+exports.default = exports.ImageSourceEvent = exports.ImageSourceEventType = void 0;
+
+var _Event = _interopRequireDefault(require("../events/Event.js"));
+
+var _ImageState = _interopRequireDefault(require("../ImageState.js"));
+
+var _Image = _interopRequireDefault(require("../reproj/Image.js"));
+
+var _Source = _interopRequireDefault(require("./Source.js"));
+
+var _common = require("../reproj/common.js");
+
+var _common2 = require("./common.js");
+
+var _util = require("../util.js");
+
+var _extent = require("../extent.js");
+
+var _proj = require("../proj.js");
+
+var _array = require("../array.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+/**
+ * @module ol/source/Image
+ */
+
+
+/**
+ * @enum {string}
+ */
+var ImageSourceEventType = {
+  /**
+   * Triggered when an image starts loading.
+   * @event module:ol/source/Image.ImageSourceEvent#imageloadstart
+   * @api
+   */
+  IMAGELOADSTART: 'imageloadstart',
+
+  /**
+   * Triggered when an image finishes loading.
+   * @event module:ol/source/Image.ImageSourceEvent#imageloadend
+   * @api
+   */
+  IMAGELOADEND: 'imageloadend',
+
+  /**
+   * Triggered if image loading results in an error.
+   * @event module:ol/source/Image.ImageSourceEvent#imageloaderror
+   * @api
+   */
+  IMAGELOADERROR: 'imageloaderror'
+};
+/**
+ * @classdesc
+ * Events emitted by {@link module:ol/source/Image~ImageSource} instances are instances of this
+ * type.
+ */
+
+exports.ImageSourceEventType = ImageSourceEventType;
+
+var ImageSourceEvent =
+/** @class */
+function (_super) {
+  __extends(ImageSourceEvent, _super);
+  /**
+   * @param {string} type Type.
+   * @param {import("../Image.js").default} image The image.
+   */
+
+
+  function ImageSourceEvent(type, image) {
+    var _this = _super.call(this, type) || this;
+    /**
+     * The image related to the event.
+     * @type {import("../Image.js").default}
+     * @api
+     */
+
+
+    _this.image = image;
+    return _this;
+  }
+
+  return ImageSourceEvent;
+}(_Event.default);
+
+exports.ImageSourceEvent = ImageSourceEvent;
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions]
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {import("../proj.js").ProjectionLike} [projection]
+ * @property {Array<number>} [resolutions]
+ * @property {import("./State.js").default} [state]
+ */
+
+/**
+ * @classdesc
+ * Abstract base class; normally only used for creating subclasses and not
+ * instantiated in apps.
+ * Base class for sources providing a single image.
+ * @abstract
+ * @fires module:ol/source/Image.ImageSourceEvent
+ * @api
+ */
+var ImageSource =
+/** @class */
+function (_super) {
+  __extends(ImageSource, _super);
+  /**
+   * @param {Options} options Single image source options.
+   */
+
+
+  function ImageSource(options) {
+    var _this = _super.call(this, {
+      attributions: options.attributions,
+      projection: options.projection,
+      state: options.state
+    }) || this;
+    /**
+     * @private
+     * @type {Array<number>}
+     */
+
+
+    _this.resolutions_ = options.resolutions !== undefined ? options.resolutions : null;
+    /**
+     * @private
+     * @type {import("../reproj/Image.js").default}
+     */
+
+    _this.reprojectedImage_ = null;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.reprojectedRevision_ = 0;
+    /**
+     * @private
+     * @type {object|undefined}
+     */
+
+    _this.contextOptions_ = options.imageSmoothing === false ? _common2.IMAGE_SMOOTHING_DISABLED : undefined;
+    return _this;
+  }
+  /**
+   * @return {Array<number>} Resolutions.
+   */
+
+
+  ImageSource.prototype.getResolutions = function () {
+    return this.resolutions_;
+  };
+  /**
+   * @return {Object|undefined} Context options.
+   */
+
+
+  ImageSource.prototype.getContextOptions = function () {
+    return this.contextOptions_;
+  };
+  /**
+   * @protected
+   * @param {number} resolution Resolution.
+   * @return {number} Resolution.
+   */
+
+
+  ImageSource.prototype.findNearestResolution = function (resolution) {
+    if (this.resolutions_) {
+      var idx = (0, _array.linearFindNearest)(this.resolutions_, resolution, 0);
+      resolution = this.resolutions_[idx];
+    }
+
+    return resolution;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../ImageBase.js").default} Single image.
+   */
+
+
+  ImageSource.prototype.getImage = function (extent, resolution, pixelRatio, projection) {
+    var sourceProjection = this.getProjection();
+
+    if (!_common.ENABLE_RASTER_REPROJECTION || !sourceProjection || !projection || (0, _proj.equivalent)(sourceProjection, projection)) {
+      if (sourceProjection) {
+        projection = sourceProjection;
+      }
+
+      return this.getImageInternal(extent, resolution, pixelRatio, projection);
+    } else {
+      if (this.reprojectedImage_) {
+        if (this.reprojectedRevision_ == this.getRevision() && (0, _proj.equivalent)(this.reprojectedImage_.getProjection(), projection) && this.reprojectedImage_.getResolution() == resolution && (0, _extent.equals)(this.reprojectedImage_.getExtent(), extent)) {
+          return this.reprojectedImage_;
+        }
+
+        this.reprojectedImage_.dispose();
+        this.reprojectedImage_ = null;
+      }
+
+      this.reprojectedImage_ = new _Image.default(sourceProjection, projection, extent, resolution, pixelRatio, function (extent, resolution, pixelRatio) {
+        return this.getImageInternal(extent, resolution, pixelRatio, sourceProjection);
+      }.bind(this), this.contextOptions_);
+      this.reprojectedRevision_ = this.getRevision();
+      return this.reprojectedImage_;
+    }
+  };
+  /**
+   * @abstract
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../ImageBase.js").default} Single image.
+   * @protected
+   */
+
+
+  ImageSource.prototype.getImageInternal = function (extent, resolution, pixelRatio, projection) {
+    return (0, _util.abstract)();
+  };
+  /**
+   * Handle image change events.
+   * @param {import("../events/Event.js").default} event Event.
+   * @protected
+   */
+
+
+  ImageSource.prototype.handleImageChange = function (event) {
+    var image =
+    /** @type {import("../Image.js").default} */
+    event.target;
+
+    switch (image.getState()) {
+      case _ImageState.default.LOADING:
+        this.loading = true;
+        this.dispatchEvent(new ImageSourceEvent(ImageSourceEventType.IMAGELOADSTART, image));
+        break;
+
+      case _ImageState.default.LOADED:
+        this.loading = false;
+        this.dispatchEvent(new ImageSourceEvent(ImageSourceEventType.IMAGELOADEND, image));
+        break;
+
+      case _ImageState.default.ERROR:
+        this.loading = false;
+        this.dispatchEvent(new ImageSourceEvent(ImageSourceEventType.IMAGELOADERROR, image));
+        break;
+
+      default: // pass
+
+    }
+  };
+
+  return ImageSource;
+}(_Source.default);
+/**
+ * Default image load function for image sources that use import("../Image.js").Image image
+ * instances.
+ * @param {import("../Image.js").default} image Image.
+ * @param {string} src Source.
+ */
+
+
+function defaultImageLoadFunction(image, src) {
+  /** @type {HTMLImageElement|HTMLVideoElement} */
+  image.getImage().src = src;
+}
+
+var _default = ImageSource;
+exports.default = _default;
+},{"../events/Event.js":"node_modules/ol/events/Event.js","../ImageState.js":"node_modules/ol/ImageState.js","../reproj/Image.js":"node_modules/ol/reproj/Image.js","./Source.js":"node_modules/ol/source/Source.js","../reproj/common.js":"node_modules/ol/reproj/common.js","./common.js":"node_modules/ol/source/common.js","../util.js":"node_modules/ol/util.js","../extent.js":"node_modules/ol/extent.js","../proj.js":"node_modules/ol/proj.js","../array.js":"node_modules/ol/array.js"}],"node_modules/ol/uri.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.appendParams = appendParams;
+
+/**
+ * @module ol/uri
+ */
+
+/**
+ * Appends query parameters to a URI.
+ *
+ * @param {string} uri The original URI, which may already have query data.
+ * @param {!Object} params An object where keys are URI-encoded parameter keys,
+ *     and the values are arbitrary types or arrays.
+ * @return {string} The new URI.
+ */
+function appendParams(uri, params) {
+  var keyParams = []; // Skip any null or undefined parameter values
+
+  Object.keys(params).forEach(function (k) {
+    if (params[k] !== null && params[k] !== undefined) {
+      keyParams.push(k + '=' + encodeURIComponent(params[k]));
+    }
+  });
+  var qs = keyParams.join('&'); // remove any trailing ? or &
+
+  uri = uri.replace(/[?&]$/, ''); // append ? or & depending on whether uri has existing parameters
+
+  uri = uri.indexOf('?') === -1 ? uri + '?' : uri + '&';
+  return uri + qs;
+}
+},{}],"node_modules/ol/source/ImageArcGISRest.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _Image = _interopRequireWildcard(require("./Image.js"));
+
+var _Image2 = _interopRequireDefault(require("../Image.js"));
+
+var _uri = require("../uri.js");
+
+var _asserts = require("../asserts.js");
+
+var _obj = require("../obj.js");
+
+var _extent = require("../extent.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/ImageArcGISRest
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {boolean} [hidpi=true] Use the `ol/Map#pixelRatio` value when requesting the image from
+ * the remote server.
+ * @property {import("../Image.js").LoadFunction} [imageLoadFunction] Optional function to load an image given
+ * a URL.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {Object<string,*>} [params] ArcGIS Rest parameters. This field is optional. Service
+ * defaults will be used for any fields not specified. `FORMAT` is `PNG32` by default. `F` is
+ * `IMAGE` by default. `TRANSPARENT` is `true` by default.  `BBOX`, `SIZE`, `BBOXSR`, and `IMAGESR`
+ * will be set dynamically. Set `LAYERS` to override the default service layer visibility. See
+ * {@link http://resources.arcgis.com/en/help/arcgis-rest-api/index.html#/Export_Map/02r3000000v7000000/}
+ * for further reference.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {number} [ratio=1.5] Ratio. `1` means image requests are the size of the map viewport,
+ * `2` means twice the size of the map viewport, and so on.
+ * @property {Array<number>} [resolutions] Resolutions. If specified, requests will be made for
+ * these resolutions only.
+ * @property {string} [url] ArcGIS Rest service URL for a Map Service or Image Service. The url
+ * should include /MapServer or /ImageServer.
+ */
+
+/**
+ * @classdesc
+ * Source for data from ArcGIS Rest services providing single, untiled images.
+ * Useful when underlying map service has labels.
+ *
+ * If underlying map service is not using labels,
+ * take advantage of ol image caching and use
+ * {@link module:ol/source/TileArcGISRest} data source.
+ *
+ * @fires module:ol/source/Image.ImageSourceEvent
+ * @api
+ */
+var ImageArcGISRest =
+/** @class */
+function (_super) {
+  __extends(ImageArcGISRest, _super);
+  /**
+   * @param {Options=} opt_options Image ArcGIS Rest Options.
+   */
+
+
+  function ImageArcGISRest(opt_options) {
+    var _this = this;
+
+    var options = opt_options ? opt_options : {};
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      resolutions: options.resolutions
+    }) || this;
+    /**
+     * @private
+     * @type {?string}
+     */
+
+    _this.crossOrigin_ = options.crossOrigin !== undefined ? options.crossOrigin : null;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.hidpi_ = options.hidpi !== undefined ? options.hidpi : true;
+    /**
+     * @private
+     * @type {string|undefined}
+     */
+
+    _this.url_ = options.url;
+    /**
+     * @private
+     * @type {import("../Image.js").LoadFunction}
+     */
+
+    _this.imageLoadFunction_ = options.imageLoadFunction !== undefined ? options.imageLoadFunction : _Image.defaultImageLoadFunction;
+    /**
+     * @private
+     * @type {!Object}
+     */
+
+    _this.params_ = options.params || {};
+    /**
+     * @private
+     * @type {import("../Image.js").default}
+     */
+
+    _this.image_ = null;
+    /**
+     * @private
+     * @type {import("../size.js").Size}
+     */
+
+    _this.imageSize_ = [0, 0];
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.renderedRevision_ = 0;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.ratio_ = options.ratio !== undefined ? options.ratio : 1.5;
+    return _this;
+  }
+  /**
+   * Get the user-provided params, i.e. those passed to the constructor through
+   * the "params" option, and possibly updated using the updateParams method.
+   * @return {Object} Params.
+   * @api
+   */
+
+
+  ImageArcGISRest.prototype.getParams = function () {
+    return this.params_;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../Image.js").default} Single image.
+   */
+
+
+  ImageArcGISRest.prototype.getImageInternal = function (extent, resolution, pixelRatio, projection) {
+    if (this.url_ === undefined) {
+      return null;
+    }
+
+    resolution = this.findNearestResolution(resolution);
+    pixelRatio = this.hidpi_ ? pixelRatio : 1;
+    var image = this.image_;
+
+    if (image && this.renderedRevision_ == this.getRevision() && image.getResolution() == resolution && image.getPixelRatio() == pixelRatio && (0, _extent.containsExtent)(image.getExtent(), extent)) {
+      return image;
+    }
+
+    var params = {
+      'F': 'image',
+      'FORMAT': 'PNG32',
+      'TRANSPARENT': true
+    };
+    (0, _obj.assign)(params, this.params_);
+    extent = extent.slice();
+    var centerX = (extent[0] + extent[2]) / 2;
+    var centerY = (extent[1] + extent[3]) / 2;
+
+    if (this.ratio_ != 1) {
+      var halfWidth = this.ratio_ * (0, _extent.getWidth)(extent) / 2;
+      var halfHeight = this.ratio_ * (0, _extent.getHeight)(extent) / 2;
+      extent[0] = centerX - halfWidth;
+      extent[1] = centerY - halfHeight;
+      extent[2] = centerX + halfWidth;
+      extent[3] = centerY + halfHeight;
+    }
+
+    var imageResolution = resolution / pixelRatio; // Compute an integer width and height.
+
+    var width = Math.ceil((0, _extent.getWidth)(extent) / imageResolution);
+    var height = Math.ceil((0, _extent.getHeight)(extent) / imageResolution); // Modify the extent to match the integer width and height.
+
+    extent[0] = centerX - imageResolution * width / 2;
+    extent[2] = centerX + imageResolution * width / 2;
+    extent[1] = centerY - imageResolution * height / 2;
+    extent[3] = centerY + imageResolution * height / 2;
+    this.imageSize_[0] = width;
+    this.imageSize_[1] = height;
+    var url = this.getRequestUrl_(extent, this.imageSize_, pixelRatio, projection, params);
+    this.image_ = new _Image2.default(extent, resolution, pixelRatio, url, this.crossOrigin_, this.imageLoadFunction_);
+    this.renderedRevision_ = this.getRevision();
+    this.image_.addEventListener(_EventType.default.CHANGE, this.handleImageChange.bind(this));
+    return this.image_;
+  };
+  /**
+   * Return the image load function of the source.
+   * @return {import("../Image.js").LoadFunction} The image load function.
+   * @api
+   */
+
+
+  ImageArcGISRest.prototype.getImageLoadFunction = function () {
+    return this.imageLoadFunction_;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {import("../size.js").Size} size Size.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @param {Object} params Params.
+   * @return {string} Request URL.
+   * @private
+   */
+
+
+  ImageArcGISRest.prototype.getRequestUrl_ = function (extent, size, pixelRatio, projection, params) {
+    // ArcGIS Server only wants the numeric portion of the projection ID.
+    var srid = projection.getCode().split(':').pop();
+    params['SIZE'] = size[0] + ',' + size[1];
+    params['BBOX'] = extent.join(',');
+    params['BBOXSR'] = srid;
+    params['IMAGESR'] = srid;
+    params['DPI'] = Math.round(90 * pixelRatio);
+    var url = this.url_;
+    var modifiedUrl = url.replace(/MapServer\/?$/, 'MapServer/export').replace(/ImageServer\/?$/, 'ImageServer/exportImage');
+
+    if (modifiedUrl == url) {
+      (0, _asserts.assert)(false, 50); // `options.featureTypes` should be an Array
+    }
+
+    return (0, _uri.appendParams)(modifiedUrl, params);
+  };
+  /**
+   * Return the URL used for this ArcGIS source.
+   * @return {string|undefined} URL.
+   * @api
+   */
+
+
+  ImageArcGISRest.prototype.getUrl = function () {
+    return this.url_;
+  };
+  /**
+   * Set the image load function of the source.
+   * @param {import("../Image.js").LoadFunction} imageLoadFunction Image load function.
+   * @api
+   */
+
+
+  ImageArcGISRest.prototype.setImageLoadFunction = function (imageLoadFunction) {
+    this.image_ = null;
+    this.imageLoadFunction_ = imageLoadFunction;
+    this.changed();
+  };
+  /**
+   * Set the URL to use for requests.
+   * @param {string|undefined} url URL.
+   * @api
+   */
+
+
+  ImageArcGISRest.prototype.setUrl = function (url) {
+    if (url != this.url_) {
+      this.url_ = url;
+      this.image_ = null;
+      this.changed();
+    }
+  };
+  /**
+   * Update the user-provided params.
+   * @param {Object} params Params.
+   * @api
+   */
+
+
+  ImageArcGISRest.prototype.updateParams = function (params) {
+    (0, _obj.assign)(this.params_, params);
+    this.image_ = null;
+    this.changed();
+  };
+
+  return ImageArcGISRest;
+}(_Image.default);
+
+var _default = ImageArcGISRest;
+exports.default = _default;
+},{"../events/EventType.js":"node_modules/ol/events/EventType.js","./Image.js":"node_modules/ol/source/Image.js","../Image.js":"node_modules/ol/Image.js","../uri.js":"node_modules/ol/uri.js","../asserts.js":"node_modules/ol/asserts.js","../obj.js":"node_modules/ol/obj.js","../extent.js":"node_modules/ol/extent.js"}],"node_modules/ol/source/ImageCanvas.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _ImageCanvas = _interopRequireDefault(require("../ImageCanvas.js"));
+
+var _Image = _interopRequireDefault(require("./Image.js"));
+
+var _extent = require("../extent.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/ImageCanvas
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * A function returning the canvas element (`{HTMLCanvasElement}`)
+ * used by the source as an image. The arguments passed to the function are:
+ * {@link module:ol/extent~Extent} the image extent, `{number}` the image resolution,
+ * `{number}` the device pixel ratio, {@link module:ol/size~Size} the image size, and
+ * {@link module:ol/proj/Projection} the image projection. The canvas returned by
+ * this function is cached by the source. The this keyword inside the function
+ * references the {@link module:ol/source/ImageCanvas}.
+ *
+ * @typedef {function(this:import("../ImageCanvas.js").default, import("../extent.js").Extent, number,
+ *     number, import("../size.js").Size, import("../proj/Projection.js").default): HTMLCanvasElement} FunctionType
+ */
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {FunctionType} [canvasFunction] Canvas function.
+ * The function returning the canvas element used by the source
+ * as an image. The arguments passed to the function are: `{import("../extent.js").Extent}` the
+ * image extent, `{number}` the image resolution, `{number}` the device pixel
+ * ratio, `{import("../size.js").Size}` the image size, and `{import("../proj/Projection.js").Projection}` the image
+ * projection. The canvas returned by this function is cached by the source. If
+ * the value returned by the function is later changed then
+ * `changed` should be called on the source for the source to
+ * invalidate the current cached image. See: {@link module:ol/Observable~Observable#changed}
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {number} [ratio=1.5] Ratio. 1 means canvases are the size of the map viewport, 2 means twice the
+ * width and height of the map viewport, and so on. Must be `1` or higher.
+ * @property {Array<number>} [resolutions] Resolutions.
+ * If specified, new canvases will be created for these resolutions
+ * @property {import("./State.js").default} [state] Source state.
+ */
+
+/**
+ * @classdesc
+ * Base class for image sources where a canvas element is the image.
+ * @api
+ */
+var ImageCanvasSource =
+/** @class */
+function (_super) {
+  __extends(ImageCanvasSource, _super);
+  /**
+   * @param {Options=} opt_options ImageCanvas options.
+   */
+
+
+  function ImageCanvasSource(opt_options) {
+    var _this = this;
+
+    var options = opt_options ? opt_options : {};
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      resolutions: options.resolutions,
+      state: options.state
+    }) || this;
+    /**
+     * @private
+     * @type {FunctionType}
+     */
+
+    _this.canvasFunction_ = options.canvasFunction;
+    /**
+     * @private
+     * @type {import("../ImageCanvas.js").default}
+     */
+
+    _this.canvas_ = null;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.renderedRevision_ = 0;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.ratio_ = options.ratio !== undefined ? options.ratio : 1.5;
+    return _this;
+  }
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../ImageCanvas.js").default} Single image.
+   */
+
+
+  ImageCanvasSource.prototype.getImageInternal = function (extent, resolution, pixelRatio, projection) {
+    resolution = this.findNearestResolution(resolution);
+    var canvas = this.canvas_;
+
+    if (canvas && this.renderedRevision_ == this.getRevision() && canvas.getResolution() == resolution && canvas.getPixelRatio() == pixelRatio && (0, _extent.containsExtent)(canvas.getExtent(), extent)) {
+      return canvas;
+    }
+
+    extent = extent.slice();
+    (0, _extent.scaleFromCenter)(extent, this.ratio_);
+    var width = (0, _extent.getWidth)(extent) / resolution;
+    var height = (0, _extent.getHeight)(extent) / resolution;
+    var size = [width * pixelRatio, height * pixelRatio];
+    var canvasElement = this.canvasFunction_.call(this, extent, resolution, pixelRatio, size, projection);
+
+    if (canvasElement) {
+      canvas = new _ImageCanvas.default(extent, resolution, pixelRatio, canvasElement);
+    }
+
+    this.canvas_ = canvas;
+    this.renderedRevision_ = this.getRevision();
+    return canvas;
+  };
+
+  return ImageCanvasSource;
+}(_Image.default);
+
+var _default = ImageCanvasSource;
+exports.default = _default;
+},{"../ImageCanvas.js":"node_modules/ol/ImageCanvas.js","./Image.js":"node_modules/ol/source/Image.js","../extent.js":"node_modules/ol/extent.js"}],"node_modules/ol/source/ImageMapGuide.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _Image = _interopRequireWildcard(require("./Image.js"));
+
+var _Image2 = _interopRequireDefault(require("../Image.js"));
+
+var _uri = require("../uri.js");
+
+var _obj = require("../obj.js");
+
+var _extent = require("../extent.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/ImageMapGuide
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {string} [url] The mapagent url.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {number} [displayDpi=96] The display resolution.
+ * @property {number} [metersPerUnit=1] The meters-per-unit value.
+ * @property {boolean} [hidpi=true] Use the `ol/Map#pixelRatio` value when requesting
+ * the image from the remote server.
+ * @property {boolean} [useOverlay] If `true`, will use `GETDYNAMICMAPOVERLAYIMAGE`.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {number} [ratio=1] Ratio. `1` means image requests are the size of the map viewport, `2` means
+ * twice the width and height of the map viewport, and so on. Must be `1` or higher.
+ * @property {Array<number>} [resolutions] Resolutions.
+ * If specified, requests will be made for these resolutions only.
+ * @property {import("../Image.js").LoadFunction} [imageLoadFunction] Optional function to load an image given a URL.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {Object} [params] Additional parameters.
+ */
+
+/**
+ * @classdesc
+ * Source for images from Mapguide servers
+ *
+ * @fires module:ol/source/Image.ImageSourceEvent
+ * @api
+ */
+var ImageMapGuide =
+/** @class */
+function (_super) {
+  __extends(ImageMapGuide, _super);
+  /**
+   * @param {Options} options ImageMapGuide options.
+   */
+
+
+  function ImageMapGuide(options) {
+    var _this = _super.call(this, {
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      resolutions: options.resolutions
+    }) || this;
+    /**
+     * @private
+     * @type {?string}
+     */
+
+
+    _this.crossOrigin_ = options.crossOrigin !== undefined ? options.crossOrigin : null;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.displayDpi_ = options.displayDpi !== undefined ? options.displayDpi : 96;
+    /**
+     * @private
+     * @type {!Object}
+     */
+
+    _this.params_ = options.params || {};
+    /**
+     * @private
+     * @type {string|undefined}
+     */
+
+    _this.url_ = options.url;
+    /**
+     * @private
+     * @type {import("../Image.js").LoadFunction}
+     */
+
+    _this.imageLoadFunction_ = options.imageLoadFunction !== undefined ? options.imageLoadFunction : _Image.defaultImageLoadFunction;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.hidpi_ = options.hidpi !== undefined ? options.hidpi : true;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.metersPerUnit_ = options.metersPerUnit !== undefined ? options.metersPerUnit : 1;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.ratio_ = options.ratio !== undefined ? options.ratio : 1;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.useOverlay_ = options.useOverlay !== undefined ? options.useOverlay : false;
+    /**
+     * @private
+     * @type {import("../Image.js").default}
+     */
+
+    _this.image_ = null;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.renderedRevision_ = 0;
+    return _this;
+  }
+  /**
+   * Get the user-provided params, i.e. those passed to the constructor through
+   * the "params" option, and possibly updated using the updateParams method.
+   * @return {Object} Params.
+   * @api
+   */
+
+
+  ImageMapGuide.prototype.getParams = function () {
+    return this.params_;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../Image.js").default} Single image.
+   */
+
+
+  ImageMapGuide.prototype.getImageInternal = function (extent, resolution, pixelRatio, projection) {
+    resolution = this.findNearestResolution(resolution);
+    pixelRatio = this.hidpi_ ? pixelRatio : 1;
+    var image = this.image_;
+
+    if (image && this.renderedRevision_ == this.getRevision() && image.getResolution() == resolution && image.getPixelRatio() == pixelRatio && (0, _extent.containsExtent)(image.getExtent(), extent)) {
+      return image;
+    }
+
+    if (this.ratio_ != 1) {
+      extent = extent.slice();
+      (0, _extent.scaleFromCenter)(extent, this.ratio_);
+    }
+
+    var width = (0, _extent.getWidth)(extent) / resolution;
+    var height = (0, _extent.getHeight)(extent) / resolution;
+    var size = [width * pixelRatio, height * pixelRatio];
+
+    if (this.url_ !== undefined) {
+      var imageUrl = this.getUrl(this.url_, this.params_, extent, size, projection);
+      image = new _Image2.default(extent, resolution, pixelRatio, imageUrl, this.crossOrigin_, this.imageLoadFunction_);
+      image.addEventListener(_EventType.default.CHANGE, this.handleImageChange.bind(this));
+    } else {
+      image = null;
+    }
+
+    this.image_ = image;
+    this.renderedRevision_ = this.getRevision();
+    return image;
+  };
+  /**
+   * Return the image load function of the source.
+   * @return {import("../Image.js").LoadFunction} The image load function.
+   * @api
+   */
+
+
+  ImageMapGuide.prototype.getImageLoadFunction = function () {
+    return this.imageLoadFunction_;
+  };
+  /**
+   * Update the user-provided params.
+   * @param {Object} params Params.
+   * @api
+   */
+
+
+  ImageMapGuide.prototype.updateParams = function (params) {
+    (0, _obj.assign)(this.params_, params);
+    this.changed();
+  };
+  /**
+   * @param {string} baseUrl The mapagent url.
+   * @param {Object<string, string|number>} params Request parameters.
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {import("../size.js").Size} size Size.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {string} The mapagent map image request URL.
+   */
+
+
+  ImageMapGuide.prototype.getUrl = function (baseUrl, params, extent, size, projection) {
+    var scale = getScale(extent, size, this.metersPerUnit_, this.displayDpi_);
+    var center = (0, _extent.getCenter)(extent);
+    var baseParams = {
+      'OPERATION': this.useOverlay_ ? 'GETDYNAMICMAPOVERLAYIMAGE' : 'GETMAPIMAGE',
+      'VERSION': '2.0.0',
+      'LOCALE': 'en',
+      'CLIENTAGENT': 'ol/source/ImageMapGuide source',
+      'CLIP': '1',
+      'SETDISPLAYDPI': this.displayDpi_,
+      'SETDISPLAYWIDTH': Math.round(size[0]),
+      'SETDISPLAYHEIGHT': Math.round(size[1]),
+      'SETVIEWSCALE': scale,
+      'SETVIEWCENTERX': center[0],
+      'SETVIEWCENTERY': center[1]
+    };
+    (0, _obj.assign)(baseParams, params);
+    return (0, _uri.appendParams)(baseUrl, baseParams);
+  };
+  /**
+   * Set the image load function of the MapGuide source.
+   * @param {import("../Image.js").LoadFunction} imageLoadFunction Image load function.
+   * @api
+   */
+
+
+  ImageMapGuide.prototype.setImageLoadFunction = function (imageLoadFunction) {
+    this.image_ = null;
+    this.imageLoadFunction_ = imageLoadFunction;
+    this.changed();
+  };
+
+  return ImageMapGuide;
+}(_Image.default);
+/**
+ * @param {import("../extent.js").Extent} extent The map extents.
+ * @param {import("../size.js").Size} size The viewport size.
+ * @param {number} metersPerUnit The meters-per-unit value.
+ * @param {number} dpi The display resolution.
+ * @return {number} The computed map scale.
+ */
+
+
+function getScale(extent, size, metersPerUnit, dpi) {
+  var mcsW = (0, _extent.getWidth)(extent);
+  var mcsH = (0, _extent.getHeight)(extent);
+  var devW = size[0];
+  var devH = size[1];
+  var mpp = 0.0254 / dpi;
+
+  if (devH * mcsW > devW * mcsH) {
+    return mcsW * metersPerUnit / (devW * mpp); // width limited
+  } else {
+    return mcsH * metersPerUnit / (devH * mpp); // height limited
+  }
+}
+
+var _default = ImageMapGuide;
+exports.default = _default;
+},{"../events/EventType.js":"node_modules/ol/events/EventType.js","./Image.js":"node_modules/ol/source/Image.js","../Image.js":"node_modules/ol/Image.js","../uri.js":"node_modules/ol/uri.js","../obj.js":"node_modules/ol/obj.js","../extent.js":"node_modules/ol/extent.js"}],"node_modules/ol/source/ImageStatic.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _Image = _interopRequireWildcard(require("./Image.js"));
+
+var _ImageState = _interopRequireDefault(require("../ImageState.js"));
+
+var _Image2 = _interopRequireDefault(require("../Image.js"));
+
+var _obj = require("../obj.js");
+
+var _dom = require("../dom.js");
+
+var _extent = require("../extent.js");
+
+var _proj = require("../proj.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/ImageStatic
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {import("../extent.js").Extent} [imageExtent] Extent of the image in map coordinates.
+ * This is the [left, bottom, right, top] map coordinates of your image.
+ * @property {import("../Image.js").LoadFunction} [imageLoadFunction] Optional function to load an image given a URL.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {import("../size.js").Size} [imageSize] Size of the image in pixels. Usually the image size is auto-detected, so this
+ * only needs to be set if auto-detection fails for some reason.
+ * @property {string} url Image URL.
+ */
+
+/**
+ * @classdesc
+ * A layer source for displaying a single, static image.
+ * @api
+ */
+var Static =
+/** @class */
+function (_super) {
+  __extends(Static, _super);
+  /**
+   * @param {Options} options ImageStatic options.
+   */
+
+
+  function Static(options) {
+    var _this = this;
+
+    var crossOrigin = options.crossOrigin !== undefined ? options.crossOrigin : null;
+    var
+    /** @type {import("../Image.js").LoadFunction} */
+    imageLoadFunction = options.imageLoadFunction !== undefined ? options.imageLoadFunction : _Image.defaultImageLoadFunction;
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      imageSmoothing: options.imageSmoothing,
+      projection: (0, _proj.get)(options.projection)
+    }) || this;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.url_ = options.url;
+    /**
+     * @private
+     * @type {import("../extent.js").Extent}
+     */
+
+    _this.imageExtent_ = options.imageExtent;
+    /**
+     * @private
+     * @type {import("../Image.js").default}
+     */
+
+    _this.image_ = new _Image2.default(_this.imageExtent_, undefined, 1, _this.url_, crossOrigin, imageLoadFunction);
+    /**
+     * @private
+     * @type {import("../size.js").Size}
+     */
+
+    _this.imageSize_ = options.imageSize ? options.imageSize : null;
+
+    _this.image_.addEventListener(_EventType.default.CHANGE, _this.handleImageChange.bind(_this));
+
+    return _this;
+  }
+  /**
+   * Returns the image extent
+   * @return {import("../extent.js").Extent} image extent.
+   * @api
+   */
+
+
+  Static.prototype.getImageExtent = function () {
+    return this.imageExtent_;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../Image.js").default} Single image.
+   */
+
+
+  Static.prototype.getImageInternal = function (extent, resolution, pixelRatio, projection) {
+    if ((0, _extent.intersects)(extent, this.image_.getExtent())) {
+      return this.image_;
+    }
+
+    return null;
+  };
+  /**
+   * Return the URL used for this image source.
+   * @return {string} URL.
+   * @api
+   */
+
+
+  Static.prototype.getUrl = function () {
+    return this.url_;
+  };
+  /**
+   * @param {import("../events/Event.js").default} evt Event.
+   */
+
+
+  Static.prototype.handleImageChange = function (evt) {
+    if (this.image_.getState() == _ImageState.default.LOADED) {
+      var imageExtent = this.image_.getExtent();
+      var image = this.image_.getImage();
+      var imageWidth = void 0,
+          imageHeight = void 0;
+
+      if (this.imageSize_) {
+        imageWidth = this.imageSize_[0];
+        imageHeight = this.imageSize_[1];
+      } else {
+        imageWidth = image.width;
+        imageHeight = image.height;
+      }
+
+      var resolution = (0, _extent.getHeight)(imageExtent) / imageHeight;
+      var targetWidth = Math.ceil((0, _extent.getWidth)(imageExtent) / resolution);
+
+      if (targetWidth != imageWidth) {
+        var context = (0, _dom.createCanvasContext2D)(targetWidth, imageHeight);
+        (0, _obj.assign)(context, this.getContextOptions());
+        var canvas = context.canvas;
+        context.drawImage(image, 0, 0, imageWidth, imageHeight, 0, 0, canvas.width, canvas.height);
+        this.image_.setImage(canvas);
+      }
+    }
+
+    _super.prototype.handleImageChange.call(this, evt);
+  };
+
+  return Static;
+}(_Image.default);
+
+var _default = Static;
+exports.default = _default;
+},{"../events/EventType.js":"node_modules/ol/events/EventType.js","./Image.js":"node_modules/ol/source/Image.js","../ImageState.js":"node_modules/ol/ImageState.js","../Image.js":"node_modules/ol/Image.js","../obj.js":"node_modules/ol/obj.js","../dom.js":"node_modules/ol/dom.js","../extent.js":"node_modules/ol/extent.js","../proj.js":"node_modules/ol/proj.js"}],"node_modules/ol/source/WMSServerType.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+/**
+ * @module ol/source/WMSServerType
+ */
+
+/**
+ * Available server types: `'carmentaserver'`, `'geoserver'`, `'mapserver'`,
+ *     `'qgis'`. These are servers that have vendor parameters beyond the WMS
+ *     specification that OpenLayers can make use of.
+ * @enum {string}
+ */
+var _default = {
+  /**
+   * HiDPI support for [Carmenta Server](https://www.carmenta.com/en/products/carmenta-server)
+   * @api
+   */
+  CARMENTA_SERVER: 'carmentaserver',
+
+  /**
+   * HiDPI support for [GeoServer](https://geoserver.org/)
+   * @api
+   */
+  GEOSERVER: 'geoserver',
+
+  /**
+   * HiDPI support for [MapServer](https://mapserver.org/)
+   * @api
+   */
+  MAPSERVER: 'mapserver',
+
+  /**
+   * HiDPI support for [QGIS](https://qgis.org/)
+   * @api
+   */
+  QGIS: 'qgis'
+};
+exports.default = _default;
+},{}],"node_modules/ol/source/ImageWMS.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _common = require("./common.js");
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _Image = _interopRequireWildcard(require("./Image.js"));
+
+var _Image2 = _interopRequireDefault(require("../Image.js"));
+
+var _WMSServerType = _interopRequireDefault(require("./WMSServerType.js"));
+
+var _uri = require("../uri.js");
+
+var _asserts = require("../asserts.js");
+
+var _obj = require("../obj.js");
+
+var _reproj = require("../reproj.js");
+
+var _string = require("../string.js");
+
+var _extent = require("../extent.js");
+
+var _proj = require("../proj.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/ImageWMS
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @const
+ * @type {import("../size.js").Size}
+ */
+var GETFEATUREINFO_IMAGE_SIZE = [101, 101];
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {boolean} [hidpi=true] Use the `ol/Map#pixelRatio` value when requesting
+ * the image from the remote server.
+ * @property {import("./WMSServerType.js").default|string} [serverType] The type of
+ * the remote WMS server: `mapserver`, `geoserver` or `qgis`. Only needed if `hidpi` is `true`.
+ * @property {import("../Image.js").LoadFunction} [imageLoadFunction] Optional function to load an image given a URL.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {Object<string,*>} params WMS request parameters.
+ * At least a `LAYERS` param is required. `STYLES` is
+ * `''` by default. `VERSION` is `1.3.0` by default. `WIDTH`, `HEIGHT`, `BBOX`
+ * and `CRS` (`SRS` for WMS version < 1.3.0) will be set dynamically.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {number} [ratio=1.5] Ratio. `1` means image requests are the size of the map viewport, `2` means
+ * twice the width and height of the map viewport, and so on. Must be `1` or
+ * higher.
+ * @property {Array<number>} [resolutions] Resolutions.
+ * If specified, requests will be made for these resolutions only.
+ * @property {string} url WMS service URL.
+ */
+
+/**
+ * @classdesc
+ * Source for WMS servers providing single, untiled images.
+ *
+ * @fires module:ol/source/Image.ImageSourceEvent
+ * @api
+ */
+
+var ImageWMS =
+/** @class */
+function (_super) {
+  __extends(ImageWMS, _super);
+  /**
+   * @param {Options=} [opt_options] ImageWMS options.
+   */
+
+
+  function ImageWMS(opt_options) {
+    var _this = this;
+
+    var options = opt_options ? opt_options : {};
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      resolutions: options.resolutions
+    }) || this;
+    /**
+     * @private
+     * @type {?string}
+     */
+
+    _this.crossOrigin_ = options.crossOrigin !== undefined ? options.crossOrigin : null;
+    /**
+     * @private
+     * @type {string|undefined}
+     */
+
+    _this.url_ = options.url;
+    /**
+     * @private
+     * @type {import("../Image.js").LoadFunction}
+     */
+
+    _this.imageLoadFunction_ = options.imageLoadFunction !== undefined ? options.imageLoadFunction : _Image.defaultImageLoadFunction;
+    /**
+     * @private
+     * @type {!Object}
+     */
+
+    _this.params_ = options.params || {};
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.v13_ = true;
+
+    _this.updateV13_();
+    /**
+     * @private
+     * @type {import("./WMSServerType.js").default|undefined}
+     */
+
+
+    _this.serverType_ =
+    /** @type {import("./WMSServerType.js").default|undefined} */
+    options.serverType;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.hidpi_ = options.hidpi !== undefined ? options.hidpi : true;
+    /**
+     * @private
+     * @type {import("../Image.js").default}
+     */
+
+    _this.image_ = null;
+    /**
+     * @private
+     * @type {import("../size.js").Size}
+     */
+
+    _this.imageSize_ = [0, 0];
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.renderedRevision_ = 0;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.ratio_ = options.ratio !== undefined ? options.ratio : 1.5;
+    return _this;
+  }
+  /**
+   * Return the GetFeatureInfo URL for the passed coordinate, resolution, and
+   * projection. Return `undefined` if the GetFeatureInfo URL cannot be
+   * constructed.
+   * @param {import("../coordinate.js").Coordinate} coordinate Coordinate.
+   * @param {number} resolution Resolution.
+   * @param {import("../proj.js").ProjectionLike} projection Projection.
+   * @param {!Object} params GetFeatureInfo params. `INFO_FORMAT` at least should
+   *     be provided. If `QUERY_LAYERS` is not provided then the layers specified
+   *     in the `LAYERS` parameter will be used. `VERSION` should not be
+   *     specified here.
+   * @return {string|undefined} GetFeatureInfo URL.
+   * @api
+   */
+
+
+  ImageWMS.prototype.getFeatureInfoUrl = function (coordinate, resolution, projection, params) {
+    if (this.url_ === undefined) {
+      return undefined;
+    }
+
+    var projectionObj = (0, _proj.get)(projection);
+    var sourceProjectionObj = this.getProjection();
+
+    if (sourceProjectionObj && sourceProjectionObj !== projectionObj) {
+      resolution = (0, _reproj.calculateSourceResolution)(sourceProjectionObj, projectionObj, coordinate, resolution);
+      coordinate = (0, _proj.transform)(coordinate, projectionObj, sourceProjectionObj);
+    }
+
+    var extent = (0, _extent.getForViewAndSize)(coordinate, resolution, 0, GETFEATUREINFO_IMAGE_SIZE);
+    var baseParams = {
+      'SERVICE': 'WMS',
+      'VERSION': _common.DEFAULT_WMS_VERSION,
+      'REQUEST': 'GetFeatureInfo',
+      'FORMAT': 'image/png',
+      'TRANSPARENT': true,
+      'QUERY_LAYERS': this.params_['LAYERS']
+    };
+    (0, _obj.assign)(baseParams, this.params_, params);
+    var x = Math.floor((coordinate[0] - extent[0]) / resolution);
+    var y = Math.floor((extent[3] - coordinate[1]) / resolution);
+    baseParams[this.v13_ ? 'I' : 'X'] = x;
+    baseParams[this.v13_ ? 'J' : 'Y'] = y;
+    return this.getRequestUrl_(extent, GETFEATUREINFO_IMAGE_SIZE, 1, sourceProjectionObj || projectionObj, baseParams);
+  };
+  /**
+   * Return the GetLegendGraphic URL, optionally optimized for the passed
+   * resolution and possibly including any passed specific parameters. Returns
+   * `undefined` if the GetLegendGraphic URL cannot be constructed.
+   *
+   * @param {number} [resolution] Resolution. If set to undefined, `SCALE`
+   *     will not be calculated and included in URL.
+   * @param {Object} [params] GetLegendGraphic params. If `LAYER` is set, the
+   *     request is generated for this wms layer, else it will try to use the
+   *     configured wms layer. Default `FORMAT` is `image/png`.
+   *     `VERSION` should not be specified here.
+   * @return {string|undefined} GetLegendGraphic URL.
+   * @api
+   */
+
+
+  ImageWMS.prototype.getLegendUrl = function (resolution, params) {
+    if (this.url_ === undefined) {
+      return undefined;
+    }
+
+    var baseParams = {
+      'SERVICE': 'WMS',
+      'VERSION': _common.DEFAULT_WMS_VERSION,
+      'REQUEST': 'GetLegendGraphic',
+      'FORMAT': 'image/png'
+    };
+
+    if (params === undefined || params['LAYER'] === undefined) {
+      var layers = this.params_.LAYERS;
+      var isSingleLayer = !Array.isArray(layers) || layers.length === 1;
+
+      if (!isSingleLayer) {
+        return undefined;
+      }
+
+      baseParams['LAYER'] = layers;
+    }
+
+    if (resolution !== undefined) {
+      var mpu = this.getProjection() ? this.getProjection().getMetersPerUnit() : 1;
+      var pixelSize = 0.00028;
+      baseParams['SCALE'] = resolution * mpu / pixelSize;
+    }
+
+    (0, _obj.assign)(baseParams, params);
+    return (0, _uri.appendParams)(
+    /** @type {string} */
+    this.url_, baseParams);
+  };
+  /**
+   * Get the user-provided params, i.e. those passed to the constructor through
+   * the "params" option, and possibly updated using the updateParams method.
+   * @return {Object} Params.
+   * @api
+   */
+
+
+  ImageWMS.prototype.getParams = function () {
+    return this.params_;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../Image.js").default} Single image.
+   */
+
+
+  ImageWMS.prototype.getImageInternal = function (extent, resolution, pixelRatio, projection) {
+    if (this.url_ === undefined) {
+      return null;
+    }
+
+    resolution = this.findNearestResolution(resolution);
+
+    if (pixelRatio != 1 && (!this.hidpi_ || this.serverType_ === undefined)) {
+      pixelRatio = 1;
+    }
+
+    var imageResolution = resolution / pixelRatio;
+    var center = (0, _extent.getCenter)(extent);
+    var viewWidth = Math.ceil((0, _extent.getWidth)(extent) / imageResolution);
+    var viewHeight = Math.ceil((0, _extent.getHeight)(extent) / imageResolution);
+    var viewExtent = (0, _extent.getForViewAndSize)(center, imageResolution, 0, [viewWidth, viewHeight]);
+    var requestWidth = Math.ceil(this.ratio_ * (0, _extent.getWidth)(extent) / imageResolution);
+    var requestHeight = Math.ceil(this.ratio_ * (0, _extent.getHeight)(extent) / imageResolution);
+    var requestExtent = (0, _extent.getForViewAndSize)(center, imageResolution, 0, [requestWidth, requestHeight]);
+    var image = this.image_;
+
+    if (image && this.renderedRevision_ == this.getRevision() && image.getResolution() == resolution && image.getPixelRatio() == pixelRatio && (0, _extent.containsExtent)(image.getExtent(), viewExtent)) {
+      return image;
+    }
+
+    var params = {
+      'SERVICE': 'WMS',
+      'VERSION': _common.DEFAULT_WMS_VERSION,
+      'REQUEST': 'GetMap',
+      'FORMAT': 'image/png',
+      'TRANSPARENT': true
+    };
+    (0, _obj.assign)(params, this.params_);
+    this.imageSize_[0] = Math.round((0, _extent.getWidth)(requestExtent) / imageResolution);
+    this.imageSize_[1] = Math.round((0, _extent.getHeight)(requestExtent) / imageResolution);
+    var url = this.getRequestUrl_(requestExtent, this.imageSize_, pixelRatio, projection, params);
+    this.image_ = new _Image2.default(requestExtent, resolution, pixelRatio, url, this.crossOrigin_, this.imageLoadFunction_);
+    this.renderedRevision_ = this.getRevision();
+    this.image_.addEventListener(_EventType.default.CHANGE, this.handleImageChange.bind(this));
+    return this.image_;
+  };
+  /**
+   * Return the image load function of the source.
+   * @return {import("../Image.js").LoadFunction} The image load function.
+   * @api
+   */
+
+
+  ImageWMS.prototype.getImageLoadFunction = function () {
+    return this.imageLoadFunction_;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {import("../size.js").Size} size Size.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @param {Object} params Params.
+   * @return {string} Request URL.
+   * @private
+   */
+
+
+  ImageWMS.prototype.getRequestUrl_ = function (extent, size, pixelRatio, projection, params) {
+    (0, _asserts.assert)(this.url_ !== undefined, 9); // `url` must be configured or set using `#setUrl()`
+
+    params[this.v13_ ? 'CRS' : 'SRS'] = projection.getCode();
+
+    if (!('STYLES' in this.params_)) {
+      params['STYLES'] = '';
+    }
+
+    if (pixelRatio != 1) {
+      switch (this.serverType_) {
+        case _WMSServerType.default.GEOSERVER:
+          var dpi = 90 * pixelRatio + 0.5 | 0;
+
+          if ('FORMAT_OPTIONS' in params) {
+            params['FORMAT_OPTIONS'] += ';dpi:' + dpi;
+          } else {
+            params['FORMAT_OPTIONS'] = 'dpi:' + dpi;
+          }
+
+          break;
+
+        case _WMSServerType.default.MAPSERVER:
+          params['MAP_RESOLUTION'] = 90 * pixelRatio;
+          break;
+
+        case _WMSServerType.default.CARMENTA_SERVER:
+        case _WMSServerType.default.QGIS:
+          params['DPI'] = 90 * pixelRatio;
+          break;
+
+        default:
+          (0, _asserts.assert)(false, 8); // Unknown `serverType` configured
+
+          break;
+      }
+    }
+
+    params['WIDTH'] = size[0];
+    params['HEIGHT'] = size[1];
+    var axisOrientation = projection.getAxisOrientation();
+    var bbox;
+
+    if (this.v13_ && axisOrientation.substr(0, 2) == 'ne') {
+      bbox = [extent[1], extent[0], extent[3], extent[2]];
+    } else {
+      bbox = extent;
+    }
+
+    params['BBOX'] = bbox.join(',');
+    return (0, _uri.appendParams)(
+    /** @type {string} */
+    this.url_, params);
+  };
+  /**
+   * Return the URL used for this WMS source.
+   * @return {string|undefined} URL.
+   * @api
+   */
+
+
+  ImageWMS.prototype.getUrl = function () {
+    return this.url_;
+  };
+  /**
+   * Set the image load function of the source.
+   * @param {import("../Image.js").LoadFunction} imageLoadFunction Image load function.
+   * @api
+   */
+
+
+  ImageWMS.prototype.setImageLoadFunction = function (imageLoadFunction) {
+    this.image_ = null;
+    this.imageLoadFunction_ = imageLoadFunction;
+    this.changed();
+  };
+  /**
+   * Set the URL to use for requests.
+   * @param {string|undefined} url URL.
+   * @api
+   */
+
+
+  ImageWMS.prototype.setUrl = function (url) {
+    if (url != this.url_) {
+      this.url_ = url;
+      this.image_ = null;
+      this.changed();
+    }
+  };
+  /**
+   * Update the user-provided params.
+   * @param {Object} params Params.
+   * @api
+   */
+
+
+  ImageWMS.prototype.updateParams = function (params) {
+    (0, _obj.assign)(this.params_, params);
+    this.updateV13_();
+    this.image_ = null;
+    this.changed();
+  };
+  /**
+   * @private
+   */
+
+
+  ImageWMS.prototype.updateV13_ = function () {
+    var version = this.params_['VERSION'] || _common.DEFAULT_WMS_VERSION;
+    this.v13_ = (0, _string.compareVersions)(version, '1.3') >= 0;
+  };
+
+  return ImageWMS;
+}(_Image.default);
+
+var _default = ImageWMS;
+exports.default = _default;
+},{"./common.js":"node_modules/ol/source/common.js","../events/EventType.js":"node_modules/ol/events/EventType.js","./Image.js":"node_modules/ol/source/Image.js","../Image.js":"node_modules/ol/Image.js","./WMSServerType.js":"node_modules/ol/source/WMSServerType.js","../uri.js":"node_modules/ol/uri.js","../asserts.js":"node_modules/ol/asserts.js","../obj.js":"node_modules/ol/obj.js","../reproj.js":"node_modules/ol/reproj.js","../string.js":"node_modules/ol/string.js","../extent.js":"node_modules/ol/extent.js","../proj.js":"node_modules/ol/proj.js"}],"node_modules/ol/source/Raster.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.newImageData = newImageData;
+exports.default = exports.RasterSourceEvent = exports.Processor = void 0;
+
+var _Disposable = _interopRequireDefault(require("../Disposable.js"));
+
+var _Event = _interopRequireDefault(require("../events/Event.js"));
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _ImageCanvas = _interopRequireDefault(require("../ImageCanvas.js"));
+
+var _Image = _interopRequireDefault(require("../layer/Image.js"));
+
+var _Image2 = _interopRequireDefault(require("./Image.js"));
+
+var _Source = _interopRequireDefault(require("./Source.js"));
+
+var _State = _interopRequireDefault(require("./State.js"));
+
+var _Tile = _interopRequireDefault(require("../layer/Tile.js"));
+
+var _TileQueue = _interopRequireDefault(require("../TileQueue.js"));
+
+var _Tile2 = _interopRequireDefault(require("./Tile.js"));
+
+var _obj = require("../obj.js");
+
+var _dom = require("../dom.js");
+
+var _transform = require("../transform.js");
+
+var _extent = require("../extent.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+/**
+ * @module ol/source/Raster
+ */
+
+
+var hasImageData = true;
+
+try {
+  new ImageData(10, 10);
+} catch (_) {
+  hasImageData = false;
+}
+
+var context = document.createElement('canvas').getContext('2d');
+/**
+ * @param {Uint8ClampedArray} data Image data.
+ * @param {number} width Number of columns.
+ * @param {number} height Number of rows.
+ * @return {ImageData} Image data.
+ */
+
+function newImageData(data, width, height) {
+  if (hasImageData) {
+    return new ImageData(data, width, height);
+  } else {
+    var imageData = context.createImageData(width, height);
+    imageData.data.set(data);
+    return imageData;
+  }
+}
+/* istanbul ignore next */
+
+/**
+ * Create a function for running operations.  This function is serialized for
+ * use in a worker.
+ * @param {function(Array, Object):*} operation The operation.
+ * @return {function(Object):ArrayBuffer} A function that takes an object with
+ * buffers, meta, imageOps, width, and height properties and returns an array
+ * buffer.
+ */
+
+
+function createMinion(operation) {
+  var workerHasImageData = true;
+
+  try {
+    new ImageData(10, 10);
+  } catch (_) {
+    workerHasImageData = false;
+  }
+
+  function newWorkerImageData(data, width, height) {
+    if (workerHasImageData) {
+      return new ImageData(data, width, height);
+    } else {
+      return {
+        data: data,
+        width: width,
+        height: height
+      };
+    }
+  }
+
+  return function (data) {
+    // bracket notation for minification support
+    var buffers = data['buffers'];
+    var meta = data['meta'];
+    var imageOps = data['imageOps'];
+    var width = data['width'];
+    var height = data['height'];
+    var numBuffers = buffers.length;
+    var numBytes = buffers[0].byteLength;
+    var output, b;
+
+    if (imageOps) {
+      var images = new Array(numBuffers);
+
+      for (b = 0; b < numBuffers; ++b) {
+        images[b] = newWorkerImageData(new Uint8ClampedArray(buffers[b]), width, height);
+      }
+
+      output = operation(images, meta).data;
+    } else {
+      output = new Uint8ClampedArray(numBytes);
+      var arrays = new Array(numBuffers);
+      var pixels = new Array(numBuffers);
+
+      for (b = 0; b < numBuffers; ++b) {
+        arrays[b] = new Uint8ClampedArray(buffers[b]);
+        pixels[b] = [0, 0, 0, 0];
+      }
+
+      for (var i = 0; i < numBytes; i += 4) {
+        for (var j = 0; j < numBuffers; ++j) {
+          var array = arrays[j];
+          pixels[j][0] = array[i];
+          pixels[j][1] = array[i + 1];
+          pixels[j][2] = array[i + 2];
+          pixels[j][3] = array[i + 3];
+        }
+
+        var pixel = operation(pixels, meta);
+        output[i] = pixel[0];
+        output[i + 1] = pixel[1];
+        output[i + 2] = pixel[2];
+        output[i + 3] = pixel[3];
+      }
+    }
+
+    return output.buffer;
+  };
+}
+/**
+ * Create a worker for running operations.
+ * @param {Object} config Configuration.
+ * @param {function(MessageEvent): void} onMessage Called with a message event.
+ * @return {Worker} The worker.
+ */
+
+
+function createWorker(config, onMessage) {
+  var lib = Object.keys(config.lib || {}).map(function (name) {
+    return 'var ' + name + ' = ' + config.lib[name].toString() + ';';
+  });
+  var lines = lib.concat(['var __minion__ = (' + createMinion.toString() + ')(', config.operation.toString(), ');', 'self.addEventListener("message", function(event) {', '  var buffer = __minion__(event.data);', '  self.postMessage({buffer: buffer, meta: event.data.meta}, [buffer]);', '});']);
+  var blob = new Blob(lines, {
+    type: 'text/javascript'
+  });
+  var source = URL.createObjectURL(blob);
+  var worker = new Worker(source);
+  worker.addEventListener('message', onMessage);
+  return worker;
+}
+/**
+ * @typedef {Object} FauxMessageEvent
+ * @property {Object} data Message data.
+ */
+
+/**
+ * Create a faux worker for running operations.
+ * @param {ProcessorOptions} config Configuration.
+ * @param {function(FauxMessageEvent): void} onMessage Called with a message event.
+ * @return {Object} The faux worker.
+ */
+
+
+function createFauxWorker(config, onMessage) {
+  var minion = createMinion(config.operation);
+  var terminated = false;
+  return {
+    postMessage: function (data) {
+      setTimeout(function () {
+        if (terminated) {
+          return;
+        }
+
+        onMessage({
+          data: {
+            buffer: minion(data),
+            meta: data['meta']
+          }
+        });
+      }, 0);
+    },
+    terminate: function () {
+      terminated = true;
+    }
+  };
+}
+/**
+ * @typedef {Object} ProcessorOptions
+ * @property {number} threads Number of workers to spawn.
+ * @property {function(Array, Object):*} operation The operation.
+ * @property {Object} [lib] Functions that will be made available to operations run in a worker.
+ * @property {number} queue The number of queued jobs to allow.
+ * @property {boolean} [imageOps=false] Pass all the image data to the operation instead of a single pixel.
+ */
+
+/**
+ * @classdesc
+ * A processor runs pixel or image operations in workers.
+ */
+
+
+var Processor =
+/** @class */
+function (_super) {
+  __extends(Processor, _super);
+  /**
+   * @param {ProcessorOptions} config Configuration.
+   */
+
+
+  function Processor(config) {
+    var _this = _super.call(this) || this;
+
+    _this._imageOps = !!config.imageOps;
+    var threads;
+
+    if (config.threads === 0) {
+      threads = 0;
+    } else if (_this._imageOps) {
+      threads = 1;
+    } else {
+      threads = config.threads || 1;
+    }
+
+    var workers = [];
+
+    if (threads) {
+      for (var i = 0; i < threads; ++i) {
+        workers[i] = createWorker(config, _this._onWorkerMessage.bind(_this, i));
+      }
+    } else {
+      workers[0] = createFauxWorker(config, _this._onWorkerMessage.bind(_this, 0));
+    }
+
+    _this._workers = workers;
+    _this._queue = [];
+    _this._maxQueueLength = config.queue || Infinity;
+    _this._running = 0;
+    _this._dataLookup = {};
+    _this._job = null;
+    return _this;
+  }
+  /**
+   * Run operation on input data.
+   * @param {Array.<Array|ImageData>} inputs Array of pixels or image data
+   *     (depending on the operation type).
+   * @param {Object} meta A user data object.  This is passed to all operations
+   *     and must be serializable.
+   * @param {function(Error, ImageData, Object): void} callback Called when work
+   *     completes.  The first argument is any error.  The second is the ImageData
+   *     generated by operations.  The third is the user data object.
+   */
+
+
+  Processor.prototype.process = function (inputs, meta, callback) {
+    this._enqueue({
+      inputs: inputs,
+      meta: meta,
+      callback: callback
+    });
+
+    this._dispatch();
+  };
+  /**
+   * Add a job to the queue.
+   * @param {Object} job The job.
+   */
+
+
+  Processor.prototype._enqueue = function (job) {
+    this._queue.push(job);
+
+    while (this._queue.length > this._maxQueueLength) {
+      this._queue.shift().callback(null, null);
+    }
+  };
+  /**
+   * Dispatch a job.
+   */
+
+
+  Processor.prototype._dispatch = function () {
+    if (this._running === 0 && this._queue.length > 0) {
+      var job = this._queue.shift();
+
+      this._job = job;
+      var width = job.inputs[0].width;
+      var height = job.inputs[0].height;
+      var buffers = job.inputs.map(function (input) {
+        return input.data.buffer;
+      });
+      var threads = this._workers.length;
+      this._running = threads;
+
+      if (threads === 1) {
+        this._workers[0].postMessage({
+          buffers: buffers,
+          meta: job.meta,
+          imageOps: this._imageOps,
+          width: width,
+          height: height
+        }, buffers);
+      } else {
+        var length_1 = job.inputs[0].data.length;
+        var segmentLength = 4 * Math.ceil(length_1 / 4 / threads);
+
+        for (var i = 0; i < threads; ++i) {
+          var offset = i * segmentLength;
+          var slices = [];
+
+          for (var j = 0, jj = buffers.length; j < jj; ++j) {
+            slices.push(buffers[j].slice(offset, offset + segmentLength));
+          }
+
+          this._workers[i].postMessage({
+            buffers: slices,
+            meta: job.meta,
+            imageOps: this._imageOps,
+            width: width,
+            height: height
+          }, slices);
+        }
+      }
+    }
+  };
+  /**
+   * Handle messages from the worker.
+   * @param {number} index The worker index.
+   * @param {MessageEvent} event The message event.
+   */
+
+
+  Processor.prototype._onWorkerMessage = function (index, event) {
+    if (this.disposed) {
+      return;
+    }
+
+    this._dataLookup[index] = event.data;
+    --this._running;
+
+    if (this._running === 0) {
+      this._resolveJob();
+    }
+  };
+  /**
+   * Resolve a job.  If there are no more worker threads, the processor callback
+   * will be called.
+   */
+
+
+  Processor.prototype._resolveJob = function () {
+    var job = this._job;
+    var threads = this._workers.length;
+    var data, meta;
+
+    if (threads === 1) {
+      data = new Uint8ClampedArray(this._dataLookup[0]['buffer']);
+      meta = this._dataLookup[0]['meta'];
+    } else {
+      var length_2 = job.inputs[0].data.length;
+      data = new Uint8ClampedArray(length_2);
+      meta = new Array(length_2);
+      var segmentLength = 4 * Math.ceil(length_2 / 4 / threads);
+
+      for (var i = 0; i < threads; ++i) {
+        var buffer = this._dataLookup[i]['buffer'];
+        var offset = i * segmentLength;
+        data.set(new Uint8ClampedArray(buffer), offset);
+        meta[i] = this._dataLookup[i]['meta'];
+      }
+    }
+
+    this._job = null;
+    this._dataLookup = {};
+    job.callback(null, newImageData(data, job.inputs[0].width, job.inputs[0].height), meta);
+
+    this._dispatch();
+  };
+  /**
+   * Terminate all workers associated with the processor.
+   */
+
+
+  Processor.prototype.disposeInternal = function () {
+    for (var i = 0; i < this._workers.length; ++i) {
+      this._workers[i].terminate();
+    }
+
+    this._workers.length = 0;
+  };
+
+  return Processor;
+}(_Disposable.default);
+
+exports.Processor = Processor;
+
+/**
+ * A function that takes an array of input data, performs some operation, and
+ * returns an array of output data.
+ * For `pixel` type operations, the function will be called with an array of
+ * pixels, where each pixel is an array of four numbers (`[r, g, b, a]`) in the
+ * range of 0 - 255. It should return a single pixel array.
+ * For `'image'` type operations, functions will be called with an array of
+ * {@link ImageData https://developer.mozilla.org/en-US/docs/Web/API/ImageData}
+ * and should return a single {@link ImageData
+ * https://developer.mozilla.org/en-US/docs/Web/API/ImageData}.  The operations
+ * are called with a second "data" argument, which can be used for storage.  The
+ * data object is accessible from raster events, where it can be initialized in
+ * "beforeoperations" and accessed again in "afteroperations".
+ *
+ * @typedef {function((Array<Array<number>>|Array<ImageData>), Object):
+ *     (Array<number>|ImageData)} Operation
+ */
+
+/**
+ * @enum {string}
+ */
+var RasterEventType = {
+  /**
+   * Triggered before operations are run.
+   * @event module:ol/source/Raster.RasterSourceEvent#beforeoperations
+   * @api
+   */
+  BEFOREOPERATIONS: 'beforeoperations',
+
+  /**
+   * Triggered after operations are run.
+   * @event module:ol/source/Raster.RasterSourceEvent#afteroperations
+   * @api
+   */
+  AFTEROPERATIONS: 'afteroperations'
+};
+/**
+ * Raster operation type. Supported values are `'pixel'` and `'image'`.
+ * @enum {string}
+ */
+
+var RasterOperationType = {
+  PIXEL: 'pixel',
+  IMAGE: 'image'
+};
+/**
+ * @classdesc
+ * Events emitted by {@link module:ol/source/Raster} instances are instances of this
+ * type.
+ */
+
+var RasterSourceEvent =
+/** @class */
+function (_super) {
+  __extends(RasterSourceEvent, _super);
+  /**
+   * @param {string} type Type.
+   * @param {import("../PluggableMap.js").FrameState} frameState The frame state.
+   * @param {Object} data An object made available to operations.
+   */
+
+
+  function RasterSourceEvent(type, frameState, data) {
+    var _this = _super.call(this, type) || this;
+    /**
+     * The raster extent.
+     * @type {import("../extent.js").Extent}
+     * @api
+     */
+
+
+    _this.extent = frameState.extent;
+    /**
+     * The pixel resolution (map units per pixel).
+     * @type {number}
+     * @api
+     */
+
+    _this.resolution = frameState.viewState.resolution / frameState.pixelRatio;
+    /**
+     * An object made available to all operations.  This can be used by operations
+     * as a storage object (e.g. for calculating statistics).
+     * @type {Object}
+     * @api
+     */
+
+    _this.data = data;
+    return _this;
+  }
+
+  return RasterSourceEvent;
+}(_Event.default);
+
+exports.RasterSourceEvent = RasterSourceEvent;
+
+/**
+ * @typedef {Object} Options
+ * @property {Array<import("./Source.js").default|import("../layer/Layer.js").default>} sources Input
+ * sources or layers.  For vector data, use an VectorImage layer.
+ * @property {Operation} [operation] Raster operation.
+ * The operation will be called with data from input sources
+ * and the output will be assigned to the raster source.
+ * @property {Object} [lib] Functions that will be made available to operations run in a worker.
+ * @property {number} [threads] By default, operations will be run in a single worker thread.
+ * To avoid using workers altogether, set `threads: 0`.  For pixel operations, operations can
+ * be run in multiple worker threads.  Note that there is additional overhead in
+ * transferring data to multiple workers, and that depending on the user's
+ * system, it may not be possible to parallelize the work.
+ * @property {RasterOperationType} [operationType='pixel'] Operation type.
+ * Supported values are `'pixel'` and `'image'`.  By default,
+ * `'pixel'` operations are assumed, and operations will be called with an
+ * array of pixels from input sources.  If set to `'image'`, operations will
+ * be called with an array of ImageData objects from input sources.
+ */
+
+/**
+ * @classdesc
+ * A source that transforms data from any number of input sources using an
+ * {@link module:ol/source/Raster~Operation} function to transform input pixel values into
+ * output pixel values.
+ *
+ * @fires module:ol/source/Raster.RasterSourceEvent
+ * @api
+ */
+var RasterSource =
+/** @class */
+function (_super) {
+  __extends(RasterSource, _super);
+  /**
+   * @param {Options} options Options.
+   */
+
+
+  function RasterSource(options) {
+    var _this = _super.call(this, {
+      projection: null
+    }) || this;
+    /**
+     * @private
+     * @type {Processor}
+     */
+
+
+    _this.processor_ = null;
+    /**
+     * @private
+     * @type {RasterOperationType}
+     */
+
+    _this.operationType_ = options.operationType !== undefined ? options.operationType : RasterOperationType.PIXEL;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.threads_ = options.threads !== undefined ? options.threads : 1;
+    /**
+     * @private
+     * @type {Array<import("../layer/Layer.js").default>}
+     */
+
+    _this.layers_ = createLayers(options.sources);
+
+    var changed = _this.changed.bind(_this);
+
+    for (var i = 0, ii = _this.layers_.length; i < ii; ++i) {
+      _this.layers_[i].addEventListener(_EventType.default.CHANGE, changed);
+    }
+    /**
+     * @private
+     * @type {import("../TileQueue.js").default}
+     */
+
+
+    _this.tileQueue_ = new _TileQueue.default(function () {
+      return 1;
+    }, _this.changed.bind(_this));
+    /**
+     * The most recently requested frame state.
+     * @type {import("../PluggableMap.js").FrameState}
+     * @private
+     */
+
+    _this.requestedFrameState_;
+    /**
+     * The most recently rendered image canvas.
+     * @type {import("../ImageCanvas.js").default}
+     * @private
+     */
+
+    _this.renderedImageCanvas_ = null;
+    /**
+     * The most recently rendered revision.
+     * @type {number}
+     */
+
+    _this.renderedRevision_;
+    /**
+     * @private
+     * @type {import("../PluggableMap.js").FrameState}
+     */
+
+    _this.frameState_ = {
+      animate: false,
+      coordinateToPixelTransform: (0, _transform.create)(),
+      declutterTree: null,
+      extent: null,
+      index: 0,
+      layerIndex: 0,
+      layerStatesArray: getLayerStatesArray(_this.layers_),
+      pixelRatio: 1,
+      pixelToCoordinateTransform: (0, _transform.create)(),
+      postRenderFunctions: [],
+      size: [0, 0],
+      tileQueue: _this.tileQueue_,
+      time: Date.now(),
+      usedTiles: {},
+      viewState:
+      /** @type {import("../View.js").State} */
+      {
+        rotation: 0
+      },
+      viewHints: [],
+      wantedTiles: {}
+    };
+
+    _this.setAttributions(function (frameState) {
+      var attributions = [];
+
+      for (var index = 0, iMax = options.sources.length; index < iMax; ++index) {
+        var sourceOrLayer = options.sources[index];
+        var source = sourceOrLayer instanceof _Source.default ? sourceOrLayer : sourceOrLayer.getSource();
+        var attributionGetter = source.getAttributions();
+
+        if (typeof attributionGetter === 'function') {
+          var sourceAttribution = attributionGetter(frameState);
+          attributions.push.apply(attributions, sourceAttribution);
+        }
+      }
+
+      return attributions.length !== 0 ? attributions : null;
+    });
+
+    if (options.operation !== undefined) {
+      _this.setOperation(options.operation, options.lib);
+    }
+
+    return _this;
+  }
+  /**
+   * Set the operation.
+   * @param {Operation} operation New operation.
+   * @param {Object=} opt_lib Functions that will be available to operations run
+   *     in a worker.
+   * @api
+   */
+
+
+  RasterSource.prototype.setOperation = function (operation, opt_lib) {
+    if (this.processor_) {
+      this.processor_.dispose();
+    }
+
+    this.processor_ = new Processor({
+      operation: operation,
+      imageOps: this.operationType_ === RasterOperationType.IMAGE,
+      queue: 1,
+      lib: opt_lib,
+      threads: this.threads_
+    });
+    this.changed();
+  };
+  /**
+   * Update the stored frame state.
+   * @param {import("../extent.js").Extent} extent The view extent (in map units).
+   * @param {number} resolution The view resolution.
+   * @param {import("../proj/Projection.js").default} projection The view projection.
+   * @return {import("../PluggableMap.js").FrameState} The updated frame state.
+   * @private
+   */
+
+
+  RasterSource.prototype.updateFrameState_ = function (extent, resolution, projection) {
+    var frameState =
+    /** @type {import("../PluggableMap.js").FrameState} */
+    (0, _obj.assign)({}, this.frameState_);
+    frameState.viewState =
+    /** @type {import("../View.js").State} */
+    (0, _obj.assign)({}, frameState.viewState);
+    var center = (0, _extent.getCenter)(extent);
+    frameState.extent = extent.slice();
+    frameState.size[0] = Math.round((0, _extent.getWidth)(extent) / resolution);
+    frameState.size[1] = Math.round((0, _extent.getHeight)(extent) / resolution);
+    frameState.time = Infinity;
+    var viewState = frameState.viewState;
+    viewState.center = center;
+    viewState.projection = projection;
+    viewState.resolution = resolution;
+    return frameState;
+  };
+  /**
+   * Determine if all sources are ready.
+   * @return {boolean} All sources are ready.
+   * @private
+   */
+
+
+  RasterSource.prototype.allSourcesReady_ = function () {
+    var ready = true;
+    var source;
+
+    for (var i = 0, ii = this.layers_.length; i < ii; ++i) {
+      source = this.layers_[i].getSource();
+
+      if (source.getState() !== _State.default.READY) {
+        ready = false;
+        break;
+      }
+    }
+
+    return ready;
+  };
+  /**
+   * @param {import("../extent.js").Extent} extent Extent.
+   * @param {number} resolution Resolution.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {import("../ImageCanvas.js").default} Single image.
+   */
+
+
+  RasterSource.prototype.getImage = function (extent, resolution, pixelRatio, projection) {
+    if (!this.allSourcesReady_()) {
+      return null;
+    }
+
+    var frameState = this.updateFrameState_(extent, resolution, projection);
+    this.requestedFrameState_ = frameState; // check if we can't reuse the existing ol/ImageCanvas
+
+    if (this.renderedImageCanvas_) {
+      var renderedResolution = this.renderedImageCanvas_.getResolution();
+      var renderedExtent = this.renderedImageCanvas_.getExtent();
+
+      if (resolution !== renderedResolution || !(0, _extent.equals)(extent, renderedExtent)) {
+        this.renderedImageCanvas_ = null;
+      }
+    }
+
+    if (!this.renderedImageCanvas_ || this.getRevision() !== this.renderedRevision_) {
+      this.processSources_();
+    }
+
+    frameState.tileQueue.loadMoreTiles(16, 16);
+
+    if (frameState.animate) {
+      requestAnimationFrame(this.changed.bind(this));
+    }
+
+    return this.renderedImageCanvas_;
+  };
+  /**
+   * Start processing source data.
+   * @private
+   */
+
+
+  RasterSource.prototype.processSources_ = function () {
+    var frameState = this.requestedFrameState_;
+    var len = this.layers_.length;
+    var imageDatas = new Array(len);
+
+    for (var i = 0; i < len; ++i) {
+      frameState.layerIndex = i;
+      var imageData = getImageData(this.layers_[i], frameState);
+
+      if (imageData) {
+        imageDatas[i] = imageData;
+      } else {
+        return;
+      }
+    }
+
+    var data = {};
+    this.dispatchEvent(new RasterSourceEvent(RasterEventType.BEFOREOPERATIONS, frameState, data));
+    this.processor_.process(imageDatas, data, this.onWorkerComplete_.bind(this, frameState));
+  };
+  /**
+   * Called when pixel processing is complete.
+   * @param {import("../PluggableMap.js").FrameState} frameState The frame state.
+   * @param {Error} err Any error during processing.
+   * @param {ImageData} output The output image data.
+   * @param {Object} data The user data.
+   * @private
+   */
+
+
+  RasterSource.prototype.onWorkerComplete_ = function (frameState, err, output, data) {
+    if (err || !output) {
+      return;
+    } // do nothing if extent or resolution changed
+
+
+    var extent = frameState.extent;
+    var resolution = frameState.viewState.resolution;
+
+    if (resolution !== this.requestedFrameState_.viewState.resolution || !(0, _extent.equals)(extent, this.requestedFrameState_.extent)) {
+      return;
+    }
+
+    var context;
+
+    if (this.renderedImageCanvas_) {
+      context = this.renderedImageCanvas_.getImage().getContext('2d');
+    } else {
+      var width = Math.round((0, _extent.getWidth)(extent) / resolution);
+      var height = Math.round((0, _extent.getHeight)(extent) / resolution);
+      context = (0, _dom.createCanvasContext2D)(width, height);
+      this.renderedImageCanvas_ = new _ImageCanvas.default(extent, resolution, 1, context.canvas);
+    }
+
+    context.putImageData(output, 0, 0);
+    this.changed();
+    this.renderedRevision_ = this.getRevision();
+    this.dispatchEvent(new RasterSourceEvent(RasterEventType.AFTEROPERATIONS, frameState, data));
+  };
+  /**
+   * @return {null} not implemented
+   */
+
+
+  RasterSource.prototype.getImageInternal = function () {
+    return null; // not implemented
+  };
+
+  RasterSource.prototype.disposeInternal = function () {
+    if (this.processor_) {
+      this.processor_.dispose();
+    }
+
+    _super.prototype.disposeInternal.call(this);
+  };
+
+  return RasterSource;
+}(_Image2.default);
+/**
+ * Clean up and unregister the worker.
+ * @function
+ * @api
+ */
+
+
+RasterSource.prototype.dispose;
+/**
+ * A reusable canvas context.
+ * @type {CanvasRenderingContext2D}
+ * @private
+ */
+
+var sharedContext = null;
+/**
+ * Get image data from a layer.
+ * @param {import("../layer/Layer.js").default} layer Layer to render.
+ * @param {import("../PluggableMap.js").FrameState} frameState The frame state.
+ * @return {ImageData} The image data.
+ */
+
+function getImageData(layer, frameState) {
+  var renderer = layer.getRenderer();
+
+  if (!renderer) {
+    throw new Error('Unsupported layer type: ' + layer);
+  }
+
+  if (!renderer.prepareFrame(frameState)) {
+    return null;
+  }
+
+  var width = frameState.size[0];
+  var height = frameState.size[1];
+
+  if (width === 0 || height === 0) {
+    return null;
+  }
+
+  var container = renderer.renderFrame(frameState, null);
+  var element;
+
+  if (container) {
+    element = container.firstElementChild;
+  }
+
+  if (!(element instanceof HTMLCanvasElement)) {
+    throw new Error('Unsupported rendered element: ' + element);
+  }
+
+  if (element.width === width && element.height === height) {
+    var context_1 = element.getContext('2d');
+    return context_1.getImageData(0, 0, width, height);
+  }
+
+  if (!sharedContext) {
+    sharedContext = (0, _dom.createCanvasContext2D)(width, height);
+  } else {
+    var canvas = sharedContext.canvas;
+
+    if (canvas.width !== width || canvas.height !== height) {
+      sharedContext = (0, _dom.createCanvasContext2D)(width, height);
+    } else {
+      sharedContext.clearRect(0, 0, width, height);
+    }
+  }
+
+  sharedContext.drawImage(element, 0, 0, width, height);
+  return sharedContext.getImageData(0, 0, width, height);
+}
+/**
+ * Get a list of layer states from a list of layers.
+ * @param {Array<import("../layer/Layer.js").default>} layers Layers.
+ * @return {Array<import("../layer/Layer.js").State>} The layer states.
+ */
+
+
+function getLayerStatesArray(layers) {
+  return layers.map(function (layer) {
+    return layer.getLayerState();
+  });
+}
+/**
+ * Create layers for all sources.
+ * @param {Array<import("./Source.js").default|import("../layer/Layer.js").default>} sources The sources.
+ * @return {Array<import("../layer/Layer.js").default>} Array of layers.
+ */
+
+
+function createLayers(sources) {
+  var len = sources.length;
+  var layers = new Array(len);
+
+  for (var i = 0; i < len; ++i) {
+    layers[i] = createLayer(sources[i]);
+  }
+
+  return layers;
+}
+/**
+ * Create a layer for the provided source.
+ * @param {import("./Source.js").default|import("../layer/Layer.js").default} layerOrSource The layer or source.
+ * @return {import("../layer/Layer.js").default} The layer.
+ */
+
+
+function createLayer(layerOrSource) {
+  // @type {import("../layer/Layer.js").default}
+  var layer;
+
+  if (layerOrSource instanceof _Source.default) {
+    if (layerOrSource instanceof _Tile2.default) {
+      layer = new _Tile.default({
+        source: layerOrSource
+      });
+    } else if (layerOrSource instanceof _Image2.default) {
+      layer = new _Image.default({
+        source: layerOrSource
+      });
+    }
+  } else {
+    layer = layerOrSource;
+  }
+
+  return layer;
+}
+
+var _default = RasterSource;
+exports.default = _default;
+},{"../Disposable.js":"node_modules/ol/Disposable.js","../events/Event.js":"node_modules/ol/events/Event.js","../events/EventType.js":"node_modules/ol/events/EventType.js","../ImageCanvas.js":"node_modules/ol/ImageCanvas.js","../layer/Image.js":"node_modules/ol/layer/Image.js","./Image.js":"node_modules/ol/source/Image.js","./Source.js":"node_modules/ol/source/Source.js","./State.js":"node_modules/ol/source/State.js","../layer/Tile.js":"node_modules/ol/layer/Tile.js","../TileQueue.js":"node_modules/ol/TileQueue.js","./Tile.js":"node_modules/ol/source/Tile.js","../obj.js":"node_modules/ol/obj.js","../dom.js":"node_modules/ol/dom.js","../transform.js":"node_modules/ol/transform.js","../extent.js":"node_modules/ol/extent.js"}],"node_modules/ol/source/TileArcGISRest.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _TileImage = _interopRequireDefault(require("./TileImage.js"));
+
+var _uri = require("../uri.js");
+
+var _obj = require("../obj.js");
+
+var _extent = require("../extent.js");
+
+var _math = require("../math.js");
+
+var _size = require("../size.js");
+
+var _tilecoord = require("../tilecoord.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/TileArcGISRest
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {number} [cacheSize] Initial tile cache size. Will auto-grow to hold at least the number of tiles in the viewport.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {Object<string,*>} [params] ArcGIS Rest parameters. This field is optional. Service defaults will be
+ * used for any fields not specified. `FORMAT` is `PNG32` by default. `F` is `IMAGE` by
+ * default. `TRANSPARENT` is `true` by default.  `BBOX`, `SIZE`, `BBOXSR`,
+ * and `IMAGESR` will be set dynamically. Set `LAYERS` to
+ * override the default service layer visibility. See
+ * http://resources.arcgis.com/en/help/arcgis-rest-api/index.html#/Export_Map/02r3000000v7000000/
+ * for further reference.
+ * @property {boolean} [hidpi=true] Use the `ol/Map#pixelRatio` value when requesting
+ * the image from the remote server.
+ * @property {import("../tilegrid/TileGrid.js").default} [tileGrid] Tile grid. Base this on the resolutions,
+ * tilesize and extent supported by the server.
+ * If this is not defined, a default grid will be used: if there is a projection
+ * extent, the grid will be based on that; if not, a grid based on a global
+ * extent with origin at 0,0 will be used.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {number} [reprojectionErrorThreshold=0.5] Maximum allowed reprojection error (in pixels).
+ * Higher values can increase reprojection performance, but decrease precision.
+ * @property {import("../Tile.js").LoadFunction} [tileLoadFunction] Optional function to load a tile given a URL.
+ * The default is
+ * ```js
+ * function(imageTile, src) {
+ *   imageTile.getImage().src = src;
+ * };
+ * ```
+ * @property {string} [url] ArcGIS Rest service URL for a Map Service or Image Service. The
+ * url should include /MapServer or /ImageServer.
+ * @property {boolean} [wrapX=true] Whether to wrap the world horizontally.
+ * @property {number} [transition] Duration of the opacity transition for rendering.  To disable the opacity
+ * transition, pass `transition: 0`.
+ * @property {Array<string>} [urls] ArcGIS Rest service urls. Use this instead of `url` when the ArcGIS
+ * Service supports multiple urls for export requests.
+ */
+
+/**
+ * @classdesc
+ * Layer source for tile data from ArcGIS Rest services. Map and Image
+ * Services are supported.
+ *
+ * For cached ArcGIS services, better performance is available using the
+ * {@link module:ol/source/XYZ~XYZ} data source.
+ * @api
+ */
+var TileArcGISRest =
+/** @class */
+function (_super) {
+  __extends(TileArcGISRest, _super);
+  /**
+   * @param {Options=} opt_options Tile ArcGIS Rest options.
+   */
+
+
+  function TileArcGISRest(opt_options) {
+    var _this = this;
+
+    var options = opt_options ? opt_options : {};
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      cacheSize: options.cacheSize,
+      crossOrigin: options.crossOrigin,
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      reprojectionErrorThreshold: options.reprojectionErrorThreshold,
+      tileGrid: options.tileGrid,
+      tileLoadFunction: options.tileLoadFunction,
+      url: options.url,
+      urls: options.urls,
+      wrapX: options.wrapX !== undefined ? options.wrapX : true,
+      transition: options.transition
+    }) || this;
+    /**
+     * @private
+     * @type {!Object}
+     */
+
+    _this.params_ = options.params || {};
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.hidpi_ = options.hidpi !== undefined ? options.hidpi : true;
+    /**
+     * @private
+     * @type {import("../extent.js").Extent}
+     */
+
+    _this.tmpExtent_ = (0, _extent.createEmpty)();
+
+    _this.setKey(_this.getKeyForParams_());
+
+    return _this;
+  }
+  /**
+   * @private
+   * @return {string} The key for the current params.
+   */
+
+
+  TileArcGISRest.prototype.getKeyForParams_ = function () {
+    var i = 0;
+    var res = [];
+
+    for (var key in this.params_) {
+      res[i++] = key + '-' + this.params_[key];
+    }
+
+    return res.join('/');
+  };
+  /**
+   * Get the user-provided params, i.e. those passed to the constructor through
+   * the "params" option, and possibly updated using the updateParams method.
+   * @return {Object} Params.
+   * @api
+   */
+
+
+  TileArcGISRest.prototype.getParams = function () {
+    return this.params_;
+  };
+  /**
+   * @param {import("../tilecoord.js").TileCoord} tileCoord Tile coordinate.
+   * @param {import("../size.js").Size} tileSize Tile size.
+   * @param {import("../extent.js").Extent} tileExtent Tile extent.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @param {Object} params Params.
+   * @return {string|undefined} Request URL.
+   * @private
+   */
+
+
+  TileArcGISRest.prototype.getRequestUrl_ = function (tileCoord, tileSize, tileExtent, pixelRatio, projection, params) {
+    var urls = this.urls;
+
+    if (!urls) {
+      return undefined;
+    } // ArcGIS Server only wants the numeric portion of the projection ID.
+
+
+    var srid = projection.getCode().split(':').pop();
+    params['SIZE'] = tileSize[0] + ',' + tileSize[1];
+    params['BBOX'] = tileExtent.join(',');
+    params['BBOXSR'] = srid;
+    params['IMAGESR'] = srid;
+    params['DPI'] = Math.round(params['DPI'] ? params['DPI'] * pixelRatio : 90 * pixelRatio);
+    var url;
+
+    if (urls.length == 1) {
+      url = urls[0];
+    } else {
+      var index = (0, _math.modulo)((0, _tilecoord.hash)(tileCoord), urls.length);
+      url = urls[index];
+    }
+
+    var modifiedUrl = url.replace(/MapServer\/?$/, 'MapServer/export').replace(/ImageServer\/?$/, 'ImageServer/exportImage');
+    return (0, _uri.appendParams)(modifiedUrl, params);
+  };
+  /**
+   * Get the tile pixel ratio for this source.
+   * @param {number} pixelRatio Pixel ratio.
+   * @return {number} Tile pixel ratio.
+   */
+
+
+  TileArcGISRest.prototype.getTilePixelRatio = function (pixelRatio) {
+    return this.hidpi_ ? pixelRatio : 1;
+  };
+  /**
+   * Update the user-provided params.
+   * @param {Object} params Params.
+   * @api
+   */
+
+
+  TileArcGISRest.prototype.updateParams = function (params) {
+    (0, _obj.assign)(this.params_, params);
+    this.setKey(this.getKeyForParams_());
+  };
+  /**
+   * @param {import("../tilecoord.js").TileCoord} tileCoord The tile coordinate
+   * @param {number} pixelRatio The pixel ratio
+   * @param {import("../proj/Projection.js").default} projection The projection
+   * @return {string|undefined} The tile URL
+   * @override
+   */
+
+
+  TileArcGISRest.prototype.tileUrlFunction = function (tileCoord, pixelRatio, projection) {
+    var tileGrid = this.getTileGrid();
+
+    if (!tileGrid) {
+      tileGrid = this.getTileGridForProjection(projection);
+    }
+
+    if (tileGrid.getResolutions().length <= tileCoord[0]) {
+      return undefined;
+    }
+
+    if (pixelRatio != 1 && !this.hidpi_) {
+      pixelRatio = 1;
+    }
+
+    var tileExtent = tileGrid.getTileCoordExtent(tileCoord, this.tmpExtent_);
+    var tileSize = (0, _size.toSize)(tileGrid.getTileSize(tileCoord[0]), this.tmpSize);
+
+    if (pixelRatio != 1) {
+      tileSize = (0, _size.scale)(tileSize, pixelRatio, this.tmpSize);
+    } // Apply default params and override with user specified values.
+
+
+    var baseParams = {
+      'F': 'image',
+      'FORMAT': 'PNG32',
+      'TRANSPARENT': true
+    };
+    (0, _obj.assign)(baseParams, this.params_);
+    return this.getRequestUrl_(tileCoord, tileSize, tileExtent, pixelRatio, projection, baseParams);
+  };
+
+  return TileArcGISRest;
+}(_TileImage.default);
+
+var _default = TileArcGISRest;
+exports.default = _default;
+},{"./TileImage.js":"node_modules/ol/source/TileImage.js","../uri.js":"node_modules/ol/uri.js","../obj.js":"node_modules/ol/obj.js","../extent.js":"node_modules/ol/extent.js","../math.js":"node_modules/ol/math.js","../size.js":"node_modules/ol/size.js","../tilecoord.js":"node_modules/ol/tilecoord.js"}],"node_modules/ol/source/TileDebug.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _Tile = _interopRequireDefault(require("../Tile.js"));
+
+var _TileState = _interopRequireDefault(require("../TileState.js"));
+
+var _XYZ = _interopRequireDefault(require("./XYZ.js"));
+
+var _dom = require("../dom.js");
+
+var _tilecoord = require("../tilecoord.js");
+
+var _size = require("../size.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/TileDebug
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+var LabeledTile =
+/** @class */
+function (_super) {
+  __extends(LabeledTile, _super);
+  /**
+   * @param {import("../tilecoord.js").TileCoord} tileCoord Tile coordinate.
+   * @param {import("../size.js").Size} tileSize Tile size.
+   * @param {string} text Text.
+   */
+
+
+  function LabeledTile(tileCoord, tileSize, text) {
+    var _this = _super.call(this, tileCoord, _TileState.default.LOADED) || this;
+    /**
+     * @private
+     * @type {import("../size.js").Size}
+     */
+
+
+    _this.tileSize_ = tileSize;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.text_ = text;
+    /**
+     * @private
+     * @type {HTMLCanvasElement}
+     */
+
+    _this.canvas_ = null;
+    return _this;
+  }
+  /**
+   * Get the image element for this tile.
+   * @return {HTMLCanvasElement} Image.
+   */
+
+
+  LabeledTile.prototype.getImage = function () {
+    if (this.canvas_) {
+      return this.canvas_;
+    } else {
+      var tileSize = this.tileSize_;
+      var context = (0, _dom.createCanvasContext2D)(tileSize[0], tileSize[1]);
+      context.strokeStyle = 'grey';
+      context.strokeRect(0.5, 0.5, tileSize[0] + 0.5, tileSize[1] + 0.5);
+      context.fillStyle = 'grey';
+      context.strokeStyle = 'white';
+      context.textAlign = 'center';
+      context.textBaseline = 'middle';
+      context.font = '24px sans-serif';
+      context.lineWidth = 4;
+      context.strokeText(this.text_, tileSize[0] / 2, tileSize[1] / 2, tileSize[0]);
+      context.fillText(this.text_, tileSize[0] / 2, tileSize[1] / 2, tileSize[0]);
+      this.canvas_ = context.canvas;
+      return context.canvas;
+    }
+  };
+
+  LabeledTile.prototype.load = function () {};
+
+  return LabeledTile;
+}(_Tile.default);
+/**
+ * @typedef {Object} Options
+ * @property {import("../proj.js").ProjectionLike} [projection='EPSG:3857'] Optional projection.
+ * @property {import("../tilegrid/TileGrid.js").default} [tileGrid] Tile grid.
+ * @property {boolean} [wrapX=true] Whether to wrap the world horizontally.
+ * @property {number} [zDirection=0] Set to `1` when debugging `VectorTile` sources with
+ * a default configuration. Indicates which resolution should be used by a renderer if
+ * the view resolution does not match any resolution of the tile source. If 0, the nearest
+ * resolution will be used. If 1, the nearest lower resolution will be used. If -1, the
+ * nearest higher resolution will be used.
+ */
+
+/**
+ * @classdesc
+ * A pseudo tile source, which does not fetch tiles from a server, but renders
+ * a grid outline for the tile grid/projection along with the coordinates for
+ * each tile. See examples/canvas-tiles for an example.
+ *
+ * Uses Canvas context2d, so requires Canvas support.
+ * @api
+ */
+
+
+var TileDebug =
+/** @class */
+function (_super) {
+  __extends(TileDebug, _super);
+  /**
+   * @param {Options=} opt_options Debug tile options.
+   */
+
+
+  function TileDebug(opt_options) {
+    var _this = this;
+    /**
+     * @type {Options}
+     */
+
+
+    var options = opt_options || {};
+    _this = _super.call(this, {
+      opaque: false,
+      projection: options.projection,
+      tileGrid: options.tileGrid,
+      wrapX: options.wrapX !== undefined ? options.wrapX : true,
+      zDirection: options.zDirection
+    }) || this;
+    return _this;
+  }
+  /**
+   * @param {number} z Tile coordinate z.
+   * @param {number} x Tile coordinate x.
+   * @param {number} y Tile coordinate y.
+   * @return {!LabeledTile} Tile.
+   */
+
+
+  TileDebug.prototype.getTile = function (z, x, y) {
+    var tileCoordKey = (0, _tilecoord.getKeyZXY)(z, x, y);
+
+    if (this.tileCache.containsKey(tileCoordKey)) {
+      return (
+        /** @type {!LabeledTile} */
+        this.tileCache.get(tileCoordKey)
+      );
+    } else {
+      var tileSize = (0, _size.toSize)(this.tileGrid.getTileSize(z));
+      var tileCoord = [z, x, y];
+      var textTileCoord = this.getTileCoordForTileUrlFunction(tileCoord);
+      var text = void 0;
+
+      if (textTileCoord) {
+        text = 'z:' + textTileCoord[0] + ' x:' + textTileCoord[1] + ' y:' + textTileCoord[2];
+      } else {
+        text = 'none';
+      }
+
+      var tile = new LabeledTile(tileCoord, tileSize, text);
+      this.tileCache.set(tileCoordKey, tile);
+      return tile;
+    }
+  };
+
+  return TileDebug;
+}(_XYZ.default);
+
+var _default = TileDebug;
+exports.default = _default;
+},{"../Tile.js":"node_modules/ol/Tile.js","../TileState.js":"node_modules/ol/TileState.js","./XYZ.js":"node_modules/ol/source/XYZ.js","../dom.js":"node_modules/ol/dom.js","../tilecoord.js":"node_modules/ol/tilecoord.js","../size.js":"node_modules/ol/size.js"}],"node_modules/ol/source/TileWMS.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _common = require("./common.js");
+
+var _TileImage = _interopRequireDefault(require("./TileImage.js"));
+
+var _WMSServerType = _interopRequireDefault(require("./WMSServerType.js"));
+
+var _uri = require("../uri.js");
+
+var _asserts = require("../asserts.js");
+
+var _obj = require("../obj.js");
+
+var _extent = require("../extent.js");
+
+var _size = require("../size.js");
+
+var _reproj = require("../reproj.js");
+
+var _string = require("../string.js");
+
+var _proj = require("../proj.js");
+
+var _math = require("../math.js");
+
+var _tilecoord = require("../tilecoord.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/TileWMS
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {number} [cacheSize] Initial tile cache size. Will auto-grow to hold at least the number of tiles in the viewport.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {Object<string,*>} params WMS request parameters.
+ * At least a `LAYERS` param is required. `STYLES` is
+ * `''` by default. `VERSION` is `1.3.0` by default. `WIDTH`, `HEIGHT`, `BBOX`
+ * and `CRS` (`SRS` for WMS version < 1.3.0) will be set dynamically.
+ * @property {number} [gutter=0]
+ * The size in pixels of the gutter around image tiles to ignore. By setting
+ * this property to a non-zero value, images will be requested that are wider
+ * and taller than the tile size by a value of `2 x gutter`.
+ * Using a non-zero value allows artifacts of rendering at tile edges to be
+ * ignored. If you control the WMS service it is recommended to address
+ * "artifacts at tile edges" issues by properly configuring the WMS service. For
+ * example, MapServer has a `tile_map_edge_buffer` configuration parameter for
+ * this. See http://mapserver.org/output/tile_mode.html.
+ * @property {boolean} [hidpi=true] Use the `ol/Map#pixelRatio` value when requesting
+ * the image from the remote server.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {number} [reprojectionErrorThreshold=0.5] Maximum allowed reprojection error (in pixels).
+ * Higher values can increase reprojection performance, but decrease precision.
+ * @property {typeof import("../ImageTile.js").default} [tileClass] Class used to instantiate image tiles.
+ * Default is {@link module:ol/ImageTile~ImageTile}.
+ * @property {import("../tilegrid/TileGrid.js").default} [tileGrid] Tile grid. Base this on the resolutions,
+ * tilesize and extent supported by the server.
+ * If this is not defined, a default grid will be used: if there is a projection
+ * extent, the grid will be based on that; if not, a grid based on a global
+ * extent with origin at 0,0 will be used..
+ * @property {import("./WMSServerType.js").default|string} [serverType]
+ * The type of the remote WMS server. Currently only used when `hidpi` is
+ * `true`.
+ * @property {import("../Tile.js").LoadFunction} [tileLoadFunction] Optional function to load a tile given a URL. The default is
+ * ```js
+ * function(imageTile, src) {
+ *   imageTile.getImage().src = src;
+ * };
+ * ```
+ * @property {string} [url] WMS service URL.
+ * @property {Array<string>} [urls] WMS service urls.
+ * Use this instead of `url` when the WMS supports multiple urls for GetMap requests.
+ * @property {boolean} [wrapX=true] Whether to wrap the world horizontally.
+ * When set to `false`, only one world
+ * will be rendered. When `true`, tiles will be requested for one world only,
+ * but they will be wrapped horizontally to render multiple worlds.
+ * @property {number} [transition] Duration of the opacity transition for rendering.
+ * To disable the opacity transition, pass `transition: 0`.
+ */
+
+/**
+ * @classdesc
+ * Layer source for tile data from WMS servers.
+ * @api
+ */
+var TileWMS =
+/** @class */
+function (_super) {
+  __extends(TileWMS, _super);
+  /**
+   * @param {Options=} [opt_options] Tile WMS options.
+   */
+
+
+  function TileWMS(opt_options) {
+    var _this = this;
+
+    var options = opt_options ? opt_options :
+    /** @type {Options} */
+    {};
+    var params = options.params || {};
+    var transparent = 'TRANSPARENT' in params ? params['TRANSPARENT'] : true;
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      cacheSize: options.cacheSize,
+      crossOrigin: options.crossOrigin,
+      imageSmoothing: options.imageSmoothing,
+      opaque: !transparent,
+      projection: options.projection,
+      reprojectionErrorThreshold: options.reprojectionErrorThreshold,
+      tileClass: options.tileClass,
+      tileGrid: options.tileGrid,
+      tileLoadFunction: options.tileLoadFunction,
+      url: options.url,
+      urls: options.urls,
+      wrapX: options.wrapX !== undefined ? options.wrapX : true,
+      transition: options.transition
+    }) || this;
+    /**
+     * @private
+     * @type {number}
+     */
+
+    _this.gutter_ = options.gutter !== undefined ? options.gutter : 0;
+    /**
+     * @private
+     * @type {!Object}
+     */
+
+    _this.params_ = params;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.v13_ = true;
+    /**
+     * @private
+     * @type {import("./WMSServerType.js").default|undefined}
+     */
+
+    _this.serverType_ =
+    /** @type {import("./WMSServerType.js").default|undefined} */
+    options.serverType;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.hidpi_ = options.hidpi !== undefined ? options.hidpi : true;
+    /**
+     * @private
+     * @type {import("../extent.js").Extent}
+     */
+
+    _this.tmpExtent_ = (0, _extent.createEmpty)();
+
+    _this.updateV13_();
+
+    _this.setKey(_this.getKeyForParams_());
+
+    return _this;
+  }
+  /**
+   * Return the GetFeatureInfo URL for the passed coordinate, resolution, and
+   * projection. Return `undefined` if the GetFeatureInfo URL cannot be
+   * constructed.
+   * @param {import("../coordinate.js").Coordinate} coordinate Coordinate.
+   * @param {number} resolution Resolution.
+   * @param {import("../proj.js").ProjectionLike} projection Projection.
+   * @param {!Object} params GetFeatureInfo params. `INFO_FORMAT` at least should
+   *     be provided. If `QUERY_LAYERS` is not provided then the layers specified
+   *     in the `LAYERS` parameter will be used. `VERSION` should not be
+   *     specified here.
+   * @return {string|undefined} GetFeatureInfo URL.
+   * @api
+   */
+
+
+  TileWMS.prototype.getFeatureInfoUrl = function (coordinate, resolution, projection, params) {
+    var projectionObj = (0, _proj.get)(projection);
+    var sourceProjectionObj = this.getProjection();
+    var tileGrid = this.getTileGrid();
+
+    if (!tileGrid) {
+      tileGrid = this.getTileGridForProjection(projectionObj);
+    }
+
+    var z = tileGrid.getZForResolution(resolution, this.zDirection);
+    var tileCoord = tileGrid.getTileCoordForCoordAndZ(coordinate, z);
+
+    if (tileGrid.getResolutions().length <= tileCoord[0]) {
+      return undefined;
+    }
+
+    var tileResolution = tileGrid.getResolution(tileCoord[0]);
+    var tileExtent = tileGrid.getTileCoordExtent(tileCoord, this.tmpExtent_);
+    var tileSize = (0, _size.toSize)(tileGrid.getTileSize(tileCoord[0]), this.tmpSize);
+    var gutter = this.gutter_;
+
+    if (gutter !== 0) {
+      tileSize = (0, _size.buffer)(tileSize, gutter, this.tmpSize);
+      tileExtent = (0, _extent.buffer)(tileExtent, tileResolution * gutter, tileExtent);
+    }
+
+    if (sourceProjectionObj && sourceProjectionObj !== projectionObj) {
+      tileResolution = (0, _reproj.calculateSourceResolution)(sourceProjectionObj, projectionObj, coordinate, tileResolution);
+      tileExtent = (0, _proj.transformExtent)(tileExtent, projectionObj, sourceProjectionObj);
+      coordinate = (0, _proj.transform)(coordinate, projectionObj, sourceProjectionObj);
+    }
+
+    var baseParams = {
+      'SERVICE': 'WMS',
+      'VERSION': _common.DEFAULT_WMS_VERSION,
+      'REQUEST': 'GetFeatureInfo',
+      'FORMAT': 'image/png',
+      'TRANSPARENT': true,
+      'QUERY_LAYERS': this.params_['LAYERS']
+    };
+    (0, _obj.assign)(baseParams, this.params_, params);
+    var x = Math.floor((coordinate[0] - tileExtent[0]) / tileResolution);
+    var y = Math.floor((tileExtent[3] - coordinate[1]) / tileResolution);
+    baseParams[this.v13_ ? 'I' : 'X'] = x;
+    baseParams[this.v13_ ? 'J' : 'Y'] = y;
+    return this.getRequestUrl_(tileCoord, tileSize, tileExtent, 1, sourceProjectionObj || projectionObj, baseParams);
+  };
+  /**
+   * Return the GetLegendGraphic URL, optionally optimized for the passed
+   * resolution and possibly including any passed specific parameters. Returns
+   * `undefined` if the GetLegendGraphic URL cannot be constructed.
+   *
+   * @param {number} [resolution] Resolution. If set to undefined, `SCALE`
+   *     will not be calculated and included in URL.
+   * @param {Object} [params] GetLegendGraphic params. If `LAYER` is set, the
+   *     request is generated for this wms layer, else it will try to use the
+   *     configured wms layer. Default `FORMAT` is `image/png`.
+   *     `VERSION` should not be specified here.
+   * @return {string|undefined} GetLegendGraphic URL.
+   * @api
+   */
+
+
+  TileWMS.prototype.getLegendUrl = function (resolution, params) {
+    if (this.urls[0] === undefined) {
+      return undefined;
+    }
+
+    var baseParams = {
+      'SERVICE': 'WMS',
+      'VERSION': _common.DEFAULT_WMS_VERSION,
+      'REQUEST': 'GetLegendGraphic',
+      'FORMAT': 'image/png'
+    };
+
+    if (params === undefined || params['LAYER'] === undefined) {
+      var layers = this.params_.LAYERS;
+      var isSingleLayer = !Array.isArray(layers) || layers.length === 1;
+
+      if (!isSingleLayer) {
+        return undefined;
+      }
+
+      baseParams['LAYER'] = layers;
+    }
+
+    if (resolution !== undefined) {
+      var mpu = this.getProjection() ? this.getProjection().getMetersPerUnit() : 1;
+      var pixelSize = 0.00028;
+      baseParams['SCALE'] = resolution * mpu / pixelSize;
+    }
+
+    (0, _obj.assign)(baseParams, params);
+    return (0, _uri.appendParams)(
+    /** @type {string} */
+    this.urls[0], baseParams);
+  };
+  /**
+   * @return {number} Gutter.
+   */
+
+
+  TileWMS.prototype.getGutter = function () {
+    return this.gutter_;
+  };
+  /**
+   * Get the user-provided params, i.e. those passed to the constructor through
+   * the "params" option, and possibly updated using the updateParams method.
+   * @return {Object} Params.
+   * @api
+   */
+
+
+  TileWMS.prototype.getParams = function () {
+    return this.params_;
+  };
+  /**
+   * @param {import("../tilecoord.js").TileCoord} tileCoord Tile coordinate.
+   * @param {import("../size.js").Size} tileSize Tile size.
+   * @param {import("../extent.js").Extent} tileExtent Tile extent.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @param {Object} params Params.
+   * @return {string|undefined} Request URL.
+   * @private
+   */
+
+
+  TileWMS.prototype.getRequestUrl_ = function (tileCoord, tileSize, tileExtent, pixelRatio, projection, params) {
+    var urls = this.urls;
+
+    if (!urls) {
+      return undefined;
+    }
+
+    params['WIDTH'] = tileSize[0];
+    params['HEIGHT'] = tileSize[1];
+    params[this.v13_ ? 'CRS' : 'SRS'] = projection.getCode();
+
+    if (!('STYLES' in this.params_)) {
+      params['STYLES'] = '';
+    }
+
+    if (pixelRatio != 1) {
+      switch (this.serverType_) {
+        case _WMSServerType.default.GEOSERVER:
+          var dpi = 90 * pixelRatio + 0.5 | 0;
+
+          if ('FORMAT_OPTIONS' in params) {
+            params['FORMAT_OPTIONS'] += ';dpi:' + dpi;
+          } else {
+            params['FORMAT_OPTIONS'] = 'dpi:' + dpi;
+          }
+
+          break;
+
+        case _WMSServerType.default.MAPSERVER:
+          params['MAP_RESOLUTION'] = 90 * pixelRatio;
+          break;
+
+        case _WMSServerType.default.CARMENTA_SERVER:
+        case _WMSServerType.default.QGIS:
+          params['DPI'] = 90 * pixelRatio;
+          break;
+
+        default:
+          (0, _asserts.assert)(false, 52); // Unknown `serverType` configured
+
+          break;
+      }
+    }
+
+    var axisOrientation = projection.getAxisOrientation();
+    var bbox = tileExtent;
+
+    if (this.v13_ && axisOrientation.substr(0, 2) == 'ne') {
+      var tmp = void 0;
+      tmp = tileExtent[0];
+      bbox[0] = tileExtent[1];
+      bbox[1] = tmp;
+      tmp = tileExtent[2];
+      bbox[2] = tileExtent[3];
+      bbox[3] = tmp;
+    }
+
+    params['BBOX'] = bbox.join(',');
+    var url;
+
+    if (urls.length == 1) {
+      url = urls[0];
+    } else {
+      var index = (0, _math.modulo)((0, _tilecoord.hash)(tileCoord), urls.length);
+      url = urls[index];
+    }
+
+    return (0, _uri.appendParams)(url, params);
+  };
+  /**
+   * Get the tile pixel ratio for this source.
+   * @param {number} pixelRatio Pixel ratio.
+   * @return {number} Tile pixel ratio.
+   */
+
+
+  TileWMS.prototype.getTilePixelRatio = function (pixelRatio) {
+    return !this.hidpi_ || this.serverType_ === undefined ? 1 : pixelRatio;
+  };
+  /**
+   * @private
+   * @return {string} The key for the current params.
+   */
+
+
+  TileWMS.prototype.getKeyForParams_ = function () {
+    var i = 0;
+    var res = [];
+
+    for (var key in this.params_) {
+      res[i++] = key + '-' + this.params_[key];
+    }
+
+    return res.join('/');
+  };
+  /**
+   * Update the user-provided params.
+   * @param {Object} params Params.
+   * @api
+   */
+
+
+  TileWMS.prototype.updateParams = function (params) {
+    (0, _obj.assign)(this.params_, params);
+    this.updateV13_();
+    this.setKey(this.getKeyForParams_());
+  };
+  /**
+   * @private
+   */
+
+
+  TileWMS.prototype.updateV13_ = function () {
+    var version = this.params_['VERSION'] || _common.DEFAULT_WMS_VERSION;
+    this.v13_ = (0, _string.compareVersions)(version, '1.3') >= 0;
+  };
+  /**
+   * @param {import("../tilecoord.js").TileCoord} tileCoord The tile coordinate
+   * @param {number} pixelRatio The pixel ratio
+   * @param {import("../proj/Projection.js").default} projection The projection
+   * @return {string|undefined} The tile URL
+   * @override
+   */
+
+
+  TileWMS.prototype.tileUrlFunction = function (tileCoord, pixelRatio, projection) {
+    var tileGrid = this.getTileGrid();
+
+    if (!tileGrid) {
+      tileGrid = this.getTileGridForProjection(projection);
+    }
+
+    if (tileGrid.getResolutions().length <= tileCoord[0]) {
+      return undefined;
+    }
+
+    if (pixelRatio != 1 && (!this.hidpi_ || this.serverType_ === undefined)) {
+      pixelRatio = 1;
+    }
+
+    var tileResolution = tileGrid.getResolution(tileCoord[0]);
+    var tileExtent = tileGrid.getTileCoordExtent(tileCoord, this.tmpExtent_);
+    var tileSize = (0, _size.toSize)(tileGrid.getTileSize(tileCoord[0]), this.tmpSize);
+    var gutter = this.gutter_;
+
+    if (gutter !== 0) {
+      tileSize = (0, _size.buffer)(tileSize, gutter, this.tmpSize);
+      tileExtent = (0, _extent.buffer)(tileExtent, tileResolution * gutter, tileExtent);
+    }
+
+    if (pixelRatio != 1) {
+      tileSize = (0, _size.scale)(tileSize, pixelRatio, this.tmpSize);
+    }
+
+    var baseParams = {
+      'SERVICE': 'WMS',
+      'VERSION': _common.DEFAULT_WMS_VERSION,
+      'REQUEST': 'GetMap',
+      'FORMAT': 'image/png',
+      'TRANSPARENT': true
+    };
+    (0, _obj.assign)(baseParams, this.params_);
+    return this.getRequestUrl_(tileCoord, tileSize, tileExtent, pixelRatio, projection, baseParams);
+  };
+
+  return TileWMS;
+}(_TileImage.default);
+
+var _default = TileWMS;
+exports.default = _default;
+},{"./common.js":"node_modules/ol/source/common.js","./TileImage.js":"node_modules/ol/source/TileImage.js","./WMSServerType.js":"node_modules/ol/source/WMSServerType.js","../uri.js":"node_modules/ol/uri.js","../asserts.js":"node_modules/ol/asserts.js","../obj.js":"node_modules/ol/obj.js","../extent.js":"node_modules/ol/extent.js","../size.js":"node_modules/ol/size.js","../reproj.js":"node_modules/ol/reproj.js","../string.js":"node_modules/ol/string.js","../proj.js":"node_modules/ol/proj.js","../math.js":"node_modules/ol/math.js","../tilecoord.js":"node_modules/ol/tilecoord.js"}],"node_modules/ol/source/UTFGrid.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.CustomTile = void 0;
+
+var _EventType = _interopRequireDefault(require("../events/EventType.js"));
+
+var _State = _interopRequireDefault(require("./State.js"));
+
+var _Tile = _interopRequireDefault(require("../Tile.js"));
+
+var _Tile2 = _interopRequireDefault(require("./Tile.js"));
+
+var _TileState = _interopRequireDefault(require("../TileState.js"));
+
+var _extent = require("../extent.js");
+
+var _asserts = require("../asserts.js");
+
+var _tileurlfunction = require("../tileurlfunction.js");
+
+var _tilegrid = require("../tilegrid.js");
+
+var _tilecoord = require("../tilecoord.js");
+
+var _proj = require("../proj.js");
+
+var _events = require("../events.js");
+
+var _net = require("../net.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/UTFGrid
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} UTFGridJSON
+ * @property {Array<string>} grid The grid.
+ * @property {Array<string>} keys The keys.
+ * @property {Object<string, Object>} [data] Optional data.
+ */
+var CustomTile =
+/** @class */
+function (_super) {
+  __extends(CustomTile, _super);
+  /**
+   * @param {import("../tilecoord.js").TileCoord} tileCoord Tile coordinate.
+   * @param {import("../TileState.js").default} state State.
+   * @param {string} src Image source URI.
+   * @param {import("../extent.js").Extent} extent Extent of the tile.
+   * @param {boolean} preemptive Load the tile when visible (before it's needed).
+   * @param {boolean} jsonp Load the tile as a script.
+   */
+
+
+  function CustomTile(tileCoord, state, src, extent, preemptive, jsonp) {
+    var _this = _super.call(this, tileCoord, state) || this;
+    /**
+     * @private
+     * @type {string}
+     */
+
+
+    _this.src_ = src;
+    /**
+     * @private
+     * @type {import("../extent.js").Extent}
+     */
+
+    _this.extent_ = extent;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.preemptive_ = preemptive;
+    /**
+     * @private
+     * @type {Array<string>}
+     */
+
+    _this.grid_ = null;
+    /**
+     * @private
+     * @type {Array<string>}
+     */
+
+    _this.keys_ = null;
+    /**
+     * @private
+     * @type {Object<string, Object>|undefined}
+     */
+
+    _this.data_ = null;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.jsonp_ = jsonp;
+    return _this;
+  }
+  /**
+   * Get the image element for this tile.
+   * @return {HTMLImageElement} Image.
+   */
+
+
+  CustomTile.prototype.getImage = function () {
+    return null;
+  };
+  /**
+   * Synchronously returns data at given coordinate (if available).
+   * @param {import("../coordinate.js").Coordinate} coordinate Coordinate.
+   * @return {*} The data.
+   */
+
+
+  CustomTile.prototype.getData = function (coordinate) {
+    if (!this.grid_ || !this.keys_) {
+      return null;
+    }
+
+    var xRelative = (coordinate[0] - this.extent_[0]) / (this.extent_[2] - this.extent_[0]);
+    var yRelative = (coordinate[1] - this.extent_[1]) / (this.extent_[3] - this.extent_[1]);
+    var row = this.grid_[Math.floor((1 - yRelative) * this.grid_.length)];
+
+    if (typeof row !== 'string') {
+      return null;
+    }
+
+    var code = row.charCodeAt(Math.floor(xRelative * row.length));
+
+    if (code >= 93) {
+      code--;
+    }
+
+    if (code >= 35) {
+      code--;
+    }
+
+    code -= 32;
+    var data = null;
+
+    if (code in this.keys_) {
+      var id = this.keys_[code];
+
+      if (this.data_ && id in this.data_) {
+        data = this.data_[id];
+      } else {
+        data = id;
+      }
+    }
+
+    return data;
+  };
+  /**
+   * Calls the callback (synchronously by default) with the available data
+   * for given coordinate (or `null` if not yet loaded).
+   * @param {import("../coordinate.js").Coordinate} coordinate Coordinate.
+   * @param {function(*): void} callback Callback.
+   * @param {boolean=} opt_request If `true` the callback is always async.
+   *                               The tile data is requested if not yet loaded.
+   */
+
+
+  CustomTile.prototype.forDataAtCoordinate = function (coordinate, callback, opt_request) {
+    if (this.state == _TileState.default.EMPTY && opt_request === true) {
+      this.state = _TileState.default.IDLE;
+      (0, _events.listenOnce)(this, _EventType.default.CHANGE, function (e) {
+        callback(this.getData(coordinate));
+      }, this);
+      this.loadInternal_();
+    } else {
+      if (opt_request === true) {
+        setTimeout(function () {
+          callback(this.getData(coordinate));
+        }.bind(this), 0);
+      } else {
+        callback(this.getData(coordinate));
+      }
+    }
+  };
+  /**
+   * Return the key to be used for all tiles in the source.
+   * @return {string} The key for all tiles.
+   */
+
+
+  CustomTile.prototype.getKey = function () {
+    return this.src_;
+  };
+  /**
+   * @private
+   */
+
+
+  CustomTile.prototype.handleError_ = function () {
+    this.state = _TileState.default.ERROR;
+    this.changed();
+  };
+  /**
+   * @param {!UTFGridJSON} json UTFGrid data.
+   * @private
+   */
+
+
+  CustomTile.prototype.handleLoad_ = function (json) {
+    this.grid_ = json['grid'];
+    this.keys_ = json['keys'];
+    this.data_ = json['data'];
+    this.state = _TileState.default.LOADED;
+    this.changed();
+  };
+  /**
+   * @private
+   */
+
+
+  CustomTile.prototype.loadInternal_ = function () {
+    if (this.state == _TileState.default.IDLE) {
+      this.state = _TileState.default.LOADING;
+
+      if (this.jsonp_) {
+        (0, _net.jsonp)(this.src_, this.handleLoad_.bind(this), this.handleError_.bind(this));
+      } else {
+        var client = new XMLHttpRequest();
+        client.addEventListener('load', this.onXHRLoad_.bind(this));
+        client.addEventListener('error', this.onXHRError_.bind(this));
+        client.open('GET', this.src_);
+        client.send();
+      }
+    }
+  };
+  /**
+   * @private
+   * @param {Event} event The load event.
+   */
+
+
+  CustomTile.prototype.onXHRLoad_ = function (event) {
+    var client =
+    /** @type {XMLHttpRequest} */
+    event.target; // status will be 0 for file:// urls
+
+    if (!client.status || client.status >= 200 && client.status < 300) {
+      var response = void 0;
+
+      try {
+        response =
+        /** @type {!UTFGridJSON} */
+        JSON.parse(client.responseText);
+      } catch (err) {
+        this.handleError_();
+        return;
+      }
+
+      this.handleLoad_(response);
+    } else {
+      this.handleError_();
+    }
+  };
+  /**
+   * @private
+   * @param {Event} event The error event.
+   */
+
+
+  CustomTile.prototype.onXHRError_ = function (event) {
+    this.handleError_();
+  };
+  /**
+   */
+
+
+  CustomTile.prototype.load = function () {
+    if (this.preemptive_) {
+      this.loadInternal_();
+    } else {
+      this.setState(_TileState.default.EMPTY);
+    }
+  };
+
+  return CustomTile;
+}(_Tile.default);
+
+exports.CustomTile = CustomTile;
+
+/**
+ * @typedef {Object} Options
+ * @property {boolean} [preemptive=true]
+ * If `true` the UTFGrid source loads the tiles based on their "visibility".
+ * This improves the speed of response, but increases traffic.
+ * Note that if set to `false` (lazy loading), you need to pass `true` as
+ * `opt_request` to the `forDataAtCoordinateAndResolution` method otherwise no
+ * data will ever be loaded.
+ * @property {boolean} [jsonp=false] Use JSONP with callback to load the TileJSON.
+ * Useful when the server does not support CORS..
+ * @property {import("./TileJSON.js").Config} [tileJSON] TileJSON configuration for this source.
+ * If not provided, `url` must be configured.
+ * @property {string} [url] TileJSON endpoint that provides the configuration for this source.
+ * Request will be made through JSONP. If not provided, `tileJSON` must be configured.
+ */
+
+/**
+ * @classdesc
+ * Layer source for UTFGrid interaction data loaded from TileJSON format.
+ * @api
+ */
+var UTFGrid =
+/** @class */
+function (_super) {
+  __extends(UTFGrid, _super);
+  /**
+   * @param {Options} options Source options.
+   */
+
+
+  function UTFGrid(options) {
+    var _this = _super.call(this, {
+      projection: (0, _proj.get)('EPSG:3857'),
+      state: _State.default.LOADING
+    }) || this;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+
+    _this.preemptive_ = options.preemptive !== undefined ? options.preemptive : true;
+    /**
+     * @private
+     * @type {!import("../Tile.js").UrlFunction}
+     */
+
+    _this.tileUrlFunction_ = _tileurlfunction.nullTileUrlFunction;
+    /**
+     * @private
+     * @type {string|undefined}
+     */
+
+    _this.template_ = undefined;
+    /**
+     * @private
+     * @type {boolean}
+     */
+
+    _this.jsonp_ = options.jsonp || false;
+
+    if (options.url) {
+      if (_this.jsonp_) {
+        (0, _net.jsonp)(options.url, _this.handleTileJSONResponse.bind(_this), _this.handleTileJSONError.bind(_this));
+      } else {
+        var client = new XMLHttpRequest();
+        client.addEventListener('load', _this.onXHRLoad_.bind(_this));
+        client.addEventListener('error', _this.onXHRError_.bind(_this));
+        client.open('GET', options.url);
+        client.send();
+      }
+    } else if (options.tileJSON) {
+      _this.handleTileJSONResponse(options.tileJSON);
+    } else {
+      (0, _asserts.assert)(false, 51); // Either `url` or `tileJSON` options must be provided
+    }
+
+    return _this;
+  }
+  /**
+   * @private
+   * @param {Event} event The load event.
+   */
+
+
+  UTFGrid.prototype.onXHRLoad_ = function (event) {
+    var client =
+    /** @type {XMLHttpRequest} */
+    event.target; // status will be 0 for file:// urls
+
+    if (!client.status || client.status >= 200 && client.status < 300) {
+      var response = void 0;
+
+      try {
+        response =
+        /** @type {import("./TileJSON.js").Config} */
+        JSON.parse(client.responseText);
+      } catch (err) {
+        this.handleTileJSONError();
+        return;
+      }
+
+      this.handleTileJSONResponse(response);
+    } else {
+      this.handleTileJSONError();
+    }
+  };
+  /**
+   * @private
+   * @param {Event} event The error event.
+   */
+
+
+  UTFGrid.prototype.onXHRError_ = function (event) {
+    this.handleTileJSONError();
+  };
+  /**
+   * Return the template from TileJSON.
+   * @return {string|undefined} The template from TileJSON.
+   * @api
+   */
+
+
+  UTFGrid.prototype.getTemplate = function () {
+    return this.template_;
+  };
+  /**
+   * Calls the callback (synchronously by default) with the available data
+   * for given coordinate and resolution (or `null` if not yet loaded or
+   * in case of an error).
+   * @param {import("../coordinate.js").Coordinate} coordinate Coordinate.
+   * @param {number} resolution Resolution.
+   * @param {function(*): void} callback Callback.
+   * @param {boolean=} opt_request If `true` the callback is always async.
+   *                               The tile data is requested if not yet loaded.
+   * @api
+   */
+
+
+  UTFGrid.prototype.forDataAtCoordinateAndResolution = function (coordinate, resolution, callback, opt_request) {
+    if (this.tileGrid) {
+      var z = this.tileGrid.getZForResolution(resolution, this.zDirection);
+      var tileCoord = this.tileGrid.getTileCoordForCoordAndZ(coordinate, z);
+      var tile =
+      /** @type {!CustomTile} */
+      this.getTile(tileCoord[0], tileCoord[1], tileCoord[2], 1, this.getProjection());
+      tile.forDataAtCoordinate(coordinate, callback, opt_request);
+    } else {
+      if (opt_request === true) {
+        setTimeout(function () {
+          callback(null);
+        }, 0);
+      } else {
+        callback(null);
+      }
+    }
+  };
+  /**
+   * @protected
+   */
+
+
+  UTFGrid.prototype.handleTileJSONError = function () {
+    this.setState(_State.default.ERROR);
+  };
+  /**
+   * TODO: very similar to ol/source/TileJSON#handleTileJSONResponse
+   * @protected
+   * @param {import("./TileJSON.js").Config} tileJSON Tile JSON.
+   */
+
+
+  UTFGrid.prototype.handleTileJSONResponse = function (tileJSON) {
+    var epsg4326Projection = (0, _proj.get)('EPSG:4326');
+    var sourceProjection = this.getProjection();
+    var extent;
+
+    if (tileJSON['bounds'] !== undefined) {
+      var transform = (0, _proj.getTransformFromProjections)(epsg4326Projection, sourceProjection);
+      extent = (0, _extent.applyTransform)(tileJSON['bounds'], transform);
+    }
+
+    var minZoom = tileJSON['minzoom'] || 0;
+    var maxZoom = tileJSON['maxzoom'] || 22;
+    var tileGrid = (0, _tilegrid.createXYZ)({
+      extent: (0, _tilegrid.extentFromProjection)(sourceProjection),
+      maxZoom: maxZoom,
+      minZoom: minZoom
+    });
+    this.tileGrid = tileGrid;
+    this.template_ = tileJSON['template'];
+    var grids = tileJSON['grids'];
+
+    if (!grids) {
+      this.setState(_State.default.ERROR);
+      return;
+    }
+
+    this.tileUrlFunction_ = (0, _tileurlfunction.createFromTemplates)(grids, tileGrid);
+
+    if (tileJSON['attribution'] !== undefined) {
+      var attributionExtent_1 = extent !== undefined ? extent : epsg4326Projection.getExtent();
+      this.setAttributions(function (frameState) {
+        if ((0, _extent.intersects)(attributionExtent_1, frameState.extent)) {
+          return [tileJSON['attribution']];
+        }
+
+        return null;
+      });
+    }
+
+    this.setState(_State.default.READY);
+  };
+  /**
+   * @param {number} z Tile coordinate z.
+   * @param {number} x Tile coordinate x.
+   * @param {number} y Tile coordinate y.
+   * @param {number} pixelRatio Pixel ratio.
+   * @param {import("../proj/Projection.js").default} projection Projection.
+   * @return {!CustomTile} Tile.
+   */
+
+
+  UTFGrid.prototype.getTile = function (z, x, y, pixelRatio, projection) {
+    var tileCoordKey = (0, _tilecoord.getKeyZXY)(z, x, y);
+
+    if (this.tileCache.containsKey(tileCoordKey)) {
+      return this.tileCache.get(tileCoordKey);
+    } else {
+      var tileCoord = [z, x, y];
+      var urlTileCoord = this.getTileCoordForTileUrlFunction(tileCoord, projection);
+      var tileUrl = this.tileUrlFunction_(urlTileCoord, pixelRatio, projection);
+      var tile = new CustomTile(tileCoord, tileUrl !== undefined ? _TileState.default.IDLE : _TileState.default.EMPTY, tileUrl !== undefined ? tileUrl : '', this.tileGrid.getTileCoordExtent(tileCoord), this.preemptive_, this.jsonp_);
+      this.tileCache.set(tileCoordKey, tile);
+      return tile;
+    }
+  };
+  /**
+   * Marks a tile coord as being used, without triggering a load.
+   * @param {number} z Tile coordinate z.
+   * @param {number} x Tile coordinate x.
+   * @param {number} y Tile coordinate y.
+   */
+
+
+  UTFGrid.prototype.useTile = function (z, x, y) {
+    var tileCoordKey = (0, _tilecoord.getKeyZXY)(z, x, y);
+
+    if (this.tileCache.containsKey(tileCoordKey)) {
+      this.tileCache.get(tileCoordKey);
+    }
+  };
+
+  return UTFGrid;
+}(_Tile2.default);
+
+var _default = UTFGrid;
+exports.default = _default;
+},{"../events/EventType.js":"node_modules/ol/events/EventType.js","./State.js":"node_modules/ol/source/State.js","../Tile.js":"node_modules/ol/Tile.js","./Tile.js":"node_modules/ol/source/Tile.js","../TileState.js":"node_modules/ol/TileState.js","../extent.js":"node_modules/ol/extent.js","../asserts.js":"node_modules/ol/asserts.js","../tileurlfunction.js":"node_modules/ol/tileurlfunction.js","../tilegrid.js":"node_modules/ol/tilegrid.js","../tilecoord.js":"node_modules/ol/tilecoord.js","../proj.js":"node_modules/ol/proj.js","../events.js":"node_modules/ol/events.js","../net.js":"node_modules/ol/net.js"}],"node_modules/ol/source/WMTSRequestEncoding.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+/**
+ * @module ol/source/WMTSRequestEncoding
+ */
+
+/**
+ * Request encoding. One of 'KVP', 'REST'.
+ * @enum {string}
+ */
+var _default = {
+  KVP: 'KVP',
+  REST: 'REST'
+};
+exports.default = _default;
+},{}],"node_modules/ol/tilegrid/WMTS.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createFromCapabilitiesMatrixSet = createFromCapabilitiesMatrixSet;
+exports.default = void 0;
+
+var _TileGrid = _interopRequireDefault(require("./TileGrid.js"));
+
+var _array = require("../array.js");
+
+var _proj = require("../proj.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/tilegrid/WMTS
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("../extent.js").Extent} [extent] Extent for the tile grid. No tiles
+ * outside this extent will be requested by {@link module:ol/source/Tile} sources.
+ * When no `origin` or `origins` are configured, the `origin` will be set to the
+ * top-left corner of the extent.
+ * @property {import("../coordinate.js").Coordinate} [origin] The tile grid origin, i.e.
+ * where the `x` and `y` axes meet (`[z, 0, 0]`). Tile coordinates increase left
+ * to right and downwards. If not specified, `extent` or `origins` must be provided.
+ * @property {Array<import("../coordinate.js").Coordinate>} [origins] Tile grid origins,
+ * i.e. where the `x` and `y` axes meet (`[z, 0, 0]`), for each zoom level. If
+ * given, the array length should match the length of the `resolutions` array, i.e.
+ * each resolution can have a different origin. Tile coordinates increase left to
+ * right and downwards. If not specified, `extent` or `origin` must be provided.
+ * @property {!Array<number>} resolutions Resolutions. The array index of each
+ * resolution needs to match the zoom level. This means that even if a `minZoom`
+ * is configured, the resolutions array will have a length of `maxZoom + 1`
+ * @property {!Array<string>} matrixIds matrix IDs. The length of this array needs
+ * to match the length of the `resolutions` array.
+ * @property {Array<import("../size.js").Size>} [sizes] Number of tile rows and columns
+ * of the grid for each zoom level. The values here are the `TileMatrixWidth` and
+ * `TileMatrixHeight` advertised in the GetCapabilities response of the WMTS, and
+ * define each zoom level's extent together with the `origin` or `origins`.
+ * A grid `extent` can be configured in addition, and will further limit the extent for
+ * which tile requests are made by sources. If the bottom-left corner of
+ * an extent is used as `origin` or `origins`, then the `y` value must be
+ * negative because OpenLayers tile coordinates use the top left as the origin.
+ * @property {number|import("../size.js").Size} [tileSize] Tile size.
+ * @property {Array<import("../size.js").Size>} [tileSizes] Tile sizes. The length of
+ * this array needs to match the length of the `resolutions` array.
+ */
+
+/**
+ * @classdesc
+ * Set the grid pattern for sources accessing WMTS tiled-image servers.
+ * @api
+ */
+var WMTSTileGrid =
+/** @class */
+function (_super) {
+  __extends(WMTSTileGrid, _super);
+  /**
+   * @param {Options} options WMTS options.
+   */
+
+
+  function WMTSTileGrid(options) {
+    var _this = _super.call(this, {
+      extent: options.extent,
+      origin: options.origin,
+      origins: options.origins,
+      resolutions: options.resolutions,
+      tileSize: options.tileSize,
+      tileSizes: options.tileSizes,
+      sizes: options.sizes
+    }) || this;
+    /**
+     * @private
+     * @type {!Array<string>}
+     */
+
+
+    _this.matrixIds_ = options.matrixIds;
+    return _this;
+  }
+  /**
+   * @param {number} z Z.
+   * @return {string} MatrixId..
+   */
+
+
+  WMTSTileGrid.prototype.getMatrixId = function (z) {
+    return this.matrixIds_[z];
+  };
+  /**
+   * Get the list of matrix identifiers.
+   * @return {Array<string>} MatrixIds.
+   * @api
+   */
+
+
+  WMTSTileGrid.prototype.getMatrixIds = function () {
+    return this.matrixIds_;
+  };
+
+  return WMTSTileGrid;
+}(_TileGrid.default);
+
+var _default = WMTSTileGrid;
+/**
+ * Create a tile grid from a WMTS capabilities matrix set and an
+ * optional TileMatrixSetLimits.
+ * @param {Object} matrixSet An object representing a matrixSet in the
+ *     capabilities document.
+ * @param {import("../extent.js").Extent=} opt_extent An optional extent to restrict the tile
+ *     ranges the server provides.
+ * @param {Array<Object>=} opt_matrixLimits An optional object representing
+ *     the available matrices for tileGrid.
+ * @return {WMTSTileGrid} WMTS tileGrid instance.
+ * @api
+ */
+
+exports.default = _default;
+
+function createFromCapabilitiesMatrixSet(matrixSet, opt_extent, opt_matrixLimits) {
+  /** @type {!Array<number>} */
+  var resolutions = [];
+  /** @type {!Array<string>} */
+
+  var matrixIds = [];
+  /** @type {!Array<import("../coordinate.js").Coordinate>} */
+
+  var origins = [];
+  /** @type {!Array<import("../size.js").Size>} */
+
+  var tileSizes = [];
+  /** @type {!Array<import("../size.js").Size>} */
+
+  var sizes = [];
+  var matrixLimits = opt_matrixLimits !== undefined ? opt_matrixLimits : [];
+  var supportedCRSPropName = 'SupportedCRS';
+  var matrixIdsPropName = 'TileMatrix';
+  var identifierPropName = 'Identifier';
+  var scaleDenominatorPropName = 'ScaleDenominator';
+  var topLeftCornerPropName = 'TopLeftCorner';
+  var tileWidthPropName = 'TileWidth';
+  var tileHeightPropName = 'TileHeight';
+  var code = matrixSet[supportedCRSPropName];
+  var projection = (0, _proj.get)(code);
+  var metersPerUnit = projection.getMetersPerUnit(); // swap origin x and y coordinates if axis orientation is lat/long
+
+  var switchOriginXY = projection.getAxisOrientation().substr(0, 2) == 'ne';
+  matrixSet[matrixIdsPropName].sort(function (a, b) {
+    return b[scaleDenominatorPropName] - a[scaleDenominatorPropName];
+  });
+  matrixSet[matrixIdsPropName].forEach(function (elt) {
+    var matrixAvailable; // use of matrixLimits to filter TileMatrices from GetCapabilities
+    // TileMatrixSet from unavailable matrix levels.
+
+    if (matrixLimits.length > 0) {
+      matrixAvailable = (0, _array.find)(matrixLimits, function (elt_ml) {
+        if (elt[identifierPropName] == elt_ml[matrixIdsPropName]) {
+          return true;
+        } // Fallback for tileMatrix identifiers that don't get prefixed
+        // by their tileMatrixSet identifiers.
+
+
+        if (elt[identifierPropName].indexOf(':') === -1) {
+          return matrixSet[identifierPropName] + ':' + elt[identifierPropName] === elt_ml[matrixIdsPropName];
+        }
+
+        return false;
+      });
+    } else {
+      matrixAvailable = true;
+    }
+
+    if (matrixAvailable) {
+      matrixIds.push(elt[identifierPropName]);
+      var resolution = elt[scaleDenominatorPropName] * 0.28e-3 / metersPerUnit;
+      var tileWidth = elt[tileWidthPropName];
+      var tileHeight = elt[tileHeightPropName];
+
+      if (switchOriginXY) {
+        origins.push([elt[topLeftCornerPropName][1], elt[topLeftCornerPropName][0]]);
+      } else {
+        origins.push(elt[topLeftCornerPropName]);
+      }
+
+      resolutions.push(resolution);
+      tileSizes.push(tileWidth == tileHeight ? tileWidth : [tileWidth, tileHeight]);
+      sizes.push([elt['MatrixWidth'], elt['MatrixHeight']]);
+    }
+  });
+  return new WMTSTileGrid({
+    extent: opt_extent,
+    origins: origins,
+    resolutions: resolutions,
+    matrixIds: matrixIds,
+    tileSizes: tileSizes,
+    sizes: sizes
+  });
+}
+},{"./TileGrid.js":"node_modules/ol/tilegrid/TileGrid.js","../array.js":"node_modules/ol/array.js","../proj.js":"node_modules/ol/proj.js"}],"node_modules/ol/source/WMTS.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.optionsFromCapabilities = optionsFromCapabilities;
+exports.default = void 0;
+
+var _TileImage = _interopRequireDefault(require("./TileImage.js"));
+
+var _WMTSRequestEncoding = _interopRequireDefault(require("./WMTSRequestEncoding.js"));
+
+var _uri = require("../uri.js");
+
+var _obj = require("../obj.js");
+
+var _WMTS = require("../tilegrid/WMTS.js");
+
+var _tileurlfunction = require("../tileurlfunction.js");
+
+var _proj = require("../proj.js");
+
+var _array = require("../array.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * @module ol/source/WMTS
+ */
+var __extends = void 0 && (void 0).__extends || function () {
+  var extendStatics = function (d, b) {
+    extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function (d, b) {
+      d.__proto__ = b;
+    } || function (d, b) {
+      for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p];
+    };
+
+    return extendStatics(d, b);
+  };
+
+  return function (d, b) {
+    extendStatics(d, b);
+
+    function __() {
+      this.constructor = d;
+    }
+
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+
+/**
+ * @typedef {Object} Options
+ * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
+ * @property {number} [cacheSize] Initial tile cache size. Will auto-grow to hold at least the number of tiles in the viewport.
+ * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images.  Note that
+ * you must provide a `crossOrigin` value if you want to access pixel data with the Canvas renderer.
+ * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
+ * @property {boolean} [imageSmoothing=true] Enable image smoothing.
+ * @property {import("../tilegrid/WMTS.js").default} tileGrid Tile grid.
+ * @property {import("../proj.js").ProjectionLike} [projection] Projection. Default is the view projection.
+ * @property {number} [reprojectionErrorThreshold=0.5] Maximum allowed reprojection error (in pixels).
+ * Higher values can increase reprojection performance, but decrease precision.
+ * @property {import("./WMTSRequestEncoding.js").default|string} [requestEncoding='KVP'] Request encoding.
+ * @property {string} layer Layer name as advertised in the WMTS capabilities.
+ * @property {string} style Style name as advertised in the WMTS capabilities.
+ * @property {typeof import("../ImageTile.js").default} [tileClass]  Class used to instantiate image tiles. Default is {@link module:ol/ImageTile~ImageTile}.
+ * @property {number} [tilePixelRatio=1] The pixel ratio used by the tile service.
+ * For example, if the tile service advertizes 256px by 256px tiles but actually sends 512px
+ * by 512px images (for retina/hidpi devices) then `tilePixelRatio`
+ * should be set to `2`.
+ * @property {string} [format='image/jpeg'] Image format. Only used when `requestEncoding` is `'KVP'`.
+ * @property {string} [version='1.0.0'] WMTS version.
+ * @property {string} matrixSet Matrix set.
+ * @property {!Object} [dimensions] Additional "dimensions" for tile requests.
+ * This is an object with properties named like the advertised WMTS dimensions.
+ * @property {string} [url]  A URL for the service.
+ * For the RESTful request encoding, this is a URL
+ * template.  For KVP encoding, it is normal URL. A `{?-?}` template pattern,
+ * for example `subdomain{a-f}.domain.com`, may be used instead of defining
+ * each one separately in the `urls` option.
+ * @property {import("../Tile.js").LoadFunction} [tileLoadFunction] Optional function to load a tile given a URL. The default is
+ * ```js
+ * function(imageTile, src) {
+ *   imageTile.getImage().src = src;
+ * };
+ * ```
+ * @property {Array<string>} [urls] An array of URLs.
+ * Requests will be distributed among the URLs in this array.
+ * @property {boolean} [wrapX=false] Whether to wrap the world horizontally.
+ * @property {number} [transition] Duration of the opacity transition for rendering.
+ * To disable the opacity transition, pass `transition: 0`.
+ */
+
+/**
+ * @classdesc
+ * Layer source for tile data from WMTS servers.
+ * @api
+ */
+var WMTS =
+/** @class */
+function (_super) {
+  __extends(WMTS, _super);
+  /**
+   * @param {Options} options WMTS options.
+   */
+
+
+  function WMTS(options) {
+    // TODO: add support for TileMatrixLimits
+    var _this = this;
+
+    var requestEncoding = options.requestEncoding !== undefined ?
+    /** @type {import("./WMTSRequestEncoding.js").default} */
+    options.requestEncoding : _WMTSRequestEncoding.default.KVP; // FIXME: should we create a default tileGrid?
+    // we could issue a getCapabilities xhr to retrieve missing configuration
+
+    var tileGrid = options.tileGrid;
+    var urls = options.urls;
+
+    if (urls === undefined && options.url !== undefined) {
+      urls = (0, _tileurlfunction.expandUrl)(options.url);
+    }
+
+    _this = _super.call(this, {
+      attributions: options.attributions,
+      cacheSize: options.cacheSize,
+      crossOrigin: options.crossOrigin,
+      imageSmoothing: options.imageSmoothing,
+      projection: options.projection,
+      reprojectionErrorThreshold: options.reprojectionErrorThreshold,
+      tileClass: options.tileClass,
+      tileGrid: tileGrid,
+      tileLoadFunction: options.tileLoadFunction,
+      tilePixelRatio: options.tilePixelRatio,
+      urls: urls,
+      wrapX: options.wrapX !== undefined ? options.wrapX : false,
+      transition: options.transition
+    }) || this;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.version_ = options.version !== undefined ? options.version : '1.0.0';
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.format_ = options.format !== undefined ? options.format : 'image/jpeg';
+    /**
+     * @private
+     * @type {!Object}
+     */
+
+    _this.dimensions_ = options.dimensions !== undefined ? options.dimensions : {};
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.layer_ = options.layer;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.matrixSet_ = options.matrixSet;
+    /**
+     * @private
+     * @type {string}
+     */
+
+    _this.style_ = options.style; // FIXME: should we guess this requestEncoding from options.url(s)
+    //        structure? that would mean KVP only if a template is not provided.
+
+    /**
+     * @private
+     * @type {import("./WMTSRequestEncoding.js").default}
+     */
+
+    _this.requestEncoding_ = requestEncoding;
+
+    _this.setKey(_this.getKeyForDimensions_());
+
+    if (urls && urls.length > 0) {
+      _this.tileUrlFunction = (0, _tileurlfunction.createFromTileUrlFunctions)(urls.map(_this.createFromWMTSTemplate.bind(_this)));
+    }
+
+    return _this;
+  }
+  /**
+   * Set the URLs to use for requests.
+   * URLs may contain OGC conform URL Template Variables: {TileMatrix}, {TileRow}, {TileCol}.
+   * @param {Array<string>} urls URLs.
+   */
+
+
+  WMTS.prototype.setUrls = function (urls) {
+    this.urls = urls;
+    var key = urls.join('\n');
+    this.setTileUrlFunction((0, _tileurlfunction.createFromTileUrlFunctions)(urls.map(this.createFromWMTSTemplate.bind(this))), key);
+  };
+  /**
+   * Get the dimensions, i.e. those passed to the constructor through the
+   * "dimensions" option, and possibly updated using the updateDimensions
+   * method.
+   * @return {!Object} Dimensions.
+   * @api
+   */
+
+
+  WMTS.prototype.getDimensions = function () {
+    return this.dimensions_;
+  };
+  /**
+   * Return the image format of the WMTS source.
+   * @return {string} Format.
+   * @api
+   */
+
+
+  WMTS.prototype.getFormat = function () {
+    return this.format_;
+  };
+  /**
+   * Return the layer of the WMTS source.
+   * @return {string} Layer.
+   * @api
+   */
+
+
+  WMTS.prototype.getLayer = function () {
+    return this.layer_;
+  };
+  /**
+   * Return the matrix set of the WMTS source.
+   * @return {string} MatrixSet.
+   * @api
+   */
+
+
+  WMTS.prototype.getMatrixSet = function () {
+    return this.matrixSet_;
+  };
+  /**
+   * Return the request encoding, either "KVP" or "REST".
+   * @return {import("./WMTSRequestEncoding.js").default} Request encoding.
+   * @api
+   */
+
+
+  WMTS.prototype.getRequestEncoding = function () {
+    return this.requestEncoding_;
+  };
+  /**
+   * Return the style of the WMTS source.
+   * @return {string} Style.
+   * @api
+   */
+
+
+  WMTS.prototype.getStyle = function () {
+    return this.style_;
+  };
+  /**
+   * Return the version of the WMTS source.
+   * @return {string} Version.
+   * @api
+   */
+
+
+  WMTS.prototype.getVersion = function () {
+    return this.version_;
+  };
+  /**
+   * @private
+   * @return {string} The key for the current dimensions.
+   */
+
+
+  WMTS.prototype.getKeyForDimensions_ = function () {
+    var i = 0;
+    var res = [];
+
+    for (var key in this.dimensions_) {
+      res[i++] = key + '-' + this.dimensions_[key];
+    }
+
+    return res.join('/');
+  };
+  /**
+   * Update the dimensions.
+   * @param {Object} dimensions Dimensions.
+   * @api
+   */
+
+
+  WMTS.prototype.updateDimensions = function (dimensions) {
+    (0, _obj.assign)(this.dimensions_, dimensions);
+    this.setKey(this.getKeyForDimensions_());
+  };
+  /**
+   * @param {string} template Template.
+   * @return {import("../Tile.js").UrlFunction} Tile URL function.
+   */
+
+
+  WMTS.prototype.createFromWMTSTemplate = function (template) {
+    var requestEncoding = this.requestEncoding_; // context property names are lower case to allow for a case insensitive
+    // replacement as some services use different naming conventions
+
+    var context = {
+      'layer': this.layer_,
+      'style': this.style_,
+      'tilematrixset': this.matrixSet_
+    };
+
+    if (requestEncoding == _WMTSRequestEncoding.default.KVP) {
+      (0, _obj.assign)(context, {
+        'Service': 'WMTS',
+        'Request': 'GetTile',
+        'Version': this.version_,
+        'Format': this.format_
+      });
+    } // TODO: we may want to create our own appendParams function so that params
+    // order conforms to wmts spec guidance, and so that we can avoid to escape
+    // special template params
+
+
+    template = requestEncoding == _WMTSRequestEncoding.default.KVP ? (0, _uri.appendParams)(template, context) : template.replace(/\{(\w+?)\}/g, function (m, p) {
+      return p.toLowerCase() in context ? context[p.toLowerCase()] : m;
+    });
+    var tileGrid =
+    /** @type {import("../tilegrid/WMTS.js").default} */
+    this.tileGrid;
+    var dimensions = this.dimensions_;
+    return (
+      /**
+       * @param {import("../tilecoord.js").TileCoord} tileCoord Tile coordinate.
+       * @param {number} pixelRatio Pixel ratio.
+       * @param {import("../proj/Projection.js").default} projection Projection.
+       * @return {string|undefined} Tile URL.
+       */
+      function (tileCoord, pixelRatio, projection) {
+        if (!tileCoord) {
+          return undefined;
+        } else {
+          var localContext_1 = {
+            'TileMatrix': tileGrid.getMatrixId(tileCoord[0]),
+            'TileCol': tileCoord[1],
+            'TileRow': tileCoord[2]
+          };
+          (0, _obj.assign)(localContext_1, dimensions);
+          var url = template;
+
+          if (requestEncoding == _WMTSRequestEncoding.default.KVP) {
+            url = (0, _uri.appendParams)(url, localContext_1);
+          } else {
+            url = url.replace(/\{(\w+?)\}/g, function (m, p) {
+              return localContext_1[p];
+            });
+          }
+
+          return url;
+        }
+      }
+    );
+  };
+
+  return WMTS;
+}(_TileImage.default);
+
+var _default = WMTS;
+/**
+ * Generate source options from a capabilities object.
+ * @param {Object} wmtsCap An object representing the capabilities document.
+ * @param {!Object} config Configuration properties for the layer.  Defaults for
+ *                  the layer will apply if not provided.
+ *
+ * Required config properties:
+ *  - layer - {string} The layer identifier.
+ *
+ * Optional config properties:
+ *  - matrixSet - {string} The matrix set identifier, required if there is
+ *       more than one matrix set in the layer capabilities.
+ *  - projection - {string} The desired CRS when no matrixSet is specified.
+ *       eg: "EPSG:3857". If the desired projection is not available,
+ *       an error is thrown.
+ *  - requestEncoding - {string} url encoding format for the layer. Default is
+ *       the first tile url format found in the GetCapabilities response.
+ *  - style - {string} The name of the style
+ *  - format - {string} Image format for the layer. Default is the first
+ *       format returned in the GetCapabilities response.
+ *  - crossOrigin - {string|null|undefined} Cross origin. Default is `undefined`.
+ * @return {?Options} WMTS source options object or `null` if the layer was not found.
+ * @api
+ */
+
+exports.default = _default;
+
+function optionsFromCapabilities(wmtsCap, config) {
+  var layers = wmtsCap['Contents']['Layer'];
+  var l = (0, _array.find)(layers, function (elt, index, array) {
+    return elt['Identifier'] == config['layer'];
+  });
+
+  if (l === null) {
+    return null;
+  }
+
+  var tileMatrixSets = wmtsCap['Contents']['TileMatrixSet'];
+  var idx;
+
+  if (l['TileMatrixSetLink'].length > 1) {
+    if ('projection' in config) {
+      idx = (0, _array.findIndex)(l['TileMatrixSetLink'], function (elt, index, array) {
+        var tileMatrixSet = (0, _array.find)(tileMatrixSets, function (el) {
+          return el['Identifier'] == elt['TileMatrixSet'];
+        });
+        var supportedCRS = tileMatrixSet['SupportedCRS'];
+        var proj1 = (0, _proj.get)(supportedCRS);
+        var proj2 = (0, _proj.get)(config['projection']);
+
+        if (proj1 && proj2) {
+          return (0, _proj.equivalent)(proj1, proj2);
+        } else {
+          return supportedCRS == config['projection'];
+        }
+      });
+    } else {
+      idx = (0, _array.findIndex)(l['TileMatrixSetLink'], function (elt, index, array) {
+        return elt['TileMatrixSet'] == config['matrixSet'];
+      });
+    }
+  } else {
+    idx = 0;
+  }
+
+  if (idx < 0) {
+    idx = 0;
+  }
+
+  var matrixSet =
+  /** @type {string} */
+  l['TileMatrixSetLink'][idx]['TileMatrixSet'];
+  var matrixLimits =
+  /** @type {Array<Object>} */
+  l['TileMatrixSetLink'][idx]['TileMatrixSetLimits'];
+  var format =
+  /** @type {string} */
+  l['Format'][0];
+
+  if ('format' in config) {
+    format = config['format'];
+  }
+
+  idx = (0, _array.findIndex)(l['Style'], function (elt, index, array) {
+    if ('style' in config) {
+      return elt['Title'] == config['style'];
+    } else {
+      return elt['isDefault'];
+    }
+  });
+
+  if (idx < 0) {
+    idx = 0;
+  }
+
+  var style =
+  /** @type {string} */
+  l['Style'][idx]['Identifier'];
+  var dimensions = {};
+
+  if ('Dimension' in l) {
+    l['Dimension'].forEach(function (elt, index, array) {
+      var key = elt['Identifier'];
+      var value = elt['Default'];
+
+      if (value === undefined) {
+        value = elt['Value'][0];
+      }
+
+      dimensions[key] = value;
+    });
+  }
+
+  var matrixSets = wmtsCap['Contents']['TileMatrixSet'];
+  var matrixSetObj = (0, _array.find)(matrixSets, function (elt, index, array) {
+    return elt['Identifier'] == matrixSet;
+  });
+  var projection;
+  var code = matrixSetObj['SupportedCRS'];
+
+  if (code) {
+    projection = (0, _proj.get)(code);
+  }
+
+  if ('projection' in config) {
+    var projConfig = (0, _proj.get)(config['projection']);
+
+    if (projConfig) {
+      if (!projection || (0, _proj.equivalent)(projConfig, projection)) {
+        projection = projConfig;
+      }
+    }
+  }
+
+  var wrapX = false;
+  var switchOriginXY = projection.getAxisOrientation().substr(0, 2) == 'ne';
+  var matrix = matrixSetObj.TileMatrix[0]; // create default matrixLimit
+
+  var selectedMatrixLimit = {
+    MinTileCol: 0,
+    MinTileRow: 0,
+    // substract one to end up at tile top left
+    MaxTileCol: matrix.MatrixWidth - 1,
+    MaxTileRow: matrix.MatrixHeight - 1
+  }; //in case of matrix limits, use matrix limits to calculate extent
+
+  if (matrixLimits) {
+    selectedMatrixLimit = matrixLimits[matrixLimits.length - 1];
+    var m = (0, _array.find)(matrixSetObj.TileMatrix, function (tileMatrixValue) {
+      return tileMatrixValue.Identifier === selectedMatrixLimit.TileMatrix || matrixSetObj.Identifier + ':' + tileMatrixValue.Identifier === selectedMatrixLimit.TileMatrix;
+    });
+
+    if (m) {
+      matrix = m;
+    }
+  }
+
+  var resolution = matrix.ScaleDenominator * 0.00028 / projection.getMetersPerUnit(); // WMTS 1.0.0: standardized rendering pixel size
+
+  var origin = switchOriginXY ? [matrix.TopLeftCorner[1], matrix.TopLeftCorner[0]] : matrix.TopLeftCorner;
+  var tileSpanX = matrix.TileWidth * resolution;
+  var tileSpanY = matrix.TileHeight * resolution;
+  var extent = [origin[0] + tileSpanX * selectedMatrixLimit.MinTileCol, // add one to get proper bottom/right coordinate
+  origin[1] - tileSpanY * (1 + selectedMatrixLimit.MaxTileRow), origin[0] + tileSpanX * (1 + selectedMatrixLimit.MaxTileCol), origin[1] - tileSpanY * selectedMatrixLimit.MinTileRow];
+
+  if (projection.getExtent() === null) {
+    projection.setExtent(extent);
+  }
+
+  var tileGrid = (0, _WMTS.createFromCapabilitiesMatrixSet)(matrixSetObj, extent, matrixLimits);
+  /** @type {!Array<string>} */
+
+  var urls = [];
+  var requestEncoding = config['requestEncoding'];
+  requestEncoding = requestEncoding !== undefined ? requestEncoding : '';
+
+  if ('OperationsMetadata' in wmtsCap && 'GetTile' in wmtsCap['OperationsMetadata']) {
+    var gets = wmtsCap['OperationsMetadata']['GetTile']['DCP']['HTTP']['Get'];
+
+    for (var i = 0, ii = gets.length; i < ii; ++i) {
+      if (gets[i]['Constraint']) {
+        var constraint = (0, _array.find)(gets[i]['Constraint'], function (element) {
+          return element['name'] == 'GetEncoding';
+        });
+        var encodings = constraint['AllowedValues']['Value'];
+
+        if (requestEncoding === '') {
+          // requestEncoding not provided, use the first encoding from the list
+          requestEncoding = encodings[0];
+        }
+
+        if (requestEncoding === _WMTSRequestEncoding.default.KVP) {
+          if ((0, _array.includes)(encodings, _WMTSRequestEncoding.default.KVP)) {
+            urls.push(
+            /** @type {string} */
+            gets[i]['href']);
+          }
+        } else {
+          break;
+        }
+      } else if (gets[i]['href']) {
+        requestEncoding = _WMTSRequestEncoding.default.KVP;
+        urls.push(
+        /** @type {string} */
+        gets[i]['href']);
+      }
+    }
+  }
+
+  if (urls.length === 0) {
+    requestEncoding = _WMTSRequestEncoding.default.REST;
+    l['ResourceURL'].forEach(function (element) {
+      if (element['resourceType'] === 'tile') {
+        format = element['format'];
+        urls.push(
+        /** @type {string} */
+        element['template']);
+      }
+    });
+  }
+
+  return {
+    urls: urls,
+    layer: config['layer'],
+    matrixSet: matrixSet,
+    format: format,
+    projection: projection,
+    requestEncoding: requestEncoding,
+    tileGrid: tileGrid,
+    style: style,
+    dimensions: dimensions,
+    wrapX: wrapX,
+    crossOrigin: config['crossOrigin']
+  };
+}
+},{"./TileImage.js":"node_modules/ol/source/TileImage.js","./WMTSRequestEncoding.js":"node_modules/ol/source/WMTSRequestEncoding.js","../uri.js":"node_modules/ol/uri.js","../obj.js":"node_modules/ol/obj.js","../tilegrid/WMTS.js":"node_modules/ol/tilegrid/WMTS.js","../tileurlfunction.js":"node_modules/ol/tileurlfunction.js","../proj.js":"node_modules/ol/proj.js","../array.js":"node_modules/ol/array.js"}],"node_modules/ol/source.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "BingMaps", {
+  enumerable: true,
+  get: function () {
+    return _BingMaps.default;
+  }
+});
+Object.defineProperty(exports, "CartoDB", {
+  enumerable: true,
+  get: function () {
+    return _CartoDB.default;
+  }
+});
+Object.defineProperty(exports, "Cluster", {
+  enumerable: true,
+  get: function () {
+    return _Cluster.default;
+  }
+});
+Object.defineProperty(exports, "IIIF", {
+  enumerable: true,
+  get: function () {
+    return _IIIF.default;
+  }
+});
+Object.defineProperty(exports, "Image", {
+  enumerable: true,
+  get: function () {
+    return _Image.default;
+  }
+});
+Object.defineProperty(exports, "ImageArcGISRest", {
+  enumerable: true,
+  get: function () {
+    return _ImageArcGISRest.default;
+  }
+});
+Object.defineProperty(exports, "ImageCanvas", {
+  enumerable: true,
+  get: function () {
+    return _ImageCanvas.default;
+  }
+});
+Object.defineProperty(exports, "ImageMapGuide", {
+  enumerable: true,
+  get: function () {
+    return _ImageMapGuide.default;
+  }
+});
+Object.defineProperty(exports, "ImageStatic", {
+  enumerable: true,
+  get: function () {
+    return _ImageStatic.default;
+  }
+});
+Object.defineProperty(exports, "ImageWMS", {
+  enumerable: true,
+  get: function () {
+    return _ImageWMS.default;
+  }
+});
+Object.defineProperty(exports, "OSM", {
+  enumerable: true,
+  get: function () {
+    return _OSM.default;
+  }
+});
+Object.defineProperty(exports, "Raster", {
+  enumerable: true,
+  get: function () {
+    return _Raster.default;
+  }
+});
+Object.defineProperty(exports, "Source", {
+  enumerable: true,
+  get: function () {
+    return _Source.default;
+  }
+});
+Object.defineProperty(exports, "Stamen", {
+  enumerable: true,
+  get: function () {
+    return _Stamen.default;
+  }
+});
+Object.defineProperty(exports, "Tile", {
+  enumerable: true,
+  get: function () {
+    return _Tile.default;
+  }
+});
+Object.defineProperty(exports, "TileArcGISRest", {
+  enumerable: true,
+  get: function () {
+    return _TileArcGISRest.default;
+  }
+});
+Object.defineProperty(exports, "TileDebug", {
+  enumerable: true,
+  get: function () {
+    return _TileDebug.default;
+  }
+});
+Object.defineProperty(exports, "TileImage", {
+  enumerable: true,
+  get: function () {
+    return _TileImage.default;
+  }
+});
+Object.defineProperty(exports, "TileJSON", {
+  enumerable: true,
+  get: function () {
+    return _TileJSON.default;
+  }
+});
+Object.defineProperty(exports, "TileWMS", {
+  enumerable: true,
+  get: function () {
+    return _TileWMS.default;
+  }
+});
+Object.defineProperty(exports, "UrlTile", {
+  enumerable: true,
+  get: function () {
+    return _UrlTile.default;
+  }
+});
+Object.defineProperty(exports, "UTFGrid", {
+  enumerable: true,
+  get: function () {
+    return _UTFGrid.default;
+  }
+});
+Object.defineProperty(exports, "Vector", {
+  enumerable: true,
+  get: function () {
+    return _Vector.default;
+  }
+});
+Object.defineProperty(exports, "VectorTile", {
+  enumerable: true,
+  get: function () {
+    return _VectorTile.default;
+  }
+});
+Object.defineProperty(exports, "WMTS", {
+  enumerable: true,
+  get: function () {
+    return _WMTS.default;
+  }
+});
+Object.defineProperty(exports, "XYZ", {
+  enumerable: true,
+  get: function () {
+    return _XYZ.default;
+  }
+});
+Object.defineProperty(exports, "Zoomify", {
+  enumerable: true,
+  get: function () {
+    return _Zoomify.default;
+  }
+});
+
+var _BingMaps = _interopRequireDefault(require("./source/BingMaps.js"));
+
+var _CartoDB = _interopRequireDefault(require("./source/CartoDB.js"));
+
+var _Cluster = _interopRequireDefault(require("./source/Cluster.js"));
+
+var _IIIF = _interopRequireDefault(require("./source/IIIF.js"));
+
+var _Image = _interopRequireDefault(require("./source/Image.js"));
+
+var _ImageArcGISRest = _interopRequireDefault(require("./source/ImageArcGISRest.js"));
+
+var _ImageCanvas = _interopRequireDefault(require("./source/ImageCanvas.js"));
+
+var _ImageMapGuide = _interopRequireDefault(require("./source/ImageMapGuide.js"));
+
+var _ImageStatic = _interopRequireDefault(require("./source/ImageStatic.js"));
+
+var _ImageWMS = _interopRequireDefault(require("./source/ImageWMS.js"));
+
+var _OSM = _interopRequireDefault(require("./source/OSM.js"));
+
+var _Raster = _interopRequireDefault(require("./source/Raster.js"));
+
+var _Source = _interopRequireDefault(require("./source/Source.js"));
+
+var _Stamen = _interopRequireDefault(require("./source/Stamen.js"));
+
+var _Tile = _interopRequireDefault(require("./source/Tile.js"));
+
+var _TileArcGISRest = _interopRequireDefault(require("./source/TileArcGISRest.js"));
+
+var _TileDebug = _interopRequireDefault(require("./source/TileDebug.js"));
+
+var _TileImage = _interopRequireDefault(require("./source/TileImage.js"));
+
+var _TileJSON = _interopRequireDefault(require("./source/TileJSON.js"));
+
+var _TileWMS = _interopRequireDefault(require("./source/TileWMS.js"));
+
+var _UrlTile = _interopRequireDefault(require("./source/UrlTile.js"));
+
+var _UTFGrid = _interopRequireDefault(require("./source/UTFGrid.js"));
+
+var _Vector = _interopRequireDefault(require("./source/Vector.js"));
+
+var _VectorTile = _interopRequireDefault(require("./source/VectorTile.js"));
+
+var _WMTS = _interopRequireDefault(require("./source/WMTS.js"));
+
+var _XYZ = _interopRequireDefault(require("./source/XYZ.js"));
+
+var _Zoomify = _interopRequireDefault(require("./source/Zoomify.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+},{"./source/BingMaps.js":"node_modules/ol/source/BingMaps.js","./source/CartoDB.js":"node_modules/ol/source/CartoDB.js","./source/Cluster.js":"node_modules/ol/source/Cluster.js","./source/IIIF.js":"node_modules/ol/source/IIIF.js","./source/Image.js":"node_modules/ol/source/Image.js","./source/ImageArcGISRest.js":"node_modules/ol/source/ImageArcGISRest.js","./source/ImageCanvas.js":"node_modules/ol/source/ImageCanvas.js","./source/ImageMapGuide.js":"node_modules/ol/source/ImageMapGuide.js","./source/ImageStatic.js":"node_modules/ol/source/ImageStatic.js","./source/ImageWMS.js":"node_modules/ol/source/ImageWMS.js","./source/OSM.js":"node_modules/ol/source/OSM.js","./source/Raster.js":"node_modules/ol/source/Raster.js","./source/Source.js":"node_modules/ol/source/Source.js","./source/Stamen.js":"node_modules/ol/source/Stamen.js","./source/Tile.js":"node_modules/ol/source/Tile.js","./source/TileArcGISRest.js":"node_modules/ol/source/TileArcGISRest.js","./source/TileDebug.js":"node_modules/ol/source/TileDebug.js","./source/TileImage.js":"node_modules/ol/source/TileImage.js","./source/TileJSON.js":"node_modules/ol/source/TileJSON.js","./source/TileWMS.js":"node_modules/ol/source/TileWMS.js","./source/UrlTile.js":"node_modules/ol/source/UrlTile.js","./source/UTFGrid.js":"node_modules/ol/source/UTFGrid.js","./source/Vector.js":"node_modules/ol/source/Vector.js","./source/VectorTile.js":"node_modules/ol/source/VectorTile.js","./source/WMTS.js":"node_modules/ol/source/WMTS.js","./source/XYZ.js":"node_modules/ol/source/XYZ.js","./source/Zoomify.js":"node_modules/ol/source/Zoomify.js"}],"index.js":[function(require,module,exports) {
+"use strict";
+
+require("ol/ol.css");
+
+require("ol-layerswitcher/dist/ol-layerswitcher.css");
+
+var _Map = _interopRequireDefault(require("ol/Map"));
+
+var _View = _interopRequireDefault(require("ol/View"));
+
+var _format = require("ol/format");
+
+var _style2 = require("ol/style");
+
+var _layer = require("ol/layer");
+
+var _proj = require("ol/proj");
+
+var _OSM = _interopRequireDefault(require("ol/source/OSM"));
+
+var _Overlay = _interopRequireDefault(require("ol/Overlay"));
+
+var _coordinate = require("ol/coordinate");
+
+var _control = require("ol/control");
+
+var _TopoJSON = _interopRequireDefault(require("ol/format/TopoJSON"));
+
+var _olGeocoder = _interopRequireDefault(require("ol-geocoder"));
+
+var _Group = _interopRequireDefault(require("ol/layer/Group"));
+
+var _Stamen = _interopRequireDefault(require("ol/source/Stamen"));
+
+var _olLayerswitcher2 = _interopRequireWildcard(require("ol-layerswitcher"));
+
+var _Draw = _interopRequireDefault(require("ol/interaction/Draw"));
+
+var _source = require("ol/source");
+
+var _XYZ = _interopRequireDefault(require("ol/source/XYZ"));
+
+var _Select = _interopRequireDefault(require("ol/interaction/Select"));
+
+var _condition = require("ol/events/condition");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Designate Center of Map
+var denmarkLonLat = [10.835589, 56.232371];
+var denmarkWebMercator = (0, _proj.fromLonLat)(denmarkLonLat); // Home Icon for default extent button
+
+var home_icon = document.createElement('home');
+home_icon.innerHTML = '<img src="https://image.flaticon.com/icons/png/512/69/69524.png" width="20" height="20">'; // Municipalities Boundary Style
+
+var _style = new _style2.Style({
+  fill: new _style2.Fill({
+    color: 'rgba(255, 255, 255, 0.6)'
+  }),
+  stroke: new _style2.Stroke({
+    color: '#319FD3',
+    width: 1
+  }),
+  text: new _style2.Text({
+    font: '12px Calibri,sans-serif',
+    fill: new _style2.Fill({
+      color: '#000'
+    }),
+    stroke: new _style2.Stroke({
+      color: '#fff',
+      width: 3
+    })
+  })
+}); // DK Boundary Style
+
+
+var dk_style = new _style2.Style({
+  fill: new _style2.Fill({
+    color: 'rgba(220, 241, 247, 0.6)'
+  }),
+  stroke: new _style2.Stroke({
+    color: '#319FD3',
+    width: 1
+  }),
+  text: new _style2.Text({
+    font: '12px Calibri,sans-serif',
+    fill: new _style2.Fill({
+      color: '#000'
+    }),
+    stroke: new _style2.Stroke({
+      color: '#fff',
+      width: 3
+    })
+  })
+});
+var highlightStyle = new _style2.Style({
+  fill: new _style2.Fill({
+    color: 'rgba(255,255,255,0.7)'
+  }),
+  stroke: new _style2.Stroke({
+    color: '#3399CC',
+    width: 3
+  })
+}); // Regions Boundary
+
+var dk_boundary = new _layer.Vector({
+  title: 'Regions',
+  visible: true,
+  source: new _source.Vector({
+    format: new _TopoJSON.default(),
+    url: "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/denmark/denmark-counties.json"
+  }),
+  style: function style(feature) {
+    dk_style.getText().setText(feature.get('NAME_1'));
+    return dk_style;
+  },
+  minResolution: 401
+}); // Pull Municipalities Boundaries from GitHub
+
+var municipalities = new _layer.Vector({
+  title: 'Municipalities',
+  visible: true,
+  source: new _source.Vector({
+    format: new _format.GeoJSON(),
+    url: "https://raw.githubusercontent.com/Neogeografen/dagi/master/geojson/kommuner.geojson"
+  }),
+  style: function style(feature) {
+    _style.getText().setText(feature.get('KOMNAVN'));
+
+    return _style;
+  },
+  minResolution: 15,
+  maxResolution: 400
+}); // Scaleline
+
+var scaleline = new _control.ScaleLine(); // Legend/Layer Visibilty
+
+var layerSwitcher = new _olLayerswitcher2.default({
+  reverse: true,
+  groupSelectStyle: 'group'
+});
+var key = 'XtxbqBNbF5eQwYXV37Ym';
+var attributions = '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> ' + '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'; // Define layers to be mapped
+
+var layers = [// Basemaps
+new _layer.Group({
+  title: 'Basemap',
+  fold: 'open',
+  layers: [new _layer.Tile({
+    title: 'OpenStreetMap',
+    source: new _OSM.default(),
+    type: 'base'
+  }), new _layer.Tile({
+    title: 'MapTiler',
+    source: new _XYZ.default({
+      attributions: attributions,
+      url: 'https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=' + key,
+      maxZoom: 20,
+      crossOrigin: ''
+    }),
+    type: 'base'
+  })]
+}), // Data layers
+new _layer.Group({
+  title: 'Data',
+  layers: [municipalities, dk_boundary]
+})]; // Instantiate Geocoder.
+
+var geocoder = new _olGeocoder.default('nominatim', {
+  provider: 'osm',
+  lang: 'en',
+  placeholder: 'Enter Address (Denmark Only)...',
+  limit: 5,
+  keepOpen: false,
+  debug: true,
+  autoComplete: true,
+  countrycodes: 'dk'
+}); // Display pin for geocoding result.
+
+geocoder.getLayer().setVisible(true); // Define map view.
+
+var mapView = new _View.default({
+  center: denmarkWebMercator,
+  zoom: 7
+});
+/*
+var zoomToExtentControl = new ZoomToExtent({
+  extent: [346219.65, 8159203.94, 2074586.54, 7003599.95]
+});
+*/
+// Define map
+
+var map = new _Map.default({
+  controls: (0, _control.defaults)().extend([scaleline, geocoder, layerSwitcher, new _control.FullScreen()]),
+  layers: layers,
+  view: mapView,
+  target: 'map'
+}); // Popup showing the position the user clicked
+
+var popup = new _Overlay.default({
+  element: document.getElementById('popup')
+});
+map.addOverlay(popup); // Click Event for Popup (Work in Progress)
+
+map.on('click', function (evt) {
+  var element = popup.getElement();
+  var coordinate = evt.coordinate;
+  var hdms = (0, _coordinate.toStringHDMS)((0, _proj.toLonLat)(coordinate));
+  $(element).popover('dispose');
+  popup.setPosition(coordinate);
+  $(element).popover({
+    container: element,
+    placement: 'top',
+    animation: false,
+    html: true,
+    content: '<p>(WORK IN PROGRESS) The location you clicked was:</p><code>' + hdms + '</code>'
+  });
+  $(element).popover('show');
+});
+var view = map.getView();
+var zoom = view.getZoom();
+var center = view.getCenter();
+
+document.getElementById('zoom-restore').onclick = function () {
+  view.setCenter(center);
+  view.setZoom(zoom);
+};
+
+var selected = null;
+map.on('pointermove', function (e) {
+  if (selected !== null) {
+    selected.setStyle(undefined);
+    selected = null;
+  }
+
+  map.forEachFeatureAtPixel(e.pixel, function (f) {
+    selected = f;
+    f.setStyle(highlightStyle);
+    return true;
+  });
+});
+},{"ol/ol.css":"node_modules/ol/ol.css","ol-layerswitcher/dist/ol-layerswitcher.css":"node_modules/ol-layerswitcher/dist/ol-layerswitcher.css","ol/Map":"node_modules/ol/Map.js","ol/View":"node_modules/ol/View.js","ol/format":"node_modules/ol/format.js","ol/style":"node_modules/ol/style.js","ol/layer":"node_modules/ol/layer.js","ol/proj":"node_modules/ol/proj.js","ol/source/OSM":"node_modules/ol/source/OSM.js","ol/Overlay":"node_modules/ol/Overlay.js","ol/coordinate":"node_modules/ol/coordinate.js","ol/control":"node_modules/ol/control.js","ol/format/TopoJSON":"node_modules/ol/format/TopoJSON.js","ol-geocoder":"node_modules/ol-geocoder/dist/ol-geocoder.js","ol/layer/Group":"node_modules/ol/layer/Group.js","ol/source/Stamen":"node_modules/ol/source/Stamen.js","ol-layerswitcher":"node_modules/ol-layerswitcher/dist/ol-layerswitcher.js","ol/interaction/Draw":"node_modules/ol/interaction/Draw.js","ol/source":"node_modules/ol/source.js","ol/source/XYZ":"node_modules/ol/source/XYZ.js","ol/interaction/Select":"node_modules/ol/interaction/Select.js","ol/events/condition":"node_modules/ol/events/condition.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -105695,7 +113363,11 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+<<<<<<< HEAD
   var ws = new WebSocket(protocol + '://' + hostname + ':' + "55942" + '/');
+=======
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65280" + '/');
+>>>>>>> b8b1647d6c556fc310ed57b17ca637ee2a16077d
 
   ws.onmessage = function (event) {
     checkedAssets = {};

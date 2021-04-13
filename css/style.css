@@ -4,9 +4,11 @@
     position: absolute; 
     bottom: 0px;
   }
+
 .popover-body {
     min-width: 276px;
   }
+
 .topnav {
     overflow: hidden;
     background-color: rgb(90, 133, 146);
@@ -30,6 +32,7 @@
     background-color: #4CAF50;
     color: white;
   }
+  
   /* Old search bar replaced by OSM geocoder on map
   .topnav .search-container {
     float: right;
@@ -81,6 +84,7 @@
     width: 100%;
 }
 */
+
 .pane {
   position: absolute;
   top: 10.6vh;
@@ -92,6 +96,7 @@
   box-sizing: border-box;
   padding: 0 20px;
 }
+
 #menu {
   float: left;
 	position: absolute;
@@ -103,6 +108,7 @@
 .tooltip-inner {
   white-space: nowrap;
 }
+
 #zoom-restore {
   display: block;
   margin: 1px;
