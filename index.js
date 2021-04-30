@@ -212,6 +212,71 @@ var universities = new VectorLayer({
   }),
 });
 
+// Add Weighted Grid (100km Resolution)
+var grid100km_geojson = require('./data/weighted_grid100km.geojson')
+
+var grid100km = new VectorLayer({
+  title: 'Weighted Grid (100km)',
+  source: new VectorSource({
+    format: new GeoJSON(),
+    url: grid100km_geojson,
+  }),
+  minResolution: 400,
+  fill: new Fill({
+    color: 'rgba(158, 240, 255, 0.6)',
+  }),
+  style: new Style({
+    stroke: new Stroke({
+      color: '#0095b0',
+      width: 1,
+    }),
+  }),
+});
+
+// Add Weighted Grid (100km Resolution)
+var grid30km_geojson = require('./data/weighted_grid30km.geojson')
+
+var grid30km = new VectorLayer({
+  title: 'Weighted Grid (30km)',
+  source: new VectorSource({
+    format: new GeoJSON(),
+    url: grid30km_geojson,
+  }),
+  minResolution: 15,
+  maxResolution: 400,
+  fill: new Fill({
+    color: 'rgba(158, 240, 255, 0.6)',
+  }),
+  style: new Style({
+    stroke: new Stroke({
+      color: '#0095b0',
+      width: 1,
+    }),
+  }),
+});
+
+// Add Weighted Grid (1km Resolution)
+var grid1km_geojson = require('./data/weighted_grid1km.geojson')
+
+var grid1km = new VectorLayer({
+  title: 'Weighted Grid (1km)',
+  source: new VectorSource({
+    format: new GeoJSON(),
+    url: grid1km_geojson,
+  }),
+  maxResolution: 15,
+  fill: new Fill({
+    color: 'rgba(158, 240, 255, 0.6)',
+  }),
+  style: new Style({
+    stroke: new Stroke({
+      color: '#0095b0',
+      width: 1,
+    }),
+  }),
+});
+
+
 var isolayer = new VectorLayer({
   title: 'isolayer',
   source: new VectorSource({
@@ -272,6 +337,9 @@ var layers = [
   new Group({
     title: 'Data',
     layers: [
+      grid100km,
+      grid30km,
+      grid1km,
       universities,
       municipalities,
       hospitals,
