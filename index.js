@@ -255,35 +255,34 @@ var grid30km = new VectorLayer({
   }),
 });
 
-// Add Weighted Grid (1km Resolution)
-var grid1km_geojson = require('./data/weighted_grid1km.geojson')
+//Add Weighted Grid (1km Resolution)
+// var grid1km_geojson = require('./data/weighted_grid1km.geojson');
+//
+// var grid1km = new VectorLayer({
+//   title: 'Weighted Grid (1km)',
+//   source: new VectorSource({
+//     format: new GeoJSON(),
+//     url: grid1km_geojson,
+//   }),
+//   maxResolution: 15,
+//   fill: new Fill({
+//     color: 'rgba(158, 240, 255, 0.6)',
+//   }),
+//   style: new Style({
+//     stroke: new Stroke({
+//       color: '#0095b0',
+//       width: 1,
+//     }),
+//   }),
+// });
 
-var grid1km = new VectorLayer({
-  title: 'Weighted Grid (1km)',
-  source: new VectorSource({
-    format: new GeoJSON(),
-    url: grid1km_geojson,
-  }),
-  maxResolution: 15,
-  fill: new Fill({
-    color: 'rgba(158, 240, 255, 0.6)',
-  }),
-  style: new Style({
-    stroke: new Stroke({
-      color: '#0095b0',
-      width: 1,
-    }),
-  }),
-});
-
-
+//var isotest_geojson = require('./data/isotestlag.geojson')
 var isolayer = new VectorLayer({
   title: 'isolayer',
-  source: new VectorSource({
-    format: new GeoJSON(),
-    url: universities_geojson,
-  }),
-  maxResolution: 15,
+    // source: new VectorSource({
+    //   format: new GeoJSON(),
+    //   url: isotest_geojson,
+    //}),
   style: new Style({
     fill: new Fill({
       color: 'rgba(121, 131, 242, 0.6)',
@@ -294,6 +293,9 @@ var isolayer = new VectorLayer({
     }),
   }),
 });
+
+isolayer.setZIndex(1001);
+
 
 // Scaleline
 var scaleline = new ScaleLine();
@@ -339,15 +341,15 @@ var layers = [
     layers: [
       grid100km,
       grid30km,
-      grid1km,
+      //grid1km,
       universities,
+      isolayer,
       municipalities,
       hospitals,
       schools,
       leisureparks,
       //cities,
-      dk_boundary,
-      isolayer
+      dk_boundary
     ]
   })
 ];
@@ -443,10 +445,22 @@ map.on('pointermove', function (e) {
 });
 
 // API KEY 5b3ce3597851110001cf6248eff557cdb07c480cabced1a36192d99a
+//console.log(isolayer);
+
+var isotesterfil = {"type":"FeatureCollection","bbox":[11.748099,55.223322,11.769931,55.237415],"features":[{"type":"Feature","properties":{"group_index":0,"value":600,"center":[11.758701687523663,55.23059003905786]},"geometry":{"coordinates":[[[11.748099,55.231816],[11.748134,55.229983],[11.748437,55.228127],[11.748692,55.227768],[11.752216,55.225488],[11.755102,55.223501],[11.755414,55.223322],[11.757824,55.224154],[11.760917,55.224937],[11.764716,55.22514],[11.767321,55.225471],[11.769931,55.228819],[11.769828,55.229164],[11.768059,55.233002],[11.763851,55.236737],[11.760917,55.237415],[11.758238,55.236884],[11.75491,55.23612],[11.750159,55.234306],[11.748286,55.232123],[11.748099,55.231816]]],"type":"Polygon"}}],"metadata":{"attribution":"openrouteservice.org | OpenStreetMap contributors","service":"isochrones","timestamp":1620128597716,"query":{"locations":[[11.758595309587328,55.230607396766345]],"range":[600],"range_type":"time"},"engine":{"version":"6.4.3","build_date":"2021-05-04T07:46:55Z","graph_date":"2021-04-29T10:19:03Z"}}};
+
+var isosourcetest = new VectorSource({
+  features: new GeoJSON().readFeatures(isotesterfil, {dataProjection: 'EPSG:4326', FeatureProjection: map.getView().getProjection()})
+});
+isolayer.setSource(isosourcetest);
+console.log(isosourcetest.getFeatures());
+
+
+
 
 document.getElementById('isochroneActivate').onclick = function() {
   var isotransportation = window.rdValue;
-  var isotimelimit = document.getElementById('myRange').value;
+  var isotimelimit = document.getElementById('myRange').value * 60;
   var coordinate = window.outsidercoordinate;
   var coordinaterequest = coordinate.toString();
   console.log(coordinaterequest);
@@ -454,6 +468,44 @@ document.getElementById('isochroneActivate').onclick = function() {
   console.log(coordinate);
   console.log(isotransportation);
   console.log('{"locations":[[' + coordinate.toString() + ']],"range":['+ isotimelimit.toString() + ']"range_type":"time","units":"mi"}');
+
+  // var openrouteservice = require("openrouteservice-js");
+  //
+  // // add your api_key here
+  // var Isochrones = new openrouteservice.Isochrones({
+  //   api_key: "5b3ce3597851110001cf6248eff557cdb07c480cabced1a36192d99a"
+  // });
+  //
+  // Isochrones.calculate({
+  //     locations: [[coordinate]],
+  //     profile: 'driving-car',
+  //     range: [isotimelimit],
+  //     range_type: 'time',
+  //     attributes: ['area'],
+  //     smoothing: 0.9,
+  //   })
+  //   .then(function(response) {
+  //     console.log("response", response);
+  //       var isosource = new VectorSource({
+  //         features: new GeoJSON().readFeatures(response, {dataProjection: 'EPSG:4326', FeatureProjection: map.getView().getProjection()})
+  //       });
+  //         console.log('features loaded in are ', isosource.getFeatures());
+  //         isolayer.setSource(isosource);
+  //         console.log('source for isolayer is', isolayer.getSource());
+  //         console.log(isolayer);
+  //   })
+  //   .catch(function(err) {
+  //     var str = "An error occured: " + err;
+  //     console.log(str);
+  //   });
+
+
+
+
+
+
+
+
 
   var request = require('request');
 
@@ -468,11 +520,15 @@ document.getElementById('isochroneActivate').onclick = function() {
     }}, function (error, response, body) {
     console.log('Status:', response.statusCode);
     console.log('Headers:', JSON.stringify(response.headers));
-    console.log(response)
+    console.log(response);
     console.log('Response:', body);
-    var isochronejson = GeoJSON.parse(body);
-    isolayer.getSource().clear();
-    isolayer.getSource().addFeatures(isochronejson);
+    var isosource = new VectorSource({
+      features: new GeoJSON().readFeatures(body, {dataProjection: 'EPSG:4326', FeatureProjection: map.getView().getProjection()})
+    });
+    console.log('features loaded in are ', isosource.getFeatures());
+    isolayer.setSource(isosource);
+    console.log('source for isolayer is', isolayer.getSource());
+    console.log(isolayer);
   });
 };
 
