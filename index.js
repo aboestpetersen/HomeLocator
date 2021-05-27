@@ -1070,7 +1070,7 @@ var feature = map.forEachFeatureAtPixel(evt.pixel,
         data: {
             labels: ['Coasts', 'Hospitals', 'Parks', 'Roads', 'Schools', 'Markets', 'Universities', 'Water Bodies', 'Bus Stops', 'Train Stations', 'Restaurants', 'Theatres', 'Cinemas', 'Kindergartens', 'Industry'],
             datasets: [{
-                label: 'Percent Match',
+                label: 'Percent Match (%)',
                 data: [coast_value, hospital_value, parks_value, roads_value, schools_value, markets_value, uni_value, water_value, ptstops_value, ptstat_value, rest_value, theatre_value, cinema_value, kinder_value, industry_value],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
